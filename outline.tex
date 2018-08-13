@@ -1,0 +1,222 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% The uwthesis.sty file relies on the memoir class!
+%%%% You should be using the memoir class anyway; it makes life easier:
+%%%% http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/
+\documentclass[oneside, letterpaper, 12pt, oldfontcommands]{memoir}
+
+%%%% Import uwthesis.sty to get official formatting, then set your variables.
+\usepackage{uwthesis}
+% \usepackage{hyperref}
+% \usepackage{cite}
+% \usepackage{graphicx}
+\input{symbols.tex}
+
+\settitle{A Measurement of \zinvg\ Production and a Search for New Physics in
+Monophoton Events Using the CMS Detector at the LHC}
+\setauthor{James Joseph Buchanan}
+\setdepartment{Physics}
+\doctors % or \masters
+\setgraddate{2018}
+\setdefensedate{T.B.D.} % or whatever format you want
+
+%%%% Members of the Final Oral Committee (FOC)
+%%%% Give name, rank, and department
+%%%% 
+\setfoca{Sridhara Dasu}{Professor}{Physics} % <- Your advisor
+\setfocb{Wesley Smith}{Emeritus Professor}{Physics}
+\setfocc{Matt Herndon}{Professor}{Physics}
+\setfocd{T.B.D.}{Professor}{Physics}
+\setfoce{T.B.D.}{Professor}{Something Else}
+% \setfocf{Grover Cleveland}{Professor}{Zoology}
+
+%%%% Your abstract, used for the UMI abstract and in your front matter
+\setabstract{%
+  This thesis presents several studies of monophoton final states
+  using 35.9 $fb^{-1}$ of 13 TeV proton-proton collision data collected by the CMS
+  experiment at the LHC in 2016. The standard model \zinvg\ cross section is measured
+  as a function of photon transverse momentum. No significant deviations from standard
+  model predictions are observed.
+  The results are also interpreted in the context of several new physics models.
+  Limits are placed on coupling strengths of anomalous triple gauge couplings between
+  photons and \PZ\ bosons,
+  new particle masses in simplified models of dark matter, the suppression scale of a dark matter
+  effective field theory model, and the graviton mass scale in a model of extra
+  spatial dimensions.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Tell the memoir class to set up lowercase roman for pagination, etc.
+\frontmatter
+
+%%%% Uncomment this to create a UMI abstract page.
+%%%% If you are submitting electronically, however, this page is unnecessary.
+% \theumiabstract
+
+% The title page
+\thetitlepage
+\clearpage
+
+% The copyright page, if you want to pay the fee and register copyright.
+% \thecopyrightpage
+% \cleardoublepage
+
+% These above pages should not be counted, so we reset the counter to 1.
+\setcounter{page}{1}
+
+% An abstract may be required by your department.
+\section{Abstract}
+\uwabstract
+\cleardoublepage
+
+% Acknowledgements go here if you want to include them.
+% \section{Acknowledgements}
+% Acknowledgements go here.
+% % These results would never have come to fruition without the support of my colleagues
+% % and friends in the UW-Madison CMS group.
+% % Wesley Smith, Sridhara Dasu, and Matt Herndon are great physicists and leaders
+% % who have nurtured a rigorous standard of excellence that this group
+% % can rightly be proud of.
+% % Bhawna Gomber's deep expertise, organizational acumen,
+% % and untiring work ethic have pushed these analyses forward at every step. These
+% % results are as much hers as they are mine.
+% % Tom Perry developed a previous iteration of these analyses,
+% % and freely contributed his assistance and code to let us hit the ground running in 2016.
+% % Devin Taylor, Tyler Ruggles, Nate Woods, Laura Dodd, Nick Smith, Kenneth Long, and
+% % Usama Hussein were all excellent office mates, always available to lend
+% % their considerable knowledge and insight at the drop of a hat, a privilege I have taken advantage
+% % of on innumerable occasions.
+% % I must finally thank my parents, Yvonne and Darryl Buchanan,
+% % for their perpetual support of everything I do.
+% \clearpage
+
+% Table of contents
+% \maxtocdepth{subsection}
+% \tableofcontents* % the * means that there isn't an entry for the TOC itself
+% \clearpage
+% \listoffigures  % if you have any figures
+% \clearpage
+% \listoftables   % if you have any tables
+
+% Tell the memoir class to set up normal pagination, etc. for the main doc
+\mainmatter
+
+\chapter{Introduction} \label{sec:introduction}
+\section{Overview} \label{sec:introduction_overview}
+This thesis presents several analyses of event
+yields in ``monophoton'' final states, characterized by a single \Pgamma\ with high transverse
+momentum, along with an overall transverse momentum imbalance typically of equal magnitude and opposite direction to
+that of the photon.
+These analyses correspond to 35.9 \fbinv\ of 13 TeV proton-proton (\Pp\Pp) collision data collected in 2016 by the CMS
+detector at the LHC. A measurement of the production rate for the process $\Pp\Pp \to \PZ\Pgamma \to \Pn\Pan\Pgamma$ is obtained
+and compared to predictions derived from the standard model (SM) of particle physics. No significant deviation from SM
+predictions is observed.
+
+The predicted monophoton yield in several theories of physics beyond the SM (BSM) is higher than the SM prediction.
+This thesis examines two varieties of anomalous triple gauge coupling (aTGC), simplified models of dark matter (DM)
+interacting with SM matter via a vector or axial-vector mediator, an effective field theory (EFT) of DM interaction
+with  \Pgamma\ and \PZ\ bosons, and a model of extra spatial dimensions. For each of these models, 95\% confidence level (CL)
+limits are placed on relevant parameters based on the observed collision data.
+
+\section{Standard model of particle physics} \label{sec:introduction_standard_model}
+Introduce basic SM concepts and vocabulary.
+
+\section{\zinvg\ cross section} \label{sec:introduction_znng}
+Introduce the \zinvg\ process and discuss its cross section. Include a discussion of NNLO QCD and NLO EWK corrections.
+\subsection{Previous measurements}
+List previous experimental work constraining the \zinvg\ cross section.
+
+\section{Anomalous triple gauge couplings} \label{sec:introduction_aTGC}
+Introduce the effective vertex model that parametrizes our aTGC limits.
+\subsection{Previous searches} \label{sec:introduction_aTGC_previous_searches}
+List previous experimental work constraining the \PZ-\Pgamma\ aTGC parameters via the study of \PZ\Pgamma\ processes.
+
+\section{Dark matter simplified models} \label{sec:introduction_dark_matter}
+A brief introduction to DM followed by an introduction to the DM simplified models with a vector and axial-vector
+mediator, as well as the EWK EFT model describing a direct DM-EWK boson interaction.
+\subsection{Previous searches}
+List previous experimental work constraining the model parameters, with a focus on the monophoton channel.
+
+\section{ADD gravitons} \label{sec:introduction_ADD}
+Introduce the ADD extra dimensions model and the phenomenological signature of ADD graviton emission.
+\subsection{Previous searches}
+List previous experimental work constraining ADD model parameters, with a focus on the monophoton channel.
+
+\chapter{The CMS experiment and the LHC}
+\section{The LHC}
+\subsection{Proton acceleration}
+\subsection{Magnets and beam halo}
+Beam halo is an important component of the monophoton analysis and it comes from here.
+\section{The CMS experiment}
+\subsection{Coordinate system}
+\subsection{Superconducting solenoid and silicon tracking system}
+\subsection{Electromagnetic calorimeter}
+The discussion of APDs segues into an introduction to ECAL spikes.
+\subsection{Hadronic calorimeter}
+\subsection{Muon systems}
+\subsection{Trigger system}
+
+\chapter{Simulation}
+\section{Hard process generation}
+\section{Parton distribution functions}
+\section{Parton showering and hadronization}
+\section{Pileup simulation}
+\section{Detector simulation}
+
+\chapter{Object reconstruction and selection}
+\section{The particle-flow algorithm}
+\section{Photons and electrons}
+\section{Muons}
+\section{Jets and missing transverse momentum}
+A discussion of jets is followed by a definition of \MET\ and Type-1 \MET\ corrections.
+\section{Primary vertex}
+
+\chapter{Event selection}
+\section{Backgrounds}
+List the sources of background in the monophoton channel, to justify the ensuing cuts.
+\section{Trigger and \MET\ filters}
+Trigger path, trigger efficiency
+
+\MET\ filters
+\section{Photon}
+Photon kinematic cuts; Photon ID defintion, efficiency; Spike and beam halo cuts; phoET-dependent cross section corrections
+\section{Missing transverse momentum}
+$\MET > 170$ GeV; $\Delta\phi(\Pgamma,\vecMET) > 0.5$; $\mathrm{min}\Delta\phi(\mathrm{jets},\vecMET) > 0.5$;
+$\ETgamma/\MET < 1.4$
+\section{Lepton vetoes}
+Electron selection; Muon selection
+\section{Single electron control region}
+\section{Single muon control region}
+\section{Dielectron control region}
+\section{Dimuon control region}
+
+\chapter{Background estimation}
+For each component, describe its estimation and uncertainties
+\section{Simulated backgrounds}
+\section{Electron faking photon}
+\section{Jet faking photon}
+\section{Spikes}
+\section{Beam halo}
+\section{Transfer factors}
+\section{Likelihood function}
+
+\chapter{Results}
+\section{\zinvg\ cross section}
+\section{aTGC limits}
+\section{DM simplified model limits}
+\section{ADD limits}
+
+\chapter{Conclusions}
+\section{Summary}
+\section{Outlook}
+
+% \bibliographystyle{utcaps}
+% \bibliography{references}
+\end{document}
