@@ -301,9 +301,9 @@ FUNCTION {format.eprint}
      { ""}
      { archive empty$
           {"\href{http://arXiv.org/abs/" eprint * "}" * 
-             "{{\texttt {" * eprint * "}}}" *}
+             "{{\texttt {arXiv:" * eprint * "}}}" *}
           {"\href{" archive *  "/" * eprint * "}" * 
-             "{{\texttt {" * eprint * "}}}" *}
+             "{{\texttt {arXiv:" * eprint * "}}}" *}
        if$
      }
      if$

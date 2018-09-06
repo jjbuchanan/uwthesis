@@ -1,0 +1,201 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{ref:HalzenMartin}
+F.~Halzen and A.~Martin, {\em Quarks \& Leptons: An introductory course in
+  modern particle physics}.
+\newblock John Wiley \& Sons, 1984.
+
+\bibitem{ref:BargerPhillips}
+V.~Barger and R.~Phillips, {\em Collider Physics}.
+\newblock Westview Press, 1996.
+
+\bibitem{ref:PeskinSchroeder}
+M.~Peskin and D.~Schroeder, {\em An Introduction to Quantum Field Theory}.
+\newblock Westview Press, 1995.
+
+\bibitem{ref:Srednicki}
+M.~Srednicki, {\em Quantum Field Theory}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem{ref:Schwartz}
+M.~Schwartz, {\em Quantum Field Theory and the Standard Model}.
+\newblock Cambridge University Press, 2013.
+
+\bibitem{ref:PDG}
+M.~Tanabashi {\em et al.}, ``The Review of Particle Physics,'' {\em Phys. Rev.
+  D} {\bf 98} (2018) 030001,
+  \href{https://doi.org/10.1103/PhysRevD.98.030001}{\texttt
+  {doi:10.1103/PhysRevD.98.030001}}.
+
+\bibitem{ref:JHEP04(2015)018}
+A.~Denner, S.~Dittmaier, M.~Hecht, and C.~Pasold, ``NLO QCD and electroweak
+  corrections to $W + \gamma$ production with leptonic $W$-boson decays,'' {\em
+  JHEP} {\bf 2015} (2015) \href{http://arXiv.org/abs/1412.7421}{{\texttt
+  {arXiv:1412.7421}}}, \href{https://doi.org/10.1007/JHEP04(2015)018}{\texttt
+  {doi:10.1007/JHEP04(2015)018}}.
+
+\bibitem{ref:JHEP02(2016)057}
+A.~Denner, S.~Dittmaier, M.~Hecht, and C.~Pasold, ``NLO QCD and electroweak
+  corrections to $Z + \gamma$ production with leptonic $Z$-boson decays,'' {\em
+  JHEP} {\bf 2016} (2016) \href{http://arXiv.org/abs/1510.08742}{{\texttt
+  {arXiv:1510.08742}}}, \href{https://doi.org/10.1007/JHEP02(2016)187}{\texttt
+  {doi:10.1007/JHEP02(2016)187}}.
+
+\bibitem{ref:j.physletb.2014.02.037}
+M.~Grazzini, S.~Kallweit, D.~Rathlev, and A.~Torre, ``$Z\gamma$ production at
+  hadron colliders in NNLO QCD,'' {\em Phys. Lett. B} {\bf 731} (2014) 204,
+  \href{http://arXiv.org/abs/1309.7000}{{\texttt {arXiv:1309.7000}}},
+  \href{https://doi.org/10.1016/j.physletb.2014.02.037}{\texttt
+  {doi:10.1016/j.physletb.2014.02.037}}.
+
+\bibitem{ref:10.1007/JHEP07(2015)085}
+M.~Grazzini, S.~Kallweit, and D.~Rathlev, ``$W\gamma$ and $Z\gamma$ production
+  at the LHC in NNLO QCD,'' {\em JHEP} {\bf 2015} (2015) 85,
+  \href{http://arXiv.org/abs/1504.01330}{{\texttt {arXiv:1504.01330}}},
+  \href{https://doi.org/10.1007/JHEP07(2015)085}{\texttt
+  {doi:10.1007/JHEP07(2015)085}}.
+
+\bibitem{ref:Nucl.Phys.0550-3213_87_90685-7}
+K.~Hagiwara, R.~Peccei, D.~Zeppenfeld, and K.~Hikasa, ``Probing the weak boson
+  sector in $e^{\mathrm{+}}e^{\mathrm{-}} \to W^{\mathrm{+}}W^{\mathrm{-}}$,''
+  {\em Nucl. Phys.} {\bf 282} (1987) 253,
+  \href{https://doi.org/10.1016/0550-3213(87)90685-7}{\texttt
+  {doi:10.1016/0550-3213(87)90685-7}}.
+
+\bibitem{ref:PhysRevD.47.4889}
+U.~Baur and E.~Berger, ``Probing the weak boson sector in \PZ\Pgamma\
+  production at hadron colliders,'' {\em Phys. Rev. D} {\bf 47} (1993) 4889,
+  \href{https://doi.org/10.1103/PhysRevD.47.4889}{\texttt
+  {doi:10.1103/PhysRevD.47.4889}}.
+
+\bibitem{ref:PhysRevD.62.113011}
+U.~Baur and D.~Rainwater, ``Probing neutral gauge boson self-interactions in
+  \PZ\PZ\ production at hadron colliders,'' {\em Phys. Rev. D} {\bf 62} (2000)
+  113011, \href{http://arXiv.org/abs/hep-ph/0008063}{{\texttt
+  {arXiv:hep-ph/0008063}}},
+  \href{https://doi.org/10.1103/PhysRevD.62.113011}{\texttt
+  {doi:10.1103/PhysRevD.62.113011}}.
+
+\bibitem{ref:PhysRevD.89.092005}
+S.~Chatrchyan {\em et al.}, ``Measurement of the $W\gamma$ and $Z\gamma$
+  inclusive cross sections in $pp$ collisions at $\sqrt{s} = 7$ TeV and limits
+  on anomalous triple gauge boson couplings,'' {\em Phys. Rev. D} {\bf 89}
+  (2014) 092005, \href{http://arXiv.org/abs/1308.6832}{{\texttt
+  {arXiv:1308.6832}}},
+  \href{https://doi.org/10.1103/PhysRevD.89.092005}{\texttt
+  {doi:10.1103/PhysRevD.89.092005}}.
+
+\bibitem{ref:JHEP10(2013)164}
+S.~Chatrchyan {\em et al.}, ``Measurement of the production cross section for
+  $Z\gamma \to \nu\bar{\nu}\gamma$ in $pp$ collisions at $\sqrt{s} = 7$ TeV and
+  limits on $ZZ\gamma$ and $Z\gamma\gamma$ triple gauge boson couplings,'' {\em
+  JHEP} {\bf 10} (2013) 164, \href{http://arXiv.org/abs/1309.1117}{{\texttt
+  {arXiv:1309.1117}}}, \href{https://doi.org/10.1007/JHEP10(2013)164}{\texttt
+  {doi:10.1007/JHEP10(2013)164}}.
+
+\bibitem{ref:RevModPhys.89.035008}
+D.~Green, P.~Meade, and M.~Pleier, ``Multiboson interactions at the LHC,'' {\em
+  Rev. Mod. Phys.} {\bf 89} (2017) 035008,
+  \href{http://arXiv.org/abs/1610.07572}{{\texttt {arXiv:1610.07572}}},
+  \href{https://doi.org/10.1103/RevModPhys.89.035008}{\texttt
+  {doi:10.1103/RevModPhys.89.035008}}.
+
+\bibitem{ref:j.physrep.2013.07.004}
+{The ALEPH Collaboration}, {The DELPHI collaboration}, {The L3 Collaboration},
+  {The OPAL Collaboration}, and {The LEP Electroweak Working Group},
+  ``Electroweak measurements in electron-positron collisions at W-boson-pair
+  energies at LEP,'' {\em Phys. Rep.} {\bf 532} (2013) 119,
+  \href{http://arXiv.org/abs/1302.3415}{{\texttt {arXiv:1302.3415}}},
+  \href{https://doi.org/10.1016/j.physrep.2013.07.004}{\texttt
+  {doi:10.1016/j.physrep.2013.07.004}}.
+
+\bibitem{ref:j.physletb.2004.07.002}
+{L3 Collaboration}, ``Study of the $e^{\mathrm{+}}e^{\mathrm{-}} \to
+  \PZ\Pgamma$ process at LEP and limits on triple neutral-gauge-boson
+  couplings,'' {\em Phys. Lett. B} {\bf 597} (2004) 119,
+  \href{https://doi.org/10.1016/j.physletb.2004.07.002}{\texttt
+  {doi:10.1016/j.physletb.2004.07.002}}.
+
+\bibitem{ref:PhysRevLett.107.051802}
+T.~Aaltonen {\em et al.}, ``Limits on Anomalous Trilinear Gauge Couplings in
+  $Z\gamma$ Events from $p\bar{p}$ Collisions at $\sqrt{s} = 1.96$ TeV,'' {\em
+  Phys. Rev. Lett.} {\bf 107} (2011) 051802,
+  \href{http://arXiv.org/abs/1103.2990}{{\texttt {arXiv:1103.2990}}},
+  \href{https://doi.org/10.1103/PhysRevLett.107.051802}{\texttt
+  {doi:10.1103/PhysRevLett.107.051802}}.
+
+\bibitem{ref:PhysRevD.85.052001}
+V.~Abazov {\em et al.}, ``$Z\gamma$ production and limits on anomalous
+  $ZZ\gamma$ and $Z\gamma\gamma$ couplings in $p\bar{p}$ collisions at
+  $\sqrt{s} = 1.96$ TeV,'' {\em Phys. Rev. D} {\bf 85} (2012) 052001,
+  \href{http://arXiv.org/abs/1111.3684}{{\texttt {arXiv:1111.3684}}},
+  \href{https://doi.org/10.1103/PhysRevD.85.052001}{\texttt
+  {doi:10.1103/PhysRevD.85.052001}}.
+
+\bibitem{ref:ATLAS-CONF-2018-035}
+{The ATLAS Collaboration}, ``Measurement of the $Z\gamma \to
+  \nu\bar{\nu}\gamma$ Production Cross Section in $pp$ Collisions at $\sqrt{s}
+  = 13$ TeV with the ATLAS Detector and Limits on Anomalous Triple Gauge
+  Couplings,''.
+
+\bibitem{ref:s41550-017-0059}
+J.~de~Swart, G.~Bertone, and J.~van Dongen, ``How dark matter came to matter,''
+  {\em Nature Astr.} {\bf 1} (2017) 0059,
+  \href{http://arXiv.org/abs/1703.00013}{{\texttt {arXiv:1703.00013}}},
+  \href{https://doi.org/10.1038/s41550-017-0059}{\texttt
+  {doi:10.1038/s41550-017-0059}}.
+
+\bibitem{ref:j.physrep.2004.08.031}
+G.~Bertone, D.~Hooper, and J.~Silk, ``Particle dark matter: evidence,
+  candidates and constraints,'' {\em Phys. Rep.} {\bf 405} (2005) 279,
+  \href{http://arXiv.org/abs/hep-ph/0404175}{{\texttt {arXiv:hep-ph/0404175}}},
+  \href{https://doi.org/10.1016/j.physrep.2004.08.031}{\texttt
+  {doi:10.1016/j.physrep.2004.08.031}}.
+
+\bibitem{ref:annurev.nucl.54.070103.181244}
+R.~Gaitskell, ``Direct Detection of Dark Matter,'' {\em Annu. Rev. Nucl. Part.
+  Sci.} {\bf 54} (2004) 315,
+  \href{https://doi.org/10.1146/annurev.nucl.54.070103.181244}{\texttt
+  {doi:10.1146/annurev.nucl.54.070103.181244}}.
+
+\bibitem{ref:S1062798717000783}
+L.~Baudis, ``The Search for Dark Matter,'' {\em European Rev.} {\bf 26} (2018)
+  70, \href{http://arXiv.org/abs/1801.08128}{{\texttt {arXiv:1801.08128}}},
+  \href{https://doi.org/10.1017/S1062798717000783}{\texttt
+  {doi:10.1017/S1062798717000783}}.
+
+\bibitem{ref:PhysRevD.89.056011}
+A.~Nelson {\em et al.}, ``Confronting the Fermi Line with LHC data: an
+  Effective Theory of Dark Matter Interaction with Photons,'' {\em Phys. Rev.
+  D} {\bf 89} (2014) 056011, \href{http://arXiv.org/abs/1307.5064}{{\texttt
+  {arXiv:1307.5064}}},
+  \href{https://doi.org/10.1103/PhysRevD.89.056011}{\texttt
+  {doi:10.1103/PhysRevD.89.056011}}.
+
+\bibitem{ref:j.aop.2013.04.016}
+C.~Degrande {\em et al.}, ``Effective field theory: A modern approach to
+  anomalous couplings,'' {\em Annals of Phys.} {\bf 335} (2013) 21,
+  \href{http://arXiv.org/abs/1205.4231}{{\texttt {arXiv:1205.4231}}},
+  \href{https://doi.org/10.1016/j.aop.2013.04.016}{\texttt
+  {doi:10.1016/j.aop.2013.04.016}}.
+
+\bibitem{ref:1507.00966}
+D.~Abercrombie {\em et al.}, ``Dark Matter Benchmark Models for Early LHC Run-2
+  Searches: Report of the ATLAS/CMS Dark Matter Forum,''
+  \href{http://arXiv.org/abs/1507.00966}{{\texttt {arXiv:1507.00966}}}.
+
+\bibitem{ref:S0370-2693(98)00466-3}
+N.~Arkani-Hamed, S.~Dimopoulos, and G.~Dvali, ``The hierarchy problem and new
+  dimensions at a millimeter,'' {\em Phys. Lett. B} {\bf 429} (1998) 263,
+  \href{http://arXiv.org/abs/hep-ph/9803315}{{\texttt {arXiv:hep-ph/9803315}}},
+  \href{https://doi.org/10.1016/S0370-2693(98)00466-3}{\texttt
+  {doi:10.1016/S0370-2693(98)00466-3}}.
+
+\bibitem{ref:S0550-3213(99)00044-9}
+G.~Giudice, R.~Rattazzi, and J.~Wells, ``Quantum gravity and extra dimensions
+  at high-energy colliders,'' {\em Nucl. Phys. B} {\bf 544} (1999) 3,
+  \href{http://arXiv.org/abs/hep-ph/9811291}{{\texttt {arXiv:hep-ph/9811291}}},
+  \href{https://doi.org/10.1016/S0550-3213(99)00044-9}{\texttt
+  {doi:10.1016/S0550-3213(99)00044-9}}.
+
+\end{thebibliography}\endgroup
