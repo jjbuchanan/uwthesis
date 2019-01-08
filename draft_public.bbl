@@ -1,4 +1,4 @@
-\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
 \bibitem{ref:HalzenMartin}
 F.~Halzen and A.~Martin, {\em Quarks \& Leptons: An introductory course in
@@ -89,7 +89,8 @@ M.~Grazzini, S.~Kallweit, and M.~Wiesemann, ``Fully differential NNLO
 \bibitem{ref:CERN-EP-2018-220}
 M.~Aaboud {\em et al.}, ``Measurement of the $Z\gamma \to \nu\bar{\nu}\gamma$
   production cross section in $pp$ Collisions at $\sqrt{s} = 13$ TeV with the
-  ATLAS detector and limits on anomalous triple gauge-boson couplings.'' 2018.
+  ATLAS detector and limits on anomalous triple gauge-boson couplings,''
+  \href{http://arXiv.org/abs/1810.04995}{{\texttt {arXiv:1810.04995}}}.
 
 \bibitem{ref:1126-6708/2009/02/007}
 T.~Gleisberg {\em et al.}, ``Event generation with SHERPA 1.1,'' {\em JHEP}
@@ -296,16 +297,17 @@ G.~Busoni {\em et al.}, ``Recommendations on presenting LHC searches for
   {arXiv:1603.04156}}}.
 
 \bibitem{ref:j.physletb.2016.01.057}
-``Search for new phenomena in monophoton final states in proton-proton
-  collisions at $\sqrt{s} = 8$ TeV,'' {\em Phys. Lett. B} {\bf 755} (2016) 102,
-  \href{http://arXiv.org/abs/1410.8812}{{\texttt {arXiv:1410.8812}}},
+V.~Khachatryan {\em et al.}, ``Search for new phenomena in monophoton final
+  states in proton-proton collisions at $\sqrt{s} = 8$ TeV,'' {\em Phys. Lett.
+  B} {\bf 755} (2016) 102, \href{http://arXiv.org/abs/1410.8812}{{\texttt
+  {arXiv:1410.8812}}},
   \href{https://doi.org/10.1016/j.physletb.2016.01.057}{\texttt
   {doi:10.1016/j.physletb.2016.01.057}}.
 
 \bibitem{ref:PhysRevD.91.012008}
-``Search for new phenomena in events with a photon and missing transverse
-  momentum in $pp$ collisions at $\sqrt{s} = 8$ TeV with the ATLAS detector,''
-  {\em Phys. Rev. D} {\bf 91} (2015) 012008,
+G.~Aad {\em et al.}, ``Search for new phenomena in events with a photon and
+  missing transverse momentum in $pp$ collisions at $\sqrt{s} = 8$ TeV with the
+  ATLAS detector,'' {\em Phys. Rev. D} {\bf 91} (2015) 012008,
   \href{http://arXiv.org/abs/1411.1559}{{\texttt {arXiv:1411.1559}}},
   \href{https://doi.org/10.1103/PhysRevD.91.012008}{\texttt
   {doi:10.1103/PhysRevD.91.012008}}.
@@ -515,6 +517,16 @@ A.~Alves {\em et al.}, ``The LHCb Detector at the LHC,'' {\em JINST} {\bf 3}
   (2008) S08005, \href{https://doi.org/10.1088/1748-0221/3/08/S08005}{\texttt
   {doi:10.1088/1748-0221/3/08/S08005}}.
 
+\bibitem{ref:PhysRevAccelBeams.20.091002}
+E.~Quaranta {\em et al.}, ``Modeling of beam-induced damage of the LHC tertiary
+  collimators,'' {\em Phys. Rev. Accel. Beams} {\bf 20} (2017) 091002,
+  \href{https://doi.org/10.1103/PhysRevAccelBeams.20.091002}{\texttt
+  {doi:10.1103/PhysRevAccelBeams.20.091002}}.
+
+\bibitem{ref:WilleAccelerators}
+K.~Wille, {\em The Physics of Particle Accelerators}.
+\newblock Oxford University Press, 2000.
+
 \bibitem{ref:SchopperLEP}
 H.~Schopper, {\em LEP - The Lord of the Collider Rings at CERN 1980-2000}.
 \newblock Springer-Verlag Berlin Heiderlberg, 2009.
@@ -526,5 +538,187 @@ V.~Lebedev and V.~Shiltsev, {\em Accelerator Physics at the Tevatron Collider}.
 \newblock Springer-Verlag New York, 2014.
 \newblock \href{https://doi.org/10.1007/978-1-4939-0885-1}{\texttt
   {doi:10.1007/978-1-4939-0885-1}}.
+
+\bibitem{ref:PAC.2003.1289077}
+W.~Wittmer, A.~Verdier, and F.~Zimmermann, ``Correcting the LHC
+  $\beta^\mathrm{*}$ at collision,'' {\em Proceedings of the 2003 Particle
+  Accelerator Conference} {\bf 4} (2003) 2237,
+  \href{https://doi.org/10.1109/PAC.2003.1289077}{\texttt
+  {doi:10.1109/PAC.2003.1289077}}.
+
+\bibitem{ref:PhysRevSTAB.18.061001}
+R.~Bruce, R.~Assmann, and S.~Redaelli, ``Calculations of safe collimator
+  settings and $\beta^\mathrm{*}$ at the CERN Large Hadron Collider,'' {\em
+  Phys. Rev. Accel. Beams} {\bf 18} (2015) 061001,
+  \href{https://doi.org/10.1103/PhysRevSTAB.18.061001}{\texttt
+  {doi:10.1103/PhysRevSTAB.18.061001}}.
+
+\bibitem{ref:1748-0221/10/11/P11011}
+S.~Orfanelli {\em et al.}, ``A novel Beam Halo Monitor for the CMS experiment
+  at the LHC,'' {\em JINST} {\bf 10} (2015) P11011,
+  \href{https://doi.org/10.1088/1748-0221/10/11/P11011}{\texttt
+  {doi:10.1088/1748-0221/10/11/P11011}}.
+
+\bibitem{ref:1748-0221/5/03/T03021}
+S.~Chatrchyan {\em et al.}, ``Precise Mapping of the Magnetic Field in the CMS
+  Barrel Yoke using Cosmic Rays,'' {\em JINST} {\bf 5} (2010) T03021,
+  \href{http://arXiv.org/abs/0910.5530}{{\texttt {arXiv:0910.5530}}},
+  \href{https://doi.org/10.1088/1748-0221/5/03/T03021}{\texttt
+  {doi:10.1088/1748-0221/5/03/T03021}}.
+
+\bibitem{ref:1742-6596/404/1/012043}
+D.~Petyt, ``Mitigation of Anomalous APD signals in the CMS Electromagnetic
+  Calorimeter,'' {\em J. Phys. Conf. Series} {\bf 404} (2012) 012043,
+  \href{https://doi.org/10.1088/1742-6596/404/1/012043}{\texttt
+  {doi:10.1088/1742-6596/404/1/012043}}.
+
+\bibitem{ref:spikes_farzanehfar}
+A.~Farzanehfar, ``Mitigating high energy anomalous signals in the CMS barrel
+  Electromagnetic Calorimeter.'' Presentation at 30 June ECAL upgrade meeting,
+  2015.
+
+\bibitem{ref:DN-2015/014}
+M.~Dejardin, ``Discussion on the limit of the performances of possible ECAL
+  barrel electronics due to the increase of APD leakage current at HL-LHC.''
+  CMS DN-2015/014, 2015.
+
+\bibitem{ref:CERN-ISR-PO-68-31}
+S.~van~der Meer, ``Calibration of the effective beam height in the ISR.''
+  CERN-ISR-PO-68-31, 1968.
+
+\bibitem{ref:CMS-PAS-LUM-17-001}
+{CMS Collaboration}, ``CMS luminosity measurements for the 2016 data-taking
+  period.'' CMS-PAS-LUM-17-001, 2017.
+
+\bibitem{ref:0370-2693(71)90576-4}
+V.~Gribov and L.~Lipatov, ``Deep inelastic electron scattering in perturbation
+  theory,'' {\em Phys. Lett. B} {\bf 37} (1971) 78,
+  \href{https://doi.org/10.1016/0370-2693(71)90576-4}{\texttt
+  {doi:10.1016/0370-2693(71)90576-4}}.
+
+\bibitem{ref:dokshitzer}
+Y.~Dokshitzer, ``Calculation of the Structure Functions for Deep Inelastic
+  Scattering and e+ e- Annihilation by Perturbation Theory in Quantum
+  Chromodynamics,'' {\em Sov.Phys.JETP} {\bf 46} (1977) 641.
+
+\bibitem{ref:0550-3213(77)90384-4}
+G.~Altarelli and G.~Parisi, ``Asymptotic freedom in parton language,'' {\em
+  Nucl. Phys. B.} {\bf 126} (1977) 298,
+  \href{https://doi.org/10.1016/0550-3213(77)90384-4}{\texttt
+  {doi:10.1016/0550-3213(77)90384-4}}.
+
+\bibitem{ref:0034-4885/70/1/R02}
+J.~Campbell, J.~Huston, and W.~Stirling, ``Hard Interactions of Quarks and
+  Gluons: a Primer for LHC Physics,'' {\em Rept. Prog. Phys.} {\bf 70} (2007)
+  89, \href{http://arXiv.org/abs/hep-ph/0611148}{{\texttt
+  {arXiv:hep-ph/0611148}}},
+  \href{https://doi.org/10.1088/0034-4885/70/1/R02}{\texttt
+  {doi:10.1088/0034-4885/70/1/R02}}.
+
+\bibitem{ref:NNPDF30}
+R.~Ball {\em et al.}, ``Parton distributions for the LHC run II,'' {\em JHEP}
+  {\bf 2015} (2015) 40, \href{http://arXiv.org/abs/1410.8849}{{\texttt
+  {arXiv:1410.8849}}}, \href{https://doi.org/10.1007/JHEP04(2015)040}{\texttt
+  {doi:10.1007/JHEP04(2015)040}}.
+
+\bibitem{ref:NNPDF31}
+R.~Ball {\em et al.}, ``Parton distributions from high-precision collider
+  data,'' {\em EPJ C} {\bf 77} (2017) 663,
+  \href{http://arXiv.org/abs/1706.00428}{{\texttt {arXiv:1706.00428}}},
+  \href{https://doi.org/10.1140/epjc/s10052-017-5199-5}{\texttt
+  {doi:10.1140/epjc/s10052-017-5199-5}}.
+
+\bibitem{ref:scalepdf_bendavid}
+J.~Bendavid, ``New MC Features for Analysis in 74x Plus more details on
+  scale/PDF uncertainties.'' Presentation at 4 November PPD general meeting,
+  2015.
+
+\bibitem{ref:JHEP07(2014)079}
+J.~Alwall {\em et al.}, ``The automated computation of tree-level and
+  next-to-leading order differential cross sections, and their matching to
+  parton shower simulations,'' {\em JHEP} {\bf 2014} (2014) 79,
+  \href{http://arXiv.org/abs/1405.0301}{{\texttt {arXiv:1405.0301}}},
+  \href{https://doi.org/10.1007/JHEP07(2014)079}{\texttt
+  {doi:10.1007/JHEP07(2014)079}}.
+
+\bibitem{ref:0954-3899/43/2/023001}
+J.~Butterworth {\em et al.}, ``PDF4LHC recommendations for LHC Run II,'' {\em
+  J. Phys. G: Nucl. Part. Phys.} {\bf 43} (2016) 023001,
+  \href{http://arXiv.org/abs/1510.03865}{{\texttt {arXiv:1510.03865}}},
+  \href{https://doi.org/10.1088/0954-3899/43/2/023001}{\texttt
+  {doi:10.1088/0954-3899/43/2/023001}}.
+
+\bibitem{ref:JHEP12(2015)047}
+S.~Catani, D.~de~Florian, G.~Ferrera, and M.~Grazzini, ``Vector boson
+  production at hadron colliders: transverse-momentum resummation and leptonic
+  decay,'' {\em JHEP} {\bf 2015} (2015)
+  \href{http://arXiv.org/abs/1507.06937}{{\texttt {arXiv:1507.06937}}},
+  \href{https://doi.org/10.1007/JHEP12(2015)047}{\texttt
+  {doi:10.1007/JHEP12(2015)047}}.
+
+\bibitem{ref:j.cpc.2015.01.024}
+T.~Sjöstrand {\em et al.}, ``An introduction to PYTHIA 8.2,'' {\em Comp. Phys.
+  Comm.} {\bf 191} (2015) 159, \href{http://arXiv.org/abs/1410.3012}{{\texttt
+  {arXiv:1410.3012}}}, \href{https://doi.org/10.1016/j.cpc.2015.01.024}{\texttt
+  {doi:10.1016/j.cpc.2015.01.024}}.
+
+\bibitem{ref:epjc/s10052-016-3988-x}
+V.~Khachatryan {\em et al.}, ``Event generator tunes obtained from underlying
+  event and multiparton scattering measurements,'' {\em Eur. Phys. J. C} {\bf
+  76} (2016) 155, \href{http://arXiv.org/abs/1512.00815}{{\texttt
+  {arXiv:1512.00815}}},
+  \href{https://doi.org/10.1140/epjc/s10052-016-3988-x}{\texttt
+  {doi:10.1140/epjc/s10052-016-3988-x}}.
+
+\bibitem{ref:S0168-9002(03)01368-8}
+S.~Agostinelli {\em et al.}, ``GEANT4---a simulation toolkit,'' {\em Nucl.
+  Inst. Meth. A} {\bf 506} (2003) 250,
+  \href{https://doi.org/10.1016/S0168-9002(03)01368-8}{\texttt
+  {doi:10.1016/S0168-9002(03)01368-8}}.
+
+\bibitem{ref:1748-0221/12/10/P10003}
+A.~Sirunyan {\em et al.}, ``Particle-flow reconstruction and global event
+  description with the CMS detector,'' {\em JINST} {\bf 12} (2017) P10003,
+  \href{http://arXiv.org/abs/1706.04965}{{\texttt {arXiv:1706.04965}}},
+  \href{https://doi.org/10.1088/1748-0221/12/10/P10003}{\texttt
+  {doi:10.1088/1748-0221/12/10/P10003}}.
+
+\bibitem{ref:cms_tdr_vol1}
+G.~Bayatian {\em et al.}, ``CMS Physics: Technical Design Report Volume 1:
+  Detector Performance and Software.'' CMS-TDR-8-1, 2006.
+
+\bibitem{ref:1748-0221/2/04/P04004}
+P.~Adzic {\em et al.}, ``Energy Resolution of the Barrel of the CMS
+  Electromagnetic Calorimeter,'' {\em JINST} {\bf 2} (2007) P04004,
+  \href{https://doi.org/10.1088/1748-0221/2/04/P04004}{\texttt
+  {doi:10.1088/1748-0221/2/04/P04004}}.
+
+\bibitem{ref:1748-0221/10/06/P06005}
+V.~Khachatryan {\em et al.}, ``Performance of electron reconstruction and
+  selection with the CMS detector in proton-proton collisions as $\sqrt{s} = 8$
+  TeV,'' {\em JINST} {\bf 10} (2015)
+  \href{http://arXiv.org/abs/1502.02701}{{\texttt {arXiv:1502.02701}}},
+  \href{https://doi.org/10.1088/1748-0221/10/06/P06005}{\texttt
+  {doi:10.1088/1748-0221/10/06/P06005}}.
+
+\bibitem{ref:1748-0221/10/08/P08010}
+V.~Khachatryan {\em et al.}, ``Performance of photon reconstruction and
+  identification with the CMS detector in proton-proton collisions at $\sqrt{s}
+  = 8$ TeV,'' {\em JINST} {\bf 10} (2015) P08010,
+  \href{http://arXiv.org/abs/1502.02702}{{\texttt {arXiv:1502.02702}}},
+  \href{https://doi.org/10.1088/1748-0221/10/08/P08010}{\texttt
+  {doi:10.1088/1748-0221/10/08/P08010}}.
+
+\bibitem{ref:1748-0221/9/10/P10009}
+S.~Chatrchyan {\em et al.}, ``Description and performance of track and
+  primary-vertex reconstruction with the CMS tracker,'' {\em JINST} {\bf 9}
+  (2014) P10009, \href{http://arXiv.org/abs/1405.6569}{{\texttt
+  {arXiv:1405.6569}}},
+  \href{https://doi.org/10.1088/1748-0221/9/10/P10009}{\texttt
+  {doi:10.1088/1748-0221/9/10/P10009}}.
+
+\bibitem{ref:egammaclusterregression_2018}
+{Jain, S. on behalf of the EGM group}, ``PF cluster regression in Egamma.''
+  Presentation at 20 November Particle flow study group meeting, 2018.
 
 \end{thebibliography}\endgroup
