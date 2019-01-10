@@ -21,6 +21,11 @@ M.~Srednicki, {\em Quantum Field Theory}.
 M.~Schwartz, {\em Quantum Field Theory and the Standard Model}.
 \newblock Cambridge University Press, 2013.
 
+\bibitem{ref:CahnGoldhaber}
+R.~Cahn and G.~Goldhaber, {\em The Experimental Foundations of Particle
+  Physics}.
+\newblock Cambridge University Press, 2009.
+
 \bibitem{ref:PDG}
 M.~Tanabashi {\em et al.}, ``The Review of Particle Physics,'' {\em Phys. Rev.
   D} {\bf 98} (2018) 030001,
@@ -675,50 +680,5 @@ S.~Agostinelli {\em et al.}, ``GEANT4---a simulation toolkit,'' {\em Nucl.
   Inst. Meth. A} {\bf 506} (2003) 250,
   \href{https://doi.org/10.1016/S0168-9002(03)01368-8}{\texttt
   {doi:10.1016/S0168-9002(03)01368-8}}.
-
-\bibitem{ref:1748-0221/12/10/P10003}
-A.~Sirunyan {\em et al.}, ``Particle-flow reconstruction and global event
-  description with the CMS detector,'' {\em JINST} {\bf 12} (2017) P10003,
-  \href{http://arXiv.org/abs/1706.04965}{{\texttt {arXiv:1706.04965}}},
-  \href{https://doi.org/10.1088/1748-0221/12/10/P10003}{\texttt
-  {doi:10.1088/1748-0221/12/10/P10003}}.
-
-\bibitem{ref:cms_tdr_vol1}
-G.~Bayatian {\em et al.}, ``CMS Physics: Technical Design Report Volume 1:
-  Detector Performance and Software.'' CMS-TDR-8-1, 2006.
-
-\bibitem{ref:1748-0221/2/04/P04004}
-P.~Adzic {\em et al.}, ``Energy Resolution of the Barrel of the CMS
-  Electromagnetic Calorimeter,'' {\em JINST} {\bf 2} (2007) P04004,
-  \href{https://doi.org/10.1088/1748-0221/2/04/P04004}{\texttt
-  {doi:10.1088/1748-0221/2/04/P04004}}.
-
-\bibitem{ref:1748-0221/10/06/P06005}
-V.~Khachatryan {\em et al.}, ``Performance of electron reconstruction and
-  selection with the CMS detector in proton-proton collisions as $\sqrt{s} = 8$
-  TeV,'' {\em JINST} {\bf 10} (2015)
-  \href{http://arXiv.org/abs/1502.02701}{{\texttt {arXiv:1502.02701}}},
-  \href{https://doi.org/10.1088/1748-0221/10/06/P06005}{\texttt
-  {doi:10.1088/1748-0221/10/06/P06005}}.
-
-\bibitem{ref:1748-0221/10/08/P08010}
-V.~Khachatryan {\em et al.}, ``Performance of photon reconstruction and
-  identification with the CMS detector in proton-proton collisions at $\sqrt{s}
-  = 8$ TeV,'' {\em JINST} {\bf 10} (2015) P08010,
-  \href{http://arXiv.org/abs/1502.02702}{{\texttt {arXiv:1502.02702}}},
-  \href{https://doi.org/10.1088/1748-0221/10/08/P08010}{\texttt
-  {doi:10.1088/1748-0221/10/08/P08010}}.
-
-\bibitem{ref:1748-0221/9/10/P10009}
-S.~Chatrchyan {\em et al.}, ``Description and performance of track and
-  primary-vertex reconstruction with the CMS tracker,'' {\em JINST} {\bf 9}
-  (2014) P10009, \href{http://arXiv.org/abs/1405.6569}{{\texttt
-  {arXiv:1405.6569}}},
-  \href{https://doi.org/10.1088/1748-0221/9/10/P10009}{\texttt
-  {doi:10.1088/1748-0221/9/10/P10009}}.
-
-\bibitem{ref:egammaclusterregression_2018}
-{Jain, S. on behalf of the EGM group}, ``PF cluster regression in Egamma.''
-  Presentation at 20 November Particle flow study group meeting, 2018.
 
 \end{thebibliography}\endgroup

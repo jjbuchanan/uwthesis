@@ -168,10 +168,13 @@ aforementioned charges.
 These interactions lead to the relationships illustrated in Fig.~\ref{fig:sm_interactions}, in which every linkage represents
 a direct \textit{coupling}, which allows a particle at one end of the link to evolve directly into a particle at the other end.
 Particles with a nonzero electric charge are all coupled directly to the photon. The photon is coupled to the weak bosons
-(\PZ\ and \PW), which in turn couple to all of the fundamental fermions.
+(\PZ\ and $W^\pm$), which in turn couple to all of the fundamental fermions.
 The gluons couple directly with each other and with the quarks.
-Particles that couple directly to the \PH\ have an intrinsic mass (specified by the top number in each square of Fig.~\ref{fig:sm_particles})
-tied to the strength of their coupling. In the SM, any particle that does not couple directly to the \PH\ is massless.
+Particles that couple directly to the \PH\ have an intrinsic mass (specified by the top number in each square of Fig.~\ref{fig:sm_particles}\footnote{The
+proper units of mass are $\mathrm{GeV}\,c^{2}$, but the factor of $c^{2}$ is usually omitted for brevity. This is done even when units of distance and
+time (such as cm and ns) are used in which $c$ does not equal 1. Similarly, the factor of $1/c$ is usually omitted from the proper units of momentum,
+$\mathrm{GeV}/c$. This is the convention followed in this thesis.}) tied to the strength of their coupling.
+In the SM, any particle that does not couple directly to the \PH\ is massless.
 
 \begin{figure}[hbtp]
   \begin{center}
@@ -188,7 +191,7 @@ terms appearing in the Lagrangian, and a coupling of one particle to another is 
 corresponding operators together. The SM Lagrangian is unchanged
 if all its fermion operators are multiplied by any complex number of the form $e^{iY\theta}$, where the \textit{hypercharge} $Y$ is a value that depends
 on the operator being multiplied. The is true even if $\theta$ is allowed to have different arbitrary values at
-different points in space and time, but any operator with a nonzero $Y$ couples to an additional operator denoted by \PB,
+different points in space and time, but any operator with a nonzero $Y$ couples to an additional spin-1 operator denoted by \PB,
 and as a consequence the first derivatives of $\theta$ in space and time must also be subtracted from \PB.
 This deep level of invariance is called a \textit{gauge symmetry}, with \PB\ the associated \textit{gauge boson}.
 Multiplication by $e^{i\theta}$ is characterized by the group $U(1)$, so we say that the SM Lagrangian has a
@@ -227,7 +230,7 @@ documented in numerous comprehensive texts on the subject, e.g.~\cite{ref:Halzen
 The domain of applicability of the SM is quite substantial, encompassing
 every well-measured fundamental interaction of every verified fundamental particle. All SM particles have been conclusively observed,
 and no fundamental particles outside the SM have ever been conclusively observed. After decades of effort by thousands of researchers,
-no significant deviation from SM predictions has ever been confirmed in high-energy scattering experiments~\cite{ref:PDG}.
+no significant deviation from SM predictions has ever been confirmed in high-energy scattering experiments~\cite{ref:CahnGoldhaber, ref:PDG}.
 These efforts are extended here with studies of the relationship between \PZ\ and \Pgamma\ (sec.~\ref{sec:introduction_znng} and~\ref{sec:introduction_aTGC}) at state-of-the-art precision.
 There are nevertheless many physical phenomena that the SM does not account for.
 The analyses presented here investigate the nature of gravitation (sec.~\ref{sec:introduction_ADD}),
@@ -316,7 +319,8 @@ prediction of $2.81 \pm 0.02\mathrm{(stat)}$ $pb$~\cite{}. This set of SM predic
 
 The D0 experiment at the Tevatron made the first observation of \zinvg\ arising from $p\bar{p}$ collisions in 2009. This yielded a cross section measurement of
 $32 \pm 9\mathrm{(stat+syst)} \pm 2\mathrm{(lumi)}$ $fb$ for a leading photon \pT\ above 90\unit{GeV}\footnote{The proper units for momentum are $\mathrm{GeV}/c$, but the
-factor of $c$ is often omitted for brevity, and this is the convention followed in this thesis.},
+factor of $c$ is often omitted for brevity, and this is the convention followed in this thesis. Similarly, the proper units for mass are $\mathrm{GeV}\,c^{2}$, but the factor
+of $c^{2}$ is usually omitted.},
 compared to an SM prediction of $39 \pm 4\mathrm{(theory)}$ $fb$ computed to NLO in $\alpha_\mathrm{S}$~\cite{ref:PhysRevLett.102.201802}.
 
 Measurements of the cross section at higher values of \pTgamma\ have been performed by experiments examining \Pp\Pp\ collision data at the LHC.
@@ -481,11 +485,12 @@ Each of these phenomena could be explained by the existence of an abundance of m
 This extends to interactions with visible light, giving rise to the name ``dark matter.''
 
 These difficulties could also indicate the need to modify the theory of gravity.
-However, the nature of the Bullet cluster, a galaxy cluster with a center of mass displaced from its visible mass center, is challenging to explain in a theory of gravity without DM that can also explain all of
-the preceding observations. In contrast, it has a straightfoward explanation if GR+DM is true: the displaced mass is DM~\cite{ref:508162}. Furthermore, if a modified theory of gravity
+However, the nature of the Bullet cluster, a galaxy cluster with a total mass distribution (as inferred from gravitational lensing) significantly displaced from its visible mass,
+is challenging to explain in a theory of gravity without DM that can also explain all of the preceding observations.
+In contrast, it has a straightfoward explanation if GR+DM is true: the displaced mass is DM~\cite{ref:508162}. Furthermore, if a modified theory of gravity
 results in the apparent gravitational effect of DM on galactic scales, then the existence of a galaxy without any apparent DM, as observed in~\cite{ref:nature25767}, is
-also challenging to explain. It's conceivable that a random collection of stars could agglomerate into a galaxy without the assistance of DM, or else become separated from their
-DM component (as with the Bullet cluster), but the fundamental laws of gravitation should not fail in just one galaxy.
+also challenging to explain. It's conceivable that a collection of stars could agglomerate into a galaxy without the assistance of DM, or else become separated from their
+DM component (as with the Bullet cluster), but the fundamental laws of gravitation are not expected to fail in just one galaxy.
 
 No SM particle is predicted to exhibit the behavior of DM, and this has spurred the development
 of BSM theories describing new particles that could account for it~\cite{ref:s41550-017-0059, ref:j.physrep.2004.08.031, ref:annurev.nucl.54.070103.181244, ref:S1062798717000783}.
@@ -495,13 +500,13 @@ The models we consider here include a BSM particle satisfying each of these crit
 All the massive, stable particles in the SM are fermionic, and these models similarly describe a fermionic DM candidate. Otherwise, the new physics
 content of these models is kept to a minimum, as sufficiently large deviations from SM predictions would presumably have been detected by now.
 
-One model we examine describes a direct coupling between DM and the neutral EWK vector bosons \PZ\ and \Pgamma~\cite{ref:PhysRevD.89.056011}. The model does not fully specify
+One model we examine describes a direct coupling between DM and the neutral EWK bosons \PZ\ and \Pgamma~\cite{ref:PhysRevD.89.056011}. The model does not fully specify
 the nature of the proposed particle and its SM interactions, but rather only predicts the most dominant potential signature of new physics,
 by adding a handful of new operator terms to the SM Lagrangian. Any operator has a \textit{mass dimension}, denoted in powers of GeV. The SM Lagrangian has
 a mass dimension of 4, and any operator term added to it has to have this same mass dimension for the expression to be coherent.
-Additional particle interactions in an operator term tend to raise the mass dimension. If an operator describes an especially intricate interaction,
-the overall term must be multiplied by an extra factor of $(\frac{1}{\Lambda})^{n}$ to maintain an overall mass dimension of 4, where $\Lambda$ is some mass
-scale in GeV and $n$ is a positive number.
+Additional particle interactions in an operator term tend to raise the mass dimension, and if an operator describes an especially intricate interaction,
+the overall term must be multiplied by an extra factor of $(\frac{1}{\Lambda})^{n}$ to maintain an overall mass dimension of 4 (where $\Lambda$ is some mass
+scale in GeV and $n$ is a positive number).
 
 Operator terms with nonzero powers of $\frac{1}{\Lambda}$ tend to have their interactions suppressed for interaction energies much
 smaller than $\Lambda$, and so $\Lambda$ is called the \textit{suppression scale}. The effects of more complicated terms, multiplied by higher powers of $\frac{1}{\Lambda}$,
@@ -530,10 +535,10 @@ with any detector elements.
 \end{figure}
 
 Since the DM pair emerges directly from an EWK boson, this EFT is limited in the dynamics it can describe. In contrast, so-called \textit{simplified models} of DM add
-a new mediating boson between the DM and SM fermions~\cite{ref:1507.00966}, which more typically characterizes the fermion interactions that we know
-from the SM. These models are still ``simplified'' in that they fall short of a complete theory of particle physics valid in all contexts---for example,
-the DM lacks a coupling to the \PH, but still has mass. Nevertheless, some kind of DM--mediator--SM interaction is a generic feature of many new physics models,
-and so limits on the strength of this interaction potentially constrain a broad class of more specific models.
+a new mediating boson between the DM and SM fermions~\cite{ref:1507.00966}. These models are still ``simplified'' in that they fall short of a complete theory of particle
+physics valid in all contexts---for example, the new particles lack any direct coupling to the \PH, but still have mass.
+Nevertheless, a fermion pair--boson--fermion pair interaction is a generic feature of known SM processes
+and of many new physics models, and limits on the strength of such an interaction potentially constrain a broad class of more specific models.
 
 We examine models in which the mediator has either exclusively vector or exclusively axial-vector couplings to DM and also to SM quarks, independently
 of quark flavor. The free parameters of this model include
@@ -1442,155 +1447,156 @@ leading to the final digitized detector output.
 
 \chapter{Object reconstruction} \label{chap:reconstruction}
 \section{The particle-flow algorithm} \label{sec:reconstruction_particle_flow}
-The goal of the particle-flow (PF) algorithm is to reconstruct the identities and kinematic properties of all
-final-state particles in an event. The CMS is the first hadron collider experiment to have successfully implemented this strategy,
-owing to its precise and robust tracking systems, highly granular and hermetic calorimeters, and intense solenoidal magnetic field.
-The PF algorithm is described in detail in~\cite{ref:1748-0221/12/10/P10003}.
+% The goal of the particle-flow (PF) algorithm is to reconstruct the identities and kinematic properties of all
+% final-state particles in an event. The CMS is the first hadron collider experiment to have successfully implemented this strategy,
+% owing to its precise and robust tracking systems, highly granular and hermetic calorimeters, and intense solenoidal magnetic field.
+% The PF algorithm is described in detail in~\cite{ref:1748-0221/12/10/P10003}.
 
-Particles with lifetimes long enough to exit the beam pipe and reach CMS are divided into six general classes:
-electrons, photons, charged hadrons, neutral hadrons, muons, and neutrinos.
-Neutrinos do not interact with any of the detector layers, and so PF only attempts to directly reconstruct the other five classes.
-Electrons, charged hadrons, and muons leave tracks in the inner tracker, while photons and neutral hadrons do not. Photons and electrons
-deposit nearly all their energy in electromagnetic showers in ECAL, which completely stops them from propagating forward to subsequent
-detector layers. Generally speaking, hadrons and muons do not produce substantial ECAL showers, and these particles continue on to HCAL.
-Hadronic showers usually begin in one of the calorimeters and evolve mainly in HCAL, which fully absorbs them before they can reach the muon detectors.
-Muons do not produce hadronic showers and, being MIPs, pass through the inner tracker, calorimeters, solenoid, steel flux-return yoke,
-and muon detectors largely unperturbed aside from magnetic bending, leaving tracks in the muon detectors on their way out.
-These interactions are illustrated in Fig.~\ref{fig:particle_flow}.
+% Particles with lifetimes long enough to exit the beam pipe and reach CMS are divided into six general classes:
+% electrons, photons, charged hadrons, neutral hadrons, muons, and neutrinos.
+% Neutrinos do not interact with any of the detector layers, and so PF only attempts to directly reconstruct the other five classes.
+% Electrons, charged hadrons, and muons leave tracks in the inner tracker, while photons and neutral hadrons do not. Photons and electrons
+% deposit nearly all their energy in electromagnetic showers in ECAL, which completely stops them from propagating forward to subsequent
+% detector layers. Generally speaking, hadrons and muons do not produce substantial ECAL showers, and these particles continue on to HCAL.
+% Hadronic showers usually begin in one of the calorimeters and evolve mainly in HCAL, which fully absorbs them before they can reach the muon detectors.
+% Muons do not produce hadronic showers and, being MIPs, pass through the inner tracker, calorimeters, solenoid, steel flux-return yoke,
+% and muon detectors largely unperturbed aside from magnetic bending, leaving tracks in the muon detectors on their way out.
+% These interactions are illustrated in Fig.~\ref{fig:particle_flow}.
 
-\begin{figure}[hbtp]
-  \begin{center}
-    \includegraphics[width=0.99\textwidth]{Figures/particle_flow.png}
-    \caption{
-    A schematic diagram of CMS overlaid with
-    the classes of particles reconstructed by the PF algorithm, showing their most
-    characteristic interactions with detector layers.
-    From~\cite{ref:1748-0221/12/10/P10003}.
-    }
-    \label{fig:particle_flow}
-  \end{center}
-\end{figure}
+% \begin{figure}[hbtp]
+%   \begin{center}
+%     \includegraphics[width=0.99\textwidth]{Figures/particle_flow.png}
+%     \caption{
+%     A schematic diagram of CMS overlaid with
+%     the classes of particles reconstructed by the PF algorithm, showing their most
+%     characteristic interactions with detector layers.
+%     From~\cite{ref:1748-0221/12/10/P10003}.
+%     }
+%     \label{fig:particle_flow}
+%   \end{center}
+% \end{figure}
 
-Each detector layer gives rise to basic characteristic elements used in event reconstruction:
-tracks from the inner and muon trackers, and clusters from the ECAL and HCAL. The PF algorithm links these elements together
-so as to deduce the species of a particle based on the set of elements present along its trajectory. The linked elements
-corresponding to a given particle then provide multiple pieces of data on the particle's behavior, which are synthesized
-in order to refine the measurement of the particle's kinematic properties.
+% Each detector layer gives rise to basic characteristic elements used in event reconstruction:
+% tracks from the inner and muon trackers, and clusters from the ECAL and HCAL. The PF algorithm links these elements together
+% so as to deduce the species of a particle based on the set of elements present along its trajectory. The linked elements
+% corresponding to a given particle then provide multiple pieces of data on the particle's behavior, which are synthesized
+% in order to refine the measurement of the particle's kinematic properties.
 
-Like the physical detector and the trigger apparatus, the reconstruction algorithms employed by CMS are subject to ongoing evolution
-and optimization. The details given in this chapter correspond to the specific strategies used in 2016.
+% Like the physical detector and the trigger apparatus, the reconstruction algorithms employed by CMS are subject to ongoing evolution
+% and optimization. The details given in this chapter correspond to the specific strategies used in 2016.
 
 \section{Tracks and clusters}
-Track reconstruction in the inner tracker is performed over 10 iterations, with the parameters of each iteration tuned to maintain a high selection purity
-and reconstruction speed. In each iteration, seeds comprising a few tracker hits are used to initiate an iterative trajectory building algorithm,
-which adds a tracker hit to the track according to the Kalman filter method, fits a trajectory to those hits, and then
-searches for additional hits compatible with the latest trajectory, until all tracker layers are exhausted~\cite{ref:cms_tdr_vol1}.
-Hits assigned to tracks in one iteration are then masked so as to reduce the probability of a misreconstructed track in successive
-iterations, allowing the track reconstruction efficiency to grow while simultaneously keeping the purity high.
-A separate muon track reconstruction algorithm is seeded by hits in the DTs and CSCs. Hits in the DTs, CSCs, and RPCs are linked along a potential muon trajectory,
-resulting in a standalone-muon track.
+% Track reconstruction in the inner tracker is performed over 10 iterations, with the parameters of each iteration tuned to maintain a high selection purity
+% and reconstruction speed. In each iteration, seeds comprising a few tracker hits are used to initiate an iterative trajectory building algorithm,
+% which adds a tracker hit to the track according to the Kalman filter method, fits a trajectory to those hits, and then
+% searches for additional hits compatible with the latest trajectory, until all tracker layers are exhausted~\cite{ref:cms_tdr_vol1}.
+% Hits assigned to tracks in one iteration are then ignored (\textit{masked}) in successive iterations so as to reduce the probability of a misreconstructed track,
+% allowing the track reconstruction efficiency to grow while simultaneously keeping the purity high.
+% A separate muon track reconstruction algorithm is seeded by hits in the DTs and CSCs. Hits in the DTs, CSCs, and RPCs are linked along a potential muon trajectory,
+% resulting in a \textit{standalone-muon} track.
 
-Clustering is performed separately in EB, EE, HB, HE, and each of the two preshower layers on either endcap\footnote{Separate cells are not clustered in HF.
-Rather, each individual HF cell gives rise to one HF EM cluster and one HF HAD cluster, corresponding
-to the electromagnetic and hadronic components of each cell, respectively.}. The algorithm proceeds in the same general
-fashion in each of these components, with distinct component-dependent threshold values~\cite{ref:1748-0221/12/10/P10003} applied at various steps.
-Since this thesis focuses on barrel photons, only EB thresholds are reported here.
+% Clustering is performed separately in EB, EE, HB, HE, and each of the two preshower layers on either endcap\footnote{Separate cells are not clustered in HF.
+% Rather, each individual HF cell gives rise to one HF EM cluster and one HF HAD cluster, corresponding
+% to the electromagnetic and hadronic components of each cell, respectively.}. The algorithm proceeds in the same general
+% fashion in each of these components, with distinct component-dependent threshold values~\cite{ref:1748-0221/12/10/P10003} applied at various steps.
+% Since this thesis focuses on barrel photons, only EB thresholds are reported here.
 
-An EB crystal is identified as a cluster seed if its energy exceeds 230\unit{MeV} as well as that of its 8 immediate neighbors. Neighboring cells
-are progressively added to a topological cluster based on the seed, as long as their energy exceeds 80\unit{MeV} (twice the average noise level in EB)
-and they share at least one corner in common with a cell in the cluster. A single topological cluster can grow to encompass multiple seeds.
-Once a topological cluster is fully built, the energy distribution in the topological cluster is fit to a sum of Gaussian shapes,
-with one Gaussian of width $\sigma = 1.5\unit{cm}$ per seed. Each of the fit shapes then becomes its own cluster, with a position and energy defined by the Gaussian's
-mean and amplitude, respectively. In this manner, the energy of a single crystal can be shared between distinct clusters.
+% An EB crystal is identified as a cluster seed if its energy exceeds 230\unit{MeV} as well as that of its 8 immediate neighbors. Neighboring cells
+% are progressively added to a topological cluster based on the seed, as long as their energy exceeds 80\unit{MeV} (twice the average noise level in EB)
+% and they share at least one corner in common with a cell in the cluster. A single topological cluster can grow to encompass multiple seeds.
+% Once a topological cluster is fully built, the energy distribution in the topological cluster is fit to a sum of Gaussian shapes,
+% with one Gaussian of width $\sigma = 1.5\unit{cm}$ per seed. Each of the fit shapes then becomes its own cluster, with a position and energy defined by the Gaussian's
+% mean and amplitude, respectively. In this manner, the energy of a single crystal can be shared between distinct clusters.
 
-A linking algorithm assigns a link between two PF elements if they lie near each other in the $\eta$--$\phi$ plane and satisfy some quality criteria.
-Linked elements are then chained together into lattices called blocks. A block corresponding to a simple isolated particle trajectory
-may have a simple linear topology, but generic blocks can have treelike structures with various converging and diverging lines.
-This reflects the tendency of particles to radiate or decay into other
-particles, as well as the possibility that multiple particles may be collimated so closely that their separate contributions to PF elements cannot
-reliably be distinguished by just the linking algorithm. Subsequent stages of the PF algorithm identify the particle(s) corresponding to each
-block using a sophisticated decision tree. The most robustly-reconstructed particles are identified first and have their contributions to PF elements
-subtracted out from those elements, leaving behind residual excesses which can then be identified as other particles.
-
-\section{Photons and electrons} \label{sec:reconstruction_egamma}
-Just prior to the installation of ECAL into CMS, the energy resolution of single electrons in the barrel region was estimated
-by firing an electron beam directly at the crystal array~\cite{ref:1748-0221/2/04/P04004}.
-These measurements show that a $5{\times}5$ crystal array contains about 97\% of an electron shower's energy.
-A fit of that data to the functional form\footnote{The symbol ${\oplus}$ denotes addition in quadrature.}
-\begin{equation}
-\frac{\sigma}{E} = \frac{S}{\sqrt{E}} \oplus \frac{N}{E} \oplus C
-\end{equation}
-gives $S = 0.028\unit{GeV^{1/2}}$, $N = 0.12\unit{GeV}$, and $C = 0.003$. This indicates that, using
-only ECAL shower information, a isolated \Pe\ or unconverted \Pgamma\ with energy around 200\unit{GeV} can have its energy measured to within 0.4\%.
-
-This straightforward picture of a single \Pe\ or \Pgamma\ hitting the ECAL is complicated by the significant depth of tracking material in front of it.
-As shown in Fig.~\ref{fig:tracker_thickness}, a minimum of ${\approx}0.4$\,$X_{0}$ of material sits in front of EB, rising up to ${\approx}2$\,$X_{0}$ near $|\eta| = 1.4$.
-On average, electrons will radiate away about 33\% of their energy through bremsstrahlung near $|\eta| = 0$, and about 86\% of their energy near $|\eta| = 1.4$~\cite{ref:1748-0221/10/06/P06005}.
-The electron trajectory is bent in the $\phi$ coordinate by the solenoid's magnetic field, but the radiated photon trajectories are not, so they are spread widely in $\phi$.
-Meanwhile, photons have a substantial chance of converting to an $\Pe^{+}\Pe^{-}$ pair in the tracker. These particles similarly have their trajectories bent in $\phi$ (in opposite directions)
-by the magnetic field, and they also radiate photons. The PF algorithm incorporates a dedicated conversion finder~\cite{ref:1748-0221/10/08/P08010} to identify these cases.
-
-\begin{figure}[hbtp]
-  \begin{center}
-    \includegraphics[width=0.90\textwidth]{Figures/tracker_thickness.png}
-    \caption{
-    Thickness of material in front of ECAL, in multiples of $X_{0}$ (left) and $\lambda_{I}$ (right). From~\cite{ref:1748-0221/9/10/P10009}.
-    }
-    \label{fig:tracker_thickness}
-  \end{center}
-\end{figure}
-
-Bremsstrahlung photons tend to emerge nearly parallel to the parent electron's motion, and so have momentum vectors lying tangent to the electron's track.
-As part of the linking algorithm, tangent lines from the track are drawn at each of its intersections with the tracker layers. If one of these tangent lines,
-extrapolated forward, is compatible with the position of an ECAL cluster (or a conversion track pair identified by the conversion finder), the cluster (or track pair)
-is linked to the track as a possible bremsstrahlung photon.
-
-Any energy recorded in the preshower detector is added to that of the closest ECAL cluster (or else discarded if no associated cluster is found).
-
-A ``Swiss cross'' cut is applied in order to reject spikes:
-defining $E_{1}$ to be the energy of the seed crystal and $E_{4}$ to be the sum of the energies of the 4 neighboring crystals,
-a PF photon is only reconstructed if $E_{4}/E_{1} > 0.05$. Double spikes are suppressed by a similar cut based on the ratio of $E_{2}$, the sum of the energies
-of the seed crystal and its highest-energy neighbor, and $E_{6}$, the sum of the energies of the six neighboring crystals surrounding the first
-two. Further spike rejection is achieved by requiring the time of energy deposits above 1\unit{GeV} to be within 2\unit{ns} of the bunch crossing time.
-
-The response of calorimeter cells is periodically calibrated so as to faithfully reproduce the shower energy they contain.
-Due to the thresholds imposed in the clustering stage, some of this energy will tend to be left out of PF clusters, and therefore another
-layer of calibrations is applied to these clusters in order to restore this energy. Bremsstrahlung and photon conversions introduce multiple
-additional particles to the event, with multiple opportunities for energy to be lost as particles escape through small cracks in the detector, fall into dead
-regions, etc. Thus, a third layer of particle-specific calibrations is derived for photons and electrons. The energy most commonly reported in
-CMS analyses is this final calibrated value.
-
-Photons typically have their energies raised by up to a few percent by the last set of calibrations. However, after examining monophoton events with
-probable non-photon objects misreconstructed as photons, we have determined that these ``fake'' photons are often assigned very large energy shifts
-on the order of 100\%, badly skewing their energies upward. This is due to the fact that fake photons tend to have atypical photon shower shapes,
-and the calibrations, based on simulated ``real'' photon events, were derived as a function of shower shape\footnote{For this reason, calibrations
-derived in 2017 and 2018 are independent of shower shape~\cite{ref:egammaclusterregression_2018}.}.
-High-\ETgamma\ events have the least precisely measured cross sections, and are also the most sensitive probes of the BSM models examined in this thesis.
-In order to minimize contamination of this sensitive kinematic region, we have opted to use the uncalibrated ``raw''
-photon supercluster \ET\ as the reconstructed quantity in which to bin our data.
+% A linking algorithm assigns a link between two PF elements if they lie near each other in the $\eta$--$\phi$ plane and satisfy some quality criteria.
+% Linked elements are then chained together into lattices called blocks. A block corresponding to a simple isolated particle trajectory
+% may have a simple linear topology, but generic blocks can have treelike structures with various converging and diverging lines.
+% This reflects the tendency of particles to radiate or decay into other
+% particles, as well as the possibility that multiple particles may be collimated so closely that their separate contributions to PF elements cannot
+% reliably be distinguished by just the linking algorithm. Subsequent stages of the PF algorithm identify the particle(s) corresponding to each
+% block using a sophisticated decision tree. The most robustly-reconstructed particles are identified first and have their contributions to PF elements
+% subtracted out from those elements, leaving behind residual excesses which can then be identified as other particles.
 
 \section{Muons} \label{sec:reconstruction_muons}
-A track in the inner tracker qualifies as a tracker-muon track if its extrapolated trajectory matches at least one hit in the muon systems.
-If an inner track fits together with a standalone-muon track, hits in both tracks are fit to a common global-muon track.
-About 99\% of muons produced within the $\eta$ coverage of the muon systems are reconstructed as a global or tracker muon\footnote{They are often reconstructed
-as both. A separate global muon and tracker muon are merged into a single muon candidate if they share the same inner track.}.
-The additional hit data markedly improves the momentum resolution of muons with $\pT \gtrsim 200\unit{GeV}$~\cite{ref:1748-0221/12/10/P10003}.
+% A track in the inner tracker qualifies as a tracker-muon track if its extrapolated trajectory matches at least one hit in the muon systems.
+% If an inner track fits together with a standalone-muon track, hits in both tracks are fit to a common global-muon track.
+% About 99\% of muons produced within the $\eta$ coverage of the muon systems are reconstructed as a global or tracker muon\footnote{They are often reconstructed
+% as both. A separate global muon and tracker muon are merged into a single muon candidate if they share the same inner track.}.
+% The additional hit data significantly improves the momentum resolution of muons with $\pT \gtrsim 200\unit{GeV}$~\cite{ref:1748-0221/12/10/P10003}.
 
-A muon candidate is accepted as an isolated muon if the tracks and calorimeter deposits within $\Delta R < 0.3$ of the candidate muon have a total \pT\ no greater than 10\%
-of the candidate muon \pT. A muon that fails this criterion can still be accepted as a nonisolated muon if it passes a ``tight'' muon ID, as defined in~\cite{}.
-It can also be accepted if it has a high-quality global or inner track with a large number of hits, as long as any associated calorimeter clusters are compatible with the muon hypothesis.
+% A muon candidate is accepted as an isolated muon if the tracks and calorimeter deposits within $\Delta R < 0.3$ of the candidate muon have a total \pT\ no greater than 10\%
+% of the candidate muon \pT. A muon that fails this criterion can still be accepted as a nonisolated muon if it passes a high-purity ``tight'' muon ID, as defined in~\cite{ref:1748-0221/7/10/P10002}.
+% It can also be accepted if it has a high-quality global or inner track with a large number of hits, as long as any associated calorimeter clusters are compatible with the muon hypothesis.
+% Muons identified at this stage are the first particles identified by the PF algorithm, and their corresponding PF elements are masked in subsequent steps.
+% Muons can also be identified after charged hadron candidates have been assigned, if a track linked to a charged hadron has a momentum significantly greater than
+% the sum of the linked calorimeter cluster energies. Once a muon is accepted, its momentum is derived from the orientation and curvature of its track.
 
-Once a muon is accepted, its \pT\ is derived from its track. For high-\pT\ (${>}200\unit{GeV}$) candidates, 
+\section{Photons and electrons} \label{sec:reconstruction_egamma}
+% Just prior to the installation of ECAL into CMS, the energy resolution of single electrons in the barrel region was estimated
+% by firing an electron beam directly at the crystal array~\cite{ref:1748-0221/2/04/P04004}.
+% These measurements show that a $5{\times}5$ crystal array contains about 97\% of an electron shower's energy.
+% A fit of that data to the functional form\footnote{The symbol ${\oplus}$ denotes addition in quadrature.}
+% \begin{equation}
+% \frac{\sigma}{E} = \frac{S}{\sqrt{E}} \oplus \frac{N}{E} \oplus C
+% \end{equation}
+% gives $S = 0.028\unit{GeV^{1/2}}$, $N = 0.12\unit{GeV}$, and $C = 0.003$. This indicates that, using
+% only ECAL shower information, a isolated \Pe\ or unconverted \Pgamma\ with energy around 200\unit{GeV} can have its energy measured to within 0.4\%.
+
+% This straightforward picture of a single \Pe\ or \Pgamma\ hitting the ECAL is complicated by the significant depth of tracking material in front of it.
+% As shown in Fig.~\ref{fig:tracker_thickness}, a minimum of ${\approx}0.4$\,$X_{0}$ of material sits in front of EB, rising up to ${\approx}2$\,$X_{0}$ near $|\eta| = 1.4$.
+% On average, electrons will radiate away about 33\% of their energy through bremsstrahlung near $|\eta| = 0$, and about 86\% of their energy near $|\eta| = 1.4$~\cite{ref:1748-0221/10/06/P06005}.
+% The electron trajectory is bent in the $\phi$ coordinate by the solenoid's magnetic field, but the radiated photon trajectories are not, so they are spread widely in $\phi$.
+% Meanwhile, photons have a substantial chance of converting to an $\Pe^{+}\Pe^{-}$ pair in the tracker. These particles similarly have their trajectories bent in $\phi$ (in opposite directions)
+% by the magnetic field, and they also radiate photons. The PF algorithm incorporates a dedicated conversion finder~\cite{ref:1748-0221/10/08/P08010} to identify these cases.
+
+% \begin{figure}[hbtp]
+%   \begin{center}
+%     \includegraphics[width=0.90\textwidth]{Figures/tracker_thickness.png}
+%     \caption{
+%     Thickness of material in front of ECAL, in multiples of $X_{0}$ (left) and $\lambda_{I}$ (right). From~\cite{ref:1748-0221/9/10/P10009}.
+%     }
+%     \label{fig:tracker_thickness}
+%   \end{center}
+% \end{figure}
+
+% Bremsstrahlung photons tend to emerge nearly parallel to the parent electron's motion, and so have momentum vectors lying tangent to the electron's track.
+% As part of the linking algorithm, tangent lines from the track are drawn at each of its intersections with the tracker layers. If one of these tangent lines,
+% extrapolated forward, is compatible with the position of an ECAL cluster (or a conversion track pair identified by the conversion finder), the cluster (or track pair)
+% is linked to the track as a possible bremsstrahlung photon.
+
+% Any energy recorded in the preshower detector is added to that of the closest ECAL cluster (or else discarded if no associated cluster is found).
+
+% A ``Swiss cross'' cut is applied in order to reject spikes:
+% defining $E_{1}$ to be the energy of the seed crystal and $E_{4}$ to be the sum of the energies of the 4 neighboring crystals,
+% a PF photon is only reconstructed if $E_{4}/E_{1} > 0.05$. Double spikes are suppressed by a similar cut based on the ratio of $E_{2}$, the sum of the energies
+% of the seed crystal and its highest-energy neighbor, and $E_{6}$, the sum of the energies of the six neighboring crystals surrounding the first
+% two. Further spike rejection is achieved by requiring the time of energy deposits above 1\unit{GeV} to be within 2\unit{ns} of the bunch crossing time.
+
+% The response of calorimeter cells is periodically calibrated so as to faithfully reproduce the shower energy they contain.
+% Due to the thresholds imposed in the clustering stage, some of this energy will tend to be left out of PF clusters, and therefore another
+% layer of calibrations is applied to these clusters in order to restore this energy. Bremsstrahlung and photon conversions introduce multiple
+% additional particles to the event, with multiple opportunities for energy to be lost as particles escape through small cracks in the detector, fall into dead
+% regions, etc. Thus, a third layer of particle-specific calibrations is derived for photons and electrons. The energy most commonly reported in
+% CMS analyses is this final calibrated value.
+
+% Photons typically have their energies raised by up to a few percent by the last set of calibrations. However, after examining monophoton events with
+% probable non-photon objects misreconstructed as photons, we have determined that these ``fake'' photons are often assigned very large energy shifts
+% on the order of 100\%, badly skewing their energies upward. This is due to the fact that fake photons tend to have atypical photon shower shapes,
+% and the calibrations, based on simulated ``real'' photon events, were derived as a function of shower shape\footnote{For this reason, calibrations
+% derived in 2017 and 2018 are independent of shower shape~\cite{ref:egammaclusterregression_2018}.}.
+% High-\ETgamma\ events have the least precisely measured cross sections, and are also the most sensitive probes of the BSM models examined in this thesis.
+% In order to minimize contamination of this sensitive kinematic region, we have opted to use the uncalibrated ``raw''
+% photon supercluster \ET\ as the reconstructed quantity in which to bin our data.
 
 \section{Jets and missing transverse momentum} \label{sec:reconstruction_jetmet}
-As a consequence of parton showering and hadronization, a single radiated quark or gluon from a hard-scatter event does not reach the CMS detector
-as a single particle, but rather a collimated ``jet'' of hadrons (mostly pions) and their decay products (such as photons from neutral pion decays).
-The goal of a jet reconstruction algorithm is to identify which final-state particles arose in such a manner, group them according to their originating
-particle, and recover as accurately as possible the properties of the that particle.
+% As a consequence of parton showering and hadronization, a single radiated quark or gluon from a hard-scatter event does not reach the CMS detector
+% as a single particle, but rather a collimated ``jet'' of hadrons (mostly pions) and their decay products (such as photons from neutral pion decays).
+% The goal of a jet reconstruction algorithm is to identify which final-state particles arose in such a manner, group them according to their originating
+% particle, and recover as accurately as possible the properties of the that particle.
 
-The output of the PF algorithm is a set of basic particles of the five types described above. These serve as the input to the anti-kT algorithm
+% The output of the PF algorithm is a set of basic particles of the five types described above. These serve as the input to the anti-kT algorithm
 
-Discussion of jets is followed by a definition of \MET\ and Type-1 \MET\ corrections.
+% Discussion of jets is followed by a definition of \MET\ and Type-1 \MET\ corrections.
 
 \chapter{Event selection} \label{chap:event_selection}
 \section{The monophoton signature and background sources} \label{sec:event_selection_backgrounds}
