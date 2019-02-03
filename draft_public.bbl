@@ -1,5 +1,16 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
 
+\bibitem{ref:CahnGoldhaber}
+R.~Cahn and G.~Goldhaber, {\em The Experimental Foundations of Particle
+  Physics}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem{ref:PDG}
+M.~Tanabashi {\em et al.}, ``The Review of Particle Physics,'' {\em Phys. Rev.
+  D} {\bf 98} (2018) 030001,
+  \href{https://doi.org/10.1103/PhysRevD.98.030001}{\texttt
+  {doi:10.1103/PhysRevD.98.030001}}.
+
 \bibitem{ref:HalzenMartin}
 F.~Halzen and A.~Martin, {\em Quarks \& Leptons: An introductory course in
   modern particle physics}.
@@ -20,17 +31,6 @@ M.~Srednicki, {\em Quantum Field Theory}.
 \bibitem{ref:Schwartz}
 M.~Schwartz, {\em Quantum Field Theory and the Standard Model}.
 \newblock Cambridge University Press, 2013.
-
-\bibitem{ref:CahnGoldhaber}
-R.~Cahn and G.~Goldhaber, {\em The Experimental Foundations of Particle
-  Physics}.
-\newblock Cambridge University Press, 2009.
-
-\bibitem{ref:PDG}
-M.~Tanabashi {\em et al.}, ``The Review of Particle Physics,'' {\em Phys. Rev.
-  D} {\bf 98} (2018) 030001,
-  \href{https://doi.org/10.1103/PhysRevD.98.030001}{\texttt
-  {doi:10.1103/PhysRevD.98.030001}}.
 
 \bibitem{ref:JHEP04(2015)018}
 A.~Denner, S.~Dittmaier, M.~Hecht, and C.~Pasold, ``NLO QCD and electroweak
@@ -430,8 +430,8 @@ G.~Giudice, R.~Rattazzi, and J.~Wells, ``Quantum gravity and extra dimensions
 S.~Ask, ``Search For Extra Dimensions At LEP,'' {\em Proceedings of the 32nd
   International Conference on High-Energy Physics} (2005) 1289,
   \href{http://arXiv.org/abs/hep-ex/0410004}{{\texttt {arXiv:hep-ex/0410004}}},
-  \href{https://doi.org/10.1142/9789812702227_0266}{\texttt
-  {doi:10.1142/9789812702227_0266}}.
+  \href{https://doi.org/10.1142/9789812702227\_0266}{\texttt
+  {doi:10.1142/9789812702227\_0266}}.
 
 \bibitem{ref:PhysRevLett.101.181602}
 T.~Aaltonen {\em et al.}, ``Search for Large Extra Dimensions in Final States
@@ -544,6 +544,11 @@ V.~Lebedev and V.~Shiltsev, {\em Accelerator Physics at the Tevatron Collider}.
 \newblock \href{https://doi.org/10.1007/978-1-4939-0885-1}{\texttt
   {doi:10.1007/978-1-4939-0885-1}}.
 
+\bibitem{ref:PartPhysLHCEra}
+G.~Barr, R.~Devenish, R.~Walczak, and T.~Weidberg, {\em Particle Physics in the
+  LHC Era}.
+\newblock Oxford University Press, 2016.
+
 \bibitem{ref:PAC.2003.1289077}
 W.~Wittmer, A.~Verdier, and F.~Zimmermann, ``Correcting the LHC
   $\beta^\mathrm{*}$ at collision,'' {\em Proceedings of the 2003 Particle
@@ -563,6 +568,13 @@ S.~Orfanelli {\em et al.}, ``A novel Beam Halo Monitor for the CMS experiment
   at the LHC,'' {\em JINST} {\bf 10} (2015) P11011,
   \href{https://doi.org/10.1088/1748-0221/10/11/P11011}{\texttt
   {doi:10.1088/1748-0221/10/11/P11011}}.
+
+\bibitem{ref:lhcrun1harvest_ch3}
+T.~Schörner-Sadneius, ed., {\em The Large Hadron Collider: Harvest of Run 1},
+  ch.~The LHC Detectors.
+\newblock Springer International Publishing, 2015.
+\newblock \href{https://doi.org/10.1007/978-3-319-15001-7\_3}{\texttt
+  {doi:10.1007/978-3-319-15001-7\_3}}.
 
 \bibitem{ref:1748-0221/5/03/T03021}
 S.~Chatrchyan {\em et al.}, ``Precise Mapping of the Magnetic Field in the CMS
@@ -680,5 +692,102 @@ S.~Agostinelli {\em et al.}, ``GEANT4---a simulation toolkit,'' {\em Nucl.
   Inst. Meth. A} {\bf 506} (2003) 250,
   \href{https://doi.org/10.1016/S0168-9002(03)01368-8}{\texttt
   {doi:10.1016/S0168-9002(03)01368-8}}.
+
+\bibitem{ref:1748-0221/12/10/P10003}
+A.~Sirunyan {\em et al.}, ``Particle-flow reconstruction and global event
+  description with the CMS detector,'' {\em JINST} {\bf 12} (2017) P10003,
+  \href{http://arXiv.org/abs/1706.04965}{{\texttt {arXiv:1706.04965}}},
+  \href{https://doi.org/10.1088/1748-0221/12/10/P10003}{\texttt
+  {doi:10.1088/1748-0221/12/10/P10003}}.
+
+\bibitem{ref:cms_tdr_vol1}
+G.~Bayatian {\em et al.}, ``CMS Physics: Technical Design Report Volume 1:
+  Detector Performance and Software.'' CMS-TDR-8-1, 2006.
+
+\bibitem{ref:1748-0221/7/10/P10002}
+S.~Chatrchyan {\em et al.}, ``Performance of CMS muon reconstruction in pp
+  collision events at $\sqrt{s} = 7$ TeV,'' {\em JINST} {\bf 7} (2012) P10002,
+  \href{http://arXiv.org/abs/1206.4071}{{\texttt {arXiv:1206.4071}}},
+  \href{https://doi.org/10.1088/1748-0221/7/10/P10002}{\texttt
+  {doi:10.1088/1748-0221/7/10/P10002}}.
+
+\bibitem{ref:1748-0221/2/04/P04004}
+P.~Adzic {\em et al.}, ``Energy Resolution of the Barrel of the CMS
+  Electromagnetic Calorimeter,'' {\em JINST} {\bf 2} (2007) P04004,
+  \href{https://doi.org/10.1088/1748-0221/2/04/P04004}{\texttt
+  {doi:10.1088/1748-0221/2/04/P04004}}.
+
+\bibitem{ref:1748-0221/10/06/P06005}
+V.~Khachatryan {\em et al.}, ``Performance of electron reconstruction and
+  selection with the CMS detector in proton-proton collisions as $\sqrt{s} = 8$
+  TeV,'' {\em JINST} {\bf 10} (2015)
+  \href{http://arXiv.org/abs/1502.02701}{{\texttt {arXiv:1502.02701}}},
+  \href{https://doi.org/10.1088/1748-0221/10/06/P06005}{\texttt
+  {doi:10.1088/1748-0221/10/06/P06005}}.
+
+\bibitem{ref:1748-0221/10/08/P08010}
+V.~Khachatryan {\em et al.}, ``Performance of photon reconstruction and
+  identification with the CMS detector in proton-proton collisions at $\sqrt{s}
+  = 8$ TeV,'' {\em JINST} {\bf 10} (2015) P08010,
+  \href{http://arXiv.org/abs/1502.02702}{{\texttt {arXiv:1502.02702}}},
+  \href{https://doi.org/10.1088/1748-0221/10/08/P08010}{\texttt
+  {doi:10.1088/1748-0221/10/08/P08010}}.
+
+\bibitem{ref:1748-0221/9/10/P10009}
+S.~Chatrchyan {\em et al.}, ``Description and performance of track and
+  primary-vertex reconstruction with the CMS tracker,'' {\em JINST} {\bf 9}
+  (2014) P10009, \href{http://arXiv.org/abs/1405.6569}{{\texttt
+  {arXiv:1405.6569}}},
+  \href{https://doi.org/10.1088/1748-0221/9/10/P10009}{\texttt
+  {doi:10.1088/1748-0221/9/10/P10009}}.
+
+\bibitem{ref:rspa.1934.0140}
+H.~Bethe and W.~Heitler, ``On the Stopping of Fast Particles and on the
+  Creation of Positive Electrons,'' {\em Proc. R. Soc. London A} {\bf 146}
+  (1934) 83, \href{https://doi.org/10.1098/rspa.1934.0140}{\texttt
+  {doi:10.1098/rspa.1934.0140}}.
+
+\bibitem{ref:0954-3899/31/9/N01}
+W.~Adam, R.~Frühwirth, A.~Strandlie, and T.~Todorov, ``Reconstruction of
+  electrons with the Gaussian-sum filter in the CMS tracker at the LHC,'' {\em
+  J. Phys. G} {\bf 31} (2005) N9,
+  \href{https://doi.org/10.1088/0954-3899/31/9/N01}{\texttt
+  {doi:10.1088/0954-3899/31/9/N01}}.
+
+\bibitem{ref:egammaclusterregression_2018}
+{Jain, S. on behalf of the EGM group}, ``PF cluster regression in Egamma.''
+  Presentation at 20 November Particle flow study group meeting, 2018.
+
+\bibitem{ref:1126-6708/2008/04/063}
+M.~Cacciari, G.~Salam, and G.~Soyez, ``The anti-$k_{t}$ jet clustering
+  algorithm,'' {\em JHEP} {\bf 2008} (2008) 063,
+  \href{http://arXiv.org/abs/0802.1189}{{\texttt {arXiv:0802.1189}}},
+  \href{https://doi.org/10.1088/1126-6708/2008/04/063}{\texttt
+  {doi:10.1088/1126-6708/2008/04/063}}.
+
+\bibitem{ref:epjc/s10052-010-1314-6}
+G.~Salam, ``Towards Jetography,'' {\em Eur. Phys. J. C} {\bf 67} (2010) 637,
+  \href{http://arXiv.org/abs/0906.1833}{{\texttt {arXiv:0906.1833}}},
+  \href{https://doi.org/10.1140/epjc/s10052-010-1314-6}{\texttt
+  {doi:10.1140/epjc/s10052-010-1314-6}}.
+
+\bibitem{ref:CMS-PAS-JME-14-001}
+{The CMS Collaboration}, ``Pileup Removal Algorithms.'' CMS-PAS-JME-14-001,
+  2014.
+
+\bibitem{ref:1748-0221/12/02/P02014}
+V.~Khachatryan {\em et al.}, ``Jet energy scale and resolution in the CMS
+  experiment in pp collisions at 8 TeV,'' {\em JINST} {\bf 12} (2017) P02014,
+  \href{http://arXiv.org/abs/1607.03663}{{\texttt {arXiv:1607.03663}}},
+  \href{https://doi.org/10.1088/1748-0221/12/02/P02014}{\texttt
+  {doi:10.1088/1748-0221/12/02/P02014}}.
+
+\bibitem{ref:CMS-DP-2018-028}
+{The CMS Collaboration}, ``Jet energy scale and resolution performance with 13
+  TeV data collected by CMS in 2016.'' CMS-DP-2018-028, 2018.
+
+\bibitem{ref:CMS-PAS-EGM-07-001}
+{The CMS Collaboration}, ``Measuring Electron Efficiencies at CMS with Early
+  Data.'' CMS-PAS-EGM-07-001, 2008.
 
 \end{thebibliography}\endgroup
