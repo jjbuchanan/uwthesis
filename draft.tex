@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Preamble
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%% The uwthesis.sty file relies on the memoir class!
+%%%% You should be using the memoir class anyway; it makes life easier:
+%%%% http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/
+\documentclass[oneside, letterpaper, 12pt, oldfontcommands]{memoir}
+
+%%%% Import uwthesis.sty to get official formatting, then set your variables.
+\usepackage{uwthesis}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{graphicx}
+\usepackage{siunitx}
+\usepackage{fontspec}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\input{symbols.tex}
+
+\setsecnumdepth{subsection}
+
+\settitle{A Measurement of \zinvg\ Production and a Search for New Physics in
+Monophoton Events Using the CMS Detector at the LHC}
+\setauthor{James Joseph Buchanan}
+\setdepartment{Physics}
+\doctors % or \masters
+\setgraddate{201X}
+\setdefensedate{T.B.D.} % or whatever format you want
+
+%%%% Members of the Final Oral Committee (FOC)
+%%%% Give name, rank, and department
+%%%% 
+\setfoca{Sridhara Dasu}{Professor}{Physics} % <- Your advisor
+\setfocb{Wesley Smith}{Emeritus Professor}{Physics}
+\setfocc{Matthew Herndon}{Professor}{Physics}
+\setfocd{T.B.D.}{Professor}{Physics}
+\setfoce{T.B.D.}{Professor}{T.B.D.}
+% \setfocf{Grover Cleveland}{Professor}{Zoology}
+
+%%%% Your abstract, used for the UMI abstract and in your front matter
+\setabstract{%
+  This thesis presents several studies of monophoton final states
+  using 35.9\,\fbinv\ of 13\unit{TeV} proton--proton collision data collected by the CMS
+  experiment at the LHC in 2016. The standard model \zinvg\ cross section is measured
+  as a function of photon transverse momentum. No significant deviations from standard
+  model predictions are observed.
+  The results are also interpreted in the context of several new physics models.
+  Limits are placed on coupling strengths of anomalous triple gauge couplings between
+  photons and \PZ\ bosons,
+  new particle masses in simplified models of dark matter, the suppression scale of a dark matter
+  effective field theory model, and the graviton mass scale in a model of extra
+  spatial dimensions.
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%% Document
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+% Tell the memoir class to set up lowercase roman for pagination, etc.
+\frontmatter
+
+%%%% Uncomment this to create a UMI abstract page.
+%%%% If you are submitting electronically, however, this page is unnecessary.
+% \theumiabstract
+
+% The title page
+\thetitlepage
+\clearpage
+
+% The copyright page, if you want to pay the fee and register copyright.
+\thecopyrightpage
+\cleardoublepage
+
+% These above pages should not be counted, so we reset the counter to 1.
+\setcounter{page}{1}
+
+% An abstract may be required by your department.
+\section{Abstract}
+\uwabstract
+\cleardoublepage
+
+% Table of contents
+\maxtocdepth{subsection}
+\tableofcontents* % the * means that there isn't an entry for the TOC itself
+% \clearpage
+% \listoffigures  % if you have any figures
+% \clearpage
+% \listoftables   % if you have any tables
+
+% Tell the memoir class to set up normal pagination, etc. for the main doc
+\mainmatter
+
+\input{introduction}
+\input{experiment}
+\input{simulation}
+\input{reconstruction}
+\input{selection}
+\input{estimation}
+\input{results}
+\input{conclusions}
+
+\bibliographystyle{utcaps}
+\bibliography{references}
+\end{document}

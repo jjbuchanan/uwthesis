@@ -1,0 +1,809 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{100}
+
+\bibitem{ref:CahnGoldhaber}
+R.~Cahn and G.~Goldhaber, {\em The Experimental Foundations of Particle
+  Physics}.
+\newblock Cambridge University Press, 2009.
+
+\bibitem{ref:PDG}
+M.~Tanabashi {\em et al.}, ``The Review of Particle Physics,'' {\em Phys. Rev.
+  D} {\bf 98} (2018) 030001,
+  \href{https://doi.org/10.1103/PhysRevD.98.030001}{\texttt
+  {doi:10.1103/PhysRevD.98.030001}}.
+
+\bibitem{ref:HalzenMartin}
+F.~Halzen and A.~Martin, {\em Quarks \& Leptons: An introductory course in
+  modern particle physics}.
+\newblock John Wiley \& Sons, 1984.
+
+\bibitem{ref:BargerPhillips}
+V.~Barger and R.~Phillips, {\em Collider Physics}.
+\newblock Westview Press, 1996.
+
+\bibitem{ref:PeskinSchroeder}
+M.~Peskin and D.~Schroeder, {\em An Introduction to Quantum Field Theory}.
+\newblock Westview Press, 1995.
+
+\bibitem{ref:Srednicki}
+M.~Srednicki, {\em Quantum Field Theory}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem{ref:Schwartz}
+M.~Schwartz, {\em Quantum Field Theory and the Standard Model}.
+\newblock Cambridge University Press, 2013.
+
+\bibitem{ref:JHEP04(2015)018}
+A.~Denner, S.~Dittmaier, M.~Hecht, and C.~Pasold, ``NLO QCD and electroweak
+  corrections to $W + \gamma$ production with leptonic $W$-boson decays,'' {\em
+  JHEP} {\bf 2015} (2015) \href{http://arXiv.org/abs/1412.7421}{{\texttt
+  {arXiv:1412.7421}}}, \href{https://doi.org/10.1007/JHEP04(2015)018}{\texttt
+  {doi:10.1007/JHEP04(2015)018}}.
+
+\bibitem{ref:JHEP02(2016)057}
+A.~Denner, S.~Dittmaier, M.~Hecht, and C.~Pasold, ``NLO QCD and electroweak
+  corrections to $Z + \gamma$ production with leptonic $Z$-boson decays,'' {\em
+  JHEP} {\bf 2016} (2016) \href{http://arXiv.org/abs/1510.08742}{{\texttt
+  {arXiv:1510.08742}}}, \href{https://doi.org/10.1007/JHEP02(2016)187}{\texttt
+  {doi:10.1007/JHEP02(2016)187}}.
+
+\bibitem{ref:j.physletb.2014.02.037}
+M.~Grazzini, S.~Kallweit, D.~Rathlev, and A.~Torre, ``$Z\gamma$ production at
+  hadron colliders in NNLO QCD,'' {\em Phys. Lett. B} {\bf 731} (2014) 204,
+  \href{http://arXiv.org/abs/1309.7000}{{\texttt {arXiv:1309.7000}}},
+  \href{https://doi.org/10.1016/j.physletb.2014.02.037}{\texttt
+  {doi:10.1016/j.physletb.2014.02.037}}.
+
+\bibitem{ref:JHEP07(2015)085}
+M.~Grazzini, S.~Kallweit, and D.~Rathlev, ``$W\gamma$ and $Z\gamma$ production
+  at the LHC in NNLO QCD,'' {\em JHEP} {\bf 2015} (2015) 85,
+  \href{http://arXiv.org/abs/1504.01330}{{\texttt {arXiv:1504.01330}}},
+  \href{https://doi.org/10.1007/JHEP07(2015)085}{\texttt
+  {doi:10.1007/JHEP07(2015)085}}.
+
+\bibitem{ref:j.physletb.2004.07.002}
+{L3 Collaboration}, ``Study of the $e^{\mathrm{+}}e^{\mathrm{-}} \to
+  \PZ\Pgamma$ process at LEP and limits on triple neutral-gauge-boson
+  couplings,'' {\em Phys. Lett. B} {\bf 597} (2004) 119,
+  \href{https://doi.org/10.1016/j.physletb.2004.07.002}{\texttt
+  {doi:10.1016/j.physletb.2004.07.002}}.
+
+\bibitem{ref:PhysRevLett.102.201802}
+V.~Abazov {\em et al.}, ``Measurement of the $Z\gamma \to \nu\bar{\nu}\gamma$
+  Production Cross Section and Limits on Anomalous $ZZ\gamma$ and
+  $Z\gamma\gamma$ Couplings in $p\bar{p}$ Collisions at $\sqrt{s} = 1.96$
+  TeV,'' {\em Phys. Rev. Lett.} {\bf 102} (2009) 201802,
+  \href{https://doi.org/10.1103/PhysRevLett.102.201802}{\texttt
+  {doi:10.1103/PhysRevLett.102.201802}}.
+
+\bibitem{ref:j.physletb.2016.06.080}
+V.~Khachatryan {\em et al.}, ``Measurement of the $Z\gamma \to
+  \nu\bar{\nu}\gamma$ production cross section in $pp$ collisions at $\sqrt{s}
+  = 8$ TeV and limits on anomalous $ZZ\gamma$ and $Z\gamma\gamma$ trilinear
+  gauge boson couplings,'' {\em Phys. Lett. B} {\bf 760} (2016) 448,
+  \href{http://arXiv.org/abs/1602.07152}{{\texttt {arXiv:1602.07152}}},
+  \href{https://doi.org/10.1016/j.physletb.2016.06.080}{\texttt
+  {doi:10.1016/j.physletb.2016.06.080}}.
+
+\bibitem{ref:epjc/s10052-018-5771-7}
+M.~Grazzini, S.~Kallweit, and M.~Wiesemann, ``Fully differential NNLO
+  computations with MATRIX,'' {\em EPJ C} {\bf 78} (2018) 537,
+  \href{http://arXiv.org/abs/1711.06631}{{\texttt {arXiv:1711.06631}}},
+  \href{https://doi.org/10.1140/epjc/s10052-018-5771-7}{\texttt
+  {doi:10.1140/epjc/s10052-018-5771-7}}.
+
+\bibitem{ref:CERN-EP-2018-220}
+M.~Aaboud {\em et al.}, ``Measurement of the $Z\gamma \to \nu\bar{\nu}\gamma$
+  production cross section in $pp$ Collisions at $\sqrt{s} = 13$ TeV with the
+  ATLAS detector and limits on anomalous triple gauge-boson couplings,''
+  \href{http://arXiv.org/abs/1810.04995}{{\texttt {arXiv:1810.04995}}}.
+
+\bibitem{ref:1126-6708/2009/02/007}
+T.~Gleisberg {\em et al.}, ``Event generation with SHERPA 1.1,'' {\em JHEP}
+  {\bf 2009} (2009) 007, \href{http://arXiv.org/abs/0811.4622}{{\texttt
+  {arXiv:0811.4622}}},
+  \href{https://doi.org/10.1088/1126-6708/2009/02/007}{\texttt
+  {doi:10.1088/1126-6708/2009/02/007}}.
+
+\bibitem{ref:JHEP07(2011)018}
+J.~Campbell, R.~Ellis, and C.~Williams, ``Vector boson pair production at the
+  LHC,'' {\em JHEP} {\bf 2011} (2011) 18,
+  \href{http://arXiv.org/abs/1105.0020}{{\texttt {arXiv:1105.0020}}},
+  \href{https://doi.org/10.1007/JHEP07(2011)018}{\texttt
+  {doi:10.1007/JHEP07(2011)018}}.
+
+\bibitem{ref:Nucl.Phys.0550-3213_87_90685-7}
+K.~Hagiwara, R.~Peccei, D.~Zeppenfeld, and K.~Hikasa, ``Probing the weak boson
+  sector in $e^{\mathrm{+}}e^{\mathrm{-}} \to W^{\mathrm{+}}W^{\mathrm{-}}$,''
+  {\em Nucl. Phys.} {\bf 282} (1987) 253,
+  \href{https://doi.org/10.1016/0550-3213(87)90685-7}{\texttt
+  {doi:10.1016/0550-3213(87)90685-7}}.
+
+\bibitem{ref:PhysRevD.47.4889}
+U.~Baur and E.~Berger, ``Probing the weak boson sector in \PZ\Pgamma\
+  production at hadron colliders,'' {\em Phys. Rev. D} {\bf 47} (1993) 4889,
+  \href{https://doi.org/10.1103/PhysRevD.47.4889}{\texttt
+  {doi:10.1103/PhysRevD.47.4889}}.
+
+\bibitem{ref:PhysRevD.62.113011}
+U.~Baur and D.~Rainwater, ``Probing neutral gauge boson self-interactions in
+  \PZ\PZ\ production at hadron colliders,'' {\em Phys. Rev. D} {\bf 62} (2000)
+  113011, \href{http://arXiv.org/abs/hep-ph/0008063}{{\texttt
+  {arXiv:hep-ph/0008063}}},
+  \href{https://doi.org/10.1103/PhysRevD.62.113011}{\texttt
+  {doi:10.1103/PhysRevD.62.113011}}.
+
+\bibitem{ref:PhysRevD.89.092005}
+S.~Chatrchyan {\em et al.}, ``Measurement of the $W\gamma$ and $Z\gamma$
+  inclusive cross sections in $pp$ collisions at $\sqrt{s} = 7$ TeV and limits
+  on anomalous triple gauge boson couplings,'' {\em Phys. Rev. D} {\bf 89}
+  (2014) 092005, \href{http://arXiv.org/abs/1308.6832}{{\texttt
+  {arXiv:1308.6832}}},
+  \href{https://doi.org/10.1103/PhysRevD.89.092005}{\texttt
+  {doi:10.1103/PhysRevD.89.092005}}.
+
+\bibitem{ref:JHEP10(2013)164}
+S.~Chatrchyan {\em et al.}, ``Measurement of the production cross section for
+  $Z\gamma \to \nu\bar{\nu}\gamma$ in $pp$ collisions at $\sqrt{s} = 7$ TeV and
+  limits on $ZZ\gamma$ and $Z\gamma\gamma$ triple gauge boson couplings,'' {\em
+  JHEP} {\bf 10} (2013) 164, \href{http://arXiv.org/abs/1309.1117}{{\texttt
+  {arXiv:1309.1117}}}, \href{https://doi.org/10.1007/JHEP10(2013)164}{\texttt
+  {doi:10.1007/JHEP10(2013)164}}.
+
+\bibitem{ref:RevModPhys.89.035008}
+D.~Green, P.~Meade, and M.~Pleier, ``Multiboson interactions at the LHC,'' {\em
+  Rev. Mod. Phys.} {\bf 89} (2017) 035008,
+  \href{http://arXiv.org/abs/1610.07572}{{\texttt {arXiv:1610.07572}}},
+  \href{https://doi.org/10.1103/RevModPhys.89.035008}{\texttt
+  {doi:10.1103/RevModPhys.89.035008}}.
+
+\bibitem{ref:j.physrep.2013.07.004}
+{The ALEPH Collaboration}, {The DELPHI collaboration}, {The L3 Collaboration},
+  {The OPAL Collaboration}, and {The LEP Electroweak Working Group},
+  ``Electroweak measurements in electron-positron collisions at W-boson-pair
+  energies at LEP,'' {\em Phys. Rep.} {\bf 532} (2013) 119,
+  \href{http://arXiv.org/abs/1302.3415}{{\texttt {arXiv:1302.3415}}},
+  \href{https://doi.org/10.1016/j.physrep.2013.07.004}{\texttt
+  {doi:10.1016/j.physrep.2013.07.004}}.
+
+\bibitem{ref:PhysRevLett.107.051802}
+T.~Aaltonen {\em et al.}, ``Limits on Anomalous Trilinear Gauge Couplings in
+  $Z\gamma$ Events from $p\bar{p}$ Collisions at $\sqrt{s} = 1.96$ TeV,'' {\em
+  Phys. Rev. Lett.} {\bf 107} (2011) 051802,
+  \href{http://arXiv.org/abs/1103.2990}{{\texttt {arXiv:1103.2990}}},
+  \href{https://doi.org/10.1103/PhysRevLett.107.051802}{\texttt
+  {doi:10.1103/PhysRevLett.107.051802}}.
+
+\bibitem{ref:PhysRevD.85.052001}
+V.~Abazov {\em et al.}, ``$Z\gamma$ production and limits on anomalous
+  $ZZ\gamma$ and $Z\gamma\gamma$ couplings in $p\bar{p}$ collisions at
+  $\sqrt{s} = 1.96$ TeV,'' {\em Phys. Rev. D} {\bf 85} (2012) 052001,
+  \href{http://arXiv.org/abs/1111.3684}{{\texttt {arXiv:1111.3684}}},
+  \href{https://doi.org/10.1103/PhysRevD.85.052001}{\texttt
+  {doi:10.1103/PhysRevD.85.052001}}.
+
+\bibitem{ref:lrr-2003-1}
+N.~Ashby, ``Relativity in the Global Positioning System,'' {\em Living Rev.
+  Relativ.} {\bf 6} (2003) 1,
+  \href{https://doi.org/10.12942/lrr-2003-1}{\texttt
+  {doi:10.12942/lrr-2003-1}}.
+
+\bibitem{ref:planck2018_cosparams}
+N.~Aghanim {\em et al.}, ``Planck 2018 results. VI. Cosmological parameters,''
+  \href{http://arXiv.org/abs/1807.06209}{{\texttt {arXiv:1807.06209}}}.
+
+\bibitem{ref:WaldGR}
+R.~Wald, {\em General Relativity}.
+\newblock University of Chicago Press, 1984.
+
+\bibitem{ref:PhysRevLett.116.061102}
+B.~Abbott {\em et al.}, ``Observation of Gravitational Waves from a Binary
+  Black Hole Merger,'' {\em Phys. Rev. Lett.} {\bf 116} (2016) 061102,
+  \href{http://arXiv.org/abs/1602.03837}{{\texttt {arXiv:1602.03837}}},
+  \href{https://doi.org/10.1103/PhysRevLett.116.061102}{\texttt
+  {doi:10.1103/PhysRevLett.116.061102}}.
+
+\bibitem{ref:PhysRevLett.116.221101}
+B.~Abbott {\em et al.}, ``Tests of general relativity with GW150914,'' {\em
+  Phys. Rev. Lett.} {\bf 116} (2016) 221101,
+  \href{http://arXiv.org/abs/1602.03841}{{\texttt {arXiv:1602.03841}}},
+  \href{https://doi.org/10.1103/PhysRevLett.116.221101}{\texttt
+  {doi:10.1103/PhysRevLett.116.221101}}.
+
+\bibitem{ref:nature25767}
+P.~van Dokkum {\em et al.}, ``A galaxy lacking dark matter,'' {\em Nature} {\bf
+  555} (2018) 629, \href{http://arXiv.org/abs/1803.10237}{{\texttt
+  {arXiv:1803.10237}}}, \href{https://doi.org/10.1038/nature25767}{\texttt
+  {doi:10.1038/nature25767}}.
+
+\bibitem{ref:weaklensing}
+M.~Bartelmann and M.~Maturi, ``Weak gravitational lensing,''
+  \href{http://arXiv.org/abs/1612.06535}{{\texttt {arXiv:1612.06535}}}.
+
+\bibitem{ref:mnras/stw3385}
+P.~Natarajan {\em et al.}, ``Mapping substructure in the HST Frontier Fields
+  cluster lenses and in cosmological simulations,'' {\em Monthly Notices of the
+  Royal Astronomical Society} {\bf 468} (2017) 1962,
+  \href{http://arXiv.org/abs/1702.04348}{{\texttt {arXiv:1702.04348}}},
+  \href{https://doi.org/10.1093/mnras/stw3385}{\texttt
+  {doi:10.1093/mnras/stw3385}}.
+
+\bibitem{ref:annurev-astro-081710-102514}
+S.~Allen, A.~Evrard, and A.~Mantz, ``Cosmological Parameters from Observations
+  of Galaxy Clusters,'' {\em ARAA} {\bf 49} (2011) 409,
+  \href{http://arXiv.org/abs/1103.4829}{{\texttt {arXiv:1103.4829}}},
+  \href{https://doi.org/10.1146/annurev-astro-081710-102514}{\texttt
+  {doi:10.1146/annurev-astro-081710-102514}}.
+
+\bibitem{ref:nature03597}
+V.~Springel {\em et al.}, ``Simulating the joint evolution of quasars, galaxies
+  and their large-scale distribution,'' {\em Nature} {\bf 435} (2005) 629,
+  \href{http://arXiv.org/abs/astro-ph/0504097}{{\texttt
+  {arXiv:astro-ph/0504097}}},
+  \href{https://doi.org/10.1038/nature03597}{\texttt
+  {doi:10.1038/nature03597}}.
+
+\bibitem{ref:508162}
+D.~Clowe {\em et al.}, ``A direct emprical proof of the existence of dark
+  matter,'' {\em Astrophys. J.} {\bf 648} (2006) L109,
+  \href{http://arXiv.org/abs/astro-ph/0608407}{{\texttt
+  {arXiv:astro-ph/0608407}}}, \href{https://doi.org/10.1086/508162}{\texttt
+  {doi:10.1086/508162}}.
+
+\bibitem{ref:s41550-017-0059}
+J.~de~Swart, G.~Bertone, and J.~van Dongen, ``How dark matter came to matter,''
+  {\em Nature Astr.} {\bf 1} (2017) 0059,
+  \href{http://arXiv.org/abs/1703.00013}{{\texttt {arXiv:1703.00013}}},
+  \href{https://doi.org/10.1038/s41550-017-0059}{\texttt
+  {doi:10.1038/s41550-017-0059}}.
+
+\bibitem{ref:j.physrep.2004.08.031}
+G.~Bertone, D.~Hooper, and J.~Silk, ``Particle dark matter: evidence,
+  candidates and constraints,'' {\em Phys. Rep.} {\bf 405} (2005) 279,
+  \href{http://arXiv.org/abs/hep-ph/0404175}{{\texttt {arXiv:hep-ph/0404175}}},
+  \href{https://doi.org/10.1016/j.physrep.2004.08.031}{\texttt
+  {doi:10.1016/j.physrep.2004.08.031}}.
+
+\bibitem{ref:annurev.nucl.54.070103.181244}
+R.~Gaitskell, ``Direct Detection of Dark Matter,'' {\em Annu. Rev. Nucl. Part.
+  Sci.} {\bf 54} (2004) 315,
+  \href{https://doi.org/10.1146/annurev.nucl.54.070103.181244}{\texttt
+  {doi:10.1146/annurev.nucl.54.070103.181244}}.
+
+\bibitem{ref:S1062798717000783}
+L.~Baudis, ``The Search for Dark Matter,'' {\em Eur. Rev.} {\bf 26} (2018) 70,
+  \href{http://arXiv.org/abs/1801.08128}{{\texttt {arXiv:1801.08128}}},
+  \href{https://doi.org/10.1017/S1062798717000783}{\texttt
+  {doi:10.1017/S1062798717000783}}.
+
+\bibitem{ref:PhysRevD.89.056011}
+A.~Nelson {\em et al.}, ``Confronting the Fermi Line with LHC data: an
+  Effective Theory of Dark Matter Interaction with Photons,'' {\em Phys. Rev.
+  D} {\bf 89} (2014) 056011, \href{http://arXiv.org/abs/1307.5064}{{\texttt
+  {arXiv:1307.5064}}},
+  \href{https://doi.org/10.1103/PhysRevD.89.056011}{\texttt
+  {doi:10.1103/PhysRevD.89.056011}}.
+
+\bibitem{ref:j.aop.2013.04.016}
+C.~Degrande {\em et al.}, ``Effective field theory: A modern approach to
+  anomalous couplings,'' {\em Annals of Phys.} {\bf 335} (2013) 21,
+  \href{http://arXiv.org/abs/1205.4231}{{\texttt {arXiv:1205.4231}}},
+  \href{https://doi.org/10.1016/j.aop.2013.04.016}{\texttt
+  {doi:10.1016/j.aop.2013.04.016}}.
+
+\bibitem{ref:1507.00966}
+D.~Abercrombie {\em et al.}, ``Dark Matter Benchmark Models for Early LHC Run-2
+  Searches: Report of the ATLAS/CMS Dark Matter Forum,''
+  \href{http://arXiv.org/abs/1507.00966}{{\texttt {arXiv:1507.00966}}}.
+
+\bibitem{ref:1603.04156}
+G.~Busoni {\em et al.}, ``Recommendations on presenting LHC searches for
+  missing transverse energy signals using simplified $s$-channel models of dark
+  matter,'' \href{http://arXiv.org/abs/1603.04156}{{\texttt
+  {arXiv:1603.04156}}}.
+
+\bibitem{ref:j.physletb.2016.01.057}
+V.~Khachatryan {\em et al.}, ``Search for new phenomena in monophoton final
+  states in proton-proton collisions at $\sqrt{s} = 8$ TeV,'' {\em Phys. Lett.
+  B} {\bf 755} (2016) 102, \href{http://arXiv.org/abs/1410.8812}{{\texttt
+  {arXiv:1410.8812}}},
+  \href{https://doi.org/10.1016/j.physletb.2016.01.057}{\texttt
+  {doi:10.1016/j.physletb.2016.01.057}}.
+
+\bibitem{ref:PhysRevD.91.012008}
+G.~Aad {\em et al.}, ``Search for new phenomena in events with a photon and
+  missing transverse momentum in $pp$ collisions at $\sqrt{s} = 8$ TeV with the
+  ATLAS detector,'' {\em Phys. Rev. D} {\bf 91} (2015) 012008,
+  \href{http://arXiv.org/abs/1411.1559}{{\texttt {arXiv:1411.1559}}},
+  \href{https://doi.org/10.1103/PhysRevD.91.012008}{\texttt
+  {doi:10.1103/PhysRevD.91.012008}}.
+
+\bibitem{ref:dmsummaryplots_ichep2018}
+{Albert, A. on behalf of the CMS Collaboration}, ``Searches for dark matter
+  with CMS.'' ICHEP 2018, 2018.
+
+\bibitem{ref:epjc/s10052-018-5740-1}
+A.~Sirunyan {\em et al.}, ``Search for new physics in events with a
+  leptonically decaying $Z$ boson and a large transverse momentum imbalance in
+  proton-proton collisions at $\sqrt{s} = 13$ TeV,'' {\em Eur. Phys. J. C} {\bf
+  78} (2018) 291, \href{http://arXiv.org/abs/1711.00431}{{\texttt
+  {arXiv:1711.00431}}},
+  \href{https://doi.org/10.1140/epjc/s10052-018-5740-1}{\texttt
+  {doi:10.1140/epjc/s10052-018-5740-1}}.
+
+\bibitem{ref:PhysRevD.97.092005}
+A.~Sirunyan {\em et al.}, ``Search for new physics in final states with an
+  energetic jet or a hadronically decaying $W$ or $Z$ boson and transverse
+  momentum imbalance at $\sqrt{s} = 13$ TeV,'' {\em Phys. Rev. D} {\bf 97}
+  (2018) 092005, \href{http://arXiv.org/abs/1712.02345}{{\texttt
+  {arXiv:1712.02345}}},
+  \href{https://doi.org/10.1103/PhysRevD.97.092005}{\texttt
+  {doi:10.1103/PhysRevD.97.092005}}.
+
+\bibitem{ref:1810.00196}
+A.~Sirunyan {\em et al.}, ``Search for new physics in final states with a
+  single photon and missing transverse momentum in proton-proton collisions at
+  $\sqrt{s} = 13$ TeV,'' \href{http://arXiv.org/abs/1810.00196}{{\texttt
+  {arXiv:1810.00196}}}.
+
+\bibitem{ref:JHEP10(2017)073}
+A.~Sirunyan {\em et al.}, ``Search for new physics in the monophoton final
+  state in proton-proton collisions at $\sqrt{s} = 13$ TeV,'' {\em JHEP} {\bf
+  2017} (2017) 73, \href{http://arXiv.org/abs/1706.03794}{{\texttt
+  {arXiv:1706.03794}}}, \href{https://doi.org/10.1007/JHEP10(2017)073}{\texttt
+  {doi:10.1007/JHEP10(2017)073}}.
+
+\bibitem{ref:epjc/s10052-017-4965-8}
+M.~Aaboud {\em et al.}, ``Search for dark matter at $\sqrt{s} = 13$ TeV in
+  final states containing an energetic photon and large missing transverse
+  momentum with the ATLAS detector,'' {\em Eur. Phys. J. C} {\bf 77} (2017)
+  393, \href{http://arXiv.org/abs/1704.03848}{{\texttt {arXiv:1704.03848}}},
+  \href{https://doi.org/10.1140/epjc/s10052-017-4965-8}{\texttt
+  {doi:10.1140/epjc/s10052-017-4965-8}}.
+
+\bibitem{ref:PICO60-ATLAS}
+C.~Amole {\em et al.}, ``Dark Matter Search Results from the PICO-60
+  $\mathrm{C}_{3}\mathrm{F}_{8}$ Bubble Chamber,'' {\em Phys. Rev. Lett.} {\bf
+  118} (2017) 251301, \href{http://arXiv.org/abs/1702.07666}{{\texttt
+  {arXiv:1702.07666}}},
+  \href{https://doi.org/10.1103/PhysRevLett.118.251301}{\texttt
+  {doi:10.1103/PhysRevLett.118.251301}}.
+
+\bibitem{ref:LUX-SD-ATLAS}
+D.~Akerib {\em et al.}, ``Results on the Spin-Dependent Scattering of Weakly
+  Interacting Massive Particles on Nucleons from the Run 3 Data of the LUX
+  Experiment,'' {\em Phys. Rev. Lett.} {\bf 116} (2016) 161302,
+  \href{http://arXiv.org/abs/1602.03489}{{\texttt {arXiv:1602.03489}}},
+  \href{https://doi.org/10.1103/PhysRevLett.116.161302}{\texttt
+  {doi:10.1103/PhysRevLett.116.161302}}.
+
+\bibitem{ref:PANDAX-II-ATLAS}
+A.~Tan {\em et al.}, ``Dark Matter Results from First 98.7 Days of Data from
+  the PandaX-II Experiment,'' {\em Phys. Rev. Lett.} {\bf 117} (2016) 121303,
+  \href{http://arXiv.org/abs/1607.07400}{{\texttt {arXiv:1607.07400}}},
+  \href{https://doi.org/10.1103/PhysRevLett.117.121303}{\texttt
+  {doi:10.1103/PhysRevLett.117.121303}}.
+
+\bibitem{ref:LUX-SI-ATLAS}
+D.~Akerib {\em et al.}, ``Results from a search for dark matter in the complete
+  LUX exposure,'' {\em Phys. Rev. Lett.} {\bf 118} (2017) 021303,
+  \href{http://arXiv.org/abs/1608.07648}{{\texttt {arXiv:1608.07648}}},
+  \href{https://doi.org/10.1103/PhysRevLett.118.021303}{\texttt
+  {doi:10.1103/PhysRevLett.118.021303}}.
+
+\bibitem{ref:CRESST-II-ATLAS}
+G.~Angloher {\em et al.}, ``Results on light dark matter particles with a
+  low-threshold CRESST-II detector,'' {\em Eur. Phys. J. C} {\bf 76} (2016) 25,
+  \href{http://arXiv.org/abs/1509.01515}{{\texttt {arXiv:1509.01515}}},
+  \href{https://doi.org/10.1140/epjc/s10052-016-3877-3}{\texttt
+  {doi:10.1140/epjc/s10052-016-3877-3}}.
+
+\bibitem{ref:SuperCDMS-ATLAS}
+R.~Agnese {\em et al.}, ``New Results from the Search for Low-Mass Weakly
+  Interacting Massive Particles with the CDMS Low Ionization Threshold
+  Experiment,'' {\em Phys. Rev. Lett.} {\bf 116} (2016) 071301,
+  \href{http://arXiv.org/abs/1509.02448}{{\texttt {arXiv:1509.02448}}},
+  \href{https://doi.org/10.1103/PhysRevLett.116.071301}{\texttt
+  {doi:10.1103/PhysRevLett.116.071301}}.
+
+\bibitem{ref:S0370-2693(98)00466-3}
+N.~Arkani-Hamed, S.~Dimopoulos, and G.~Dvali, ``The hierarchy problem and new
+  dimensions at a millimeter,'' {\em Phys. Lett. B} {\bf 429} (1998) 263,
+  \href{http://arXiv.org/abs/hep-ph/9803315}{{\texttt {arXiv:hep-ph/9803315}}},
+  \href{https://doi.org/10.1016/S0370-2693(98)00466-3}{\texttt
+  {doi:10.1016/S0370-2693(98)00466-3}}.
+
+\bibitem{ref:0264-9381/32/3/033001}
+J.~Murata and S.~Tanaka, ``A review of short-range gravity experiments in the
+  LHC era,'' {\em Class. Quant. Grav.} {\bf 32} (2015) 033001,
+  \href{http://arXiv.org/abs/1408.3588}{{\texttt {arXiv:1408.3588}}},
+  \href{https://doi.org/10.1088/0264-9381/32/3/033001}{\texttt
+  {doi:10.1088/0264-9381/32/3/033001}}.
+
+\bibitem{ref:S0550-3213(99)00044-9}
+G.~Giudice, R.~Rattazzi, and J.~Wells, ``Quantum gravity and extra dimensions
+  at high-energy colliders,'' {\em Nucl. Phys. B} {\bf 544} (1999) 3,
+  \href{http://arXiv.org/abs/hep-ph/9811291}{{\texttt {arXiv:hep-ph/9811291}}},
+  \href{https://doi.org/10.1016/S0550-3213(99)00044-9}{\texttt
+  {doi:10.1016/S0550-3213(99)00044-9}}.
+
+\bibitem{ref:9789812702227_0266}
+S.~Ask, ``Search For Extra Dimensions At LEP,'' {\em Proceedings of the 32nd
+  International Conference on High-Energy Physics} (2005) 1289,
+  \href{http://arXiv.org/abs/hep-ex/0410004}{{\texttt {arXiv:hep-ex/0410004}}},
+  \href{https://doi.org/10.1142/9789812702227\_0266}{\texttt
+  {doi:10.1142/9789812702227\_0266}}.
+
+\bibitem{ref:PhysRevLett.101.181602}
+T.~Aaltonen {\em et al.}, ``Search for Large Extra Dimensions in Final States
+  Containing One Photon or Jet and Large Missing Transverse Energy Produced in
+  $p\bar{p}$ Collisions at $\sqrt{s} = 1.96$ TeV,'' {\em Phys. Rev. Lett.} {\bf
+  101} (2008) 181602, \href{http://arXiv.org/abs/0807.3132}{{\texttt
+  {arXiv:0807.3132}}},
+  \href{https://doi.org/10.1103/PhysRevLett.101.181602}{\texttt
+  {doi:10.1103/PhysRevLett.101.181602}}.
+
+\bibitem{ref:j.physletb.2011.10.006}
+G.~Aad {\em et al.}, ``Search for new phenomena with the monojet and missing
+  transverse momentum signature using the ATLAS detector in $\sqrt{s} = 7$ TeV
+  proton-proton collisions,'' {\em Phys. Lett. B} {\bf 705} (2011) 294,
+  \href{http://arXiv.org/abs/1106.5327}{{\texttt {arXiv:1106.5327}}},
+  \href{https://doi.org/10.1016/j.physletb.2011.10.006}{\texttt
+  {doi:10.1016/j.physletb.2011.10.006}}.
+
+\bibitem{ref:PhysRevLett.110.011802}
+G.~Aad {\em et al.}, ``Search for dark matter candidates and large extra
+  dimensions in events with a photon and missing transverse momentum in $pp$
+  collision data at $\sqrt{s} = 7$ TeV with the ATLAS detector,'' {\em Phys.
+  Rev. Lett.} {\bf 110} (2013) 011802,
+  \href{http://arXiv.org/abs/1209.4625}{{\texttt {arXiv:1209.4625}}},
+  \href{https://doi.org/10.1103/PhysRevLett.110.011802}{\texttt
+  {doi:10.1103/PhysRevLett.110.011802}}.
+
+\bibitem{ref:PhysRevD.32.3084}
+J.~Hoskins {\em et al.}, ``Experimental tests of the gravitational
+  inverse-square law for mass separations from 2 to 105 cm,'' {\em Phys. Rev.
+  D} {\bf 32} (1985) 3084,
+  \href{https://doi.org/10.1103/PhysRevD.32.3084}{\texttt
+  {doi:10.1103/PhysRevD.32.3084}}.
+
+\bibitem{ref:PhysRevLett.44.1645}
+R.~Spero {\em et al.}, ``Test of the Gravitational Inverse-Square Law at
+  Laboratory Distances,'' {\em Phys. Rev. Lett.} {\bf 44} (1980) 1645,
+  \href{https://doi.org/10.1103/PhysRevLett.44.1645}{\texttt
+  {doi:10.1103/PhysRevLett.44.1645}}.
+
+\bibitem{ref:PhysRevLett.98.021101}
+D.~Kapner {\em et al.}, ``Tests of the Gravitational Inverse-Square Law below
+  the Dark-Energy Length Scale,'' {\em Phys. rev. Lett.} {\bf 98} (2007)
+  021101, \href{http://arXiv.org/abs/hep-ph/0611184}{{\texttt
+  {arXiv:hep-ph/0611184}}},
+  \href{https://doi.org/10.1103/PhysRevLett.98.021101}{\texttt
+  {doi:10.1103/PhysRevLett.98.021101}}.
+
+\bibitem{ref:PhysRevD.78.022002}
+A.~Geraci {\em et al.}, ``Improved constraints on non-Newtonian forces at 10
+  microns,'' {\em Phys. Rev. D} {\bf 78} (2008) 022002,
+  \href{http://arXiv.org/abs/0802.2350}{{\texttt {arXiv:0802.2350}}},
+  \href{https://doi.org/10.1103/PhysRevD.78.022002}{\texttt
+  {doi:10.1103/PhysRevD.78.022002}}.
+
+\bibitem{ref:epjconf/20146605021}
+S.~Tanaka {\em et al.}, ``Search of non-standard strong gravity at nuclear
+  scale using electron spin geodetic precession,'' {\em EPJ Web of Conferences}
+  {\bf 66} (2014) 05021,
+  \href{https://doi.org/10.1051/epjconf/20146605021}{\texttt
+  {doi:10.1051/epjconf/20146605021}}.
+
+\bibitem{ref:1748-0221/3/08/S08001}
+L.~Evans and P.~Bryant, ``LHC Machine,'' {\em JINST} {\bf 3} (2008) S08001,
+  \href{https://doi.org/10.1088/1748-0221/3/08/S08001}{\texttt
+  {doi:10.1088/1748-0221/3/08/S08001}}.
+
+\bibitem{ref:10.1088/1748-0221/3/08/S08003}
+G.~Aad {\em et al.}, ``The ATLAS Experiment at the CERN Large Hadron
+  Collider,'' {\em JINST} {\bf 3} (2008) S08003,
+  \href{https://doi.org/10.1088/1748-0221/3/08/S08003}{\texttt
+  {doi:10.1088/1748-0221/3/08/S08003}}.
+
+\bibitem{ref:1748-0221/3/08/S08002}
+K.~Aamodt {\em et al.}, ``The ALICE experiment at the CERN LHC,'' {\em JINST}
+  {\bf 3} (2008) S08002,
+  \href{https://doi.org/10.1088/1748-0221/3/08/S08002}{\texttt
+  {doi:10.1088/1748-0221/3/08/S08002}}.
+
+\bibitem{ref:1748-0221/3/08/S08004}
+S.~Chatrchyan {\em et al.}, ``The CMS experiment at the CERN LHC,'' {\em JINST}
+  {\bf 3} (2008) S08004,
+  \href{https://doi.org/10.1088/1748-0221/3/08/S08004}{\texttt
+  {doi:10.1088/1748-0221/3/08/S08004}}.
+
+\bibitem{ref:1748-0221/3/08/S08005}
+A.~Alves {\em et al.}, ``The LHCb Detector at the LHC,'' {\em JINST} {\bf 3}
+  (2008) S08005, \href{https://doi.org/10.1088/1748-0221/3/08/S08005}{\texttt
+  {doi:10.1088/1748-0221/3/08/S08005}}.
+
+\bibitem{ref:PhysRevAccelBeams.20.091002}
+E.~Quaranta {\em et al.}, ``Modeling of beam-induced damage of the LHC tertiary
+  collimators,'' {\em Phys. Rev. Accel. Beams} {\bf 20} (2017) 091002,
+  \href{https://doi.org/10.1103/PhysRevAccelBeams.20.091002}{\texttt
+  {doi:10.1103/PhysRevAccelBeams.20.091002}}.
+
+\bibitem{ref:WilleAccelerators}
+K.~Wille, {\em The Physics of Particle Accelerators}.
+\newblock Oxford University Press, 2000.
+
+\bibitem{ref:SchopperLEP}
+H.~Schopper, {\em LEP - The Lord of the Collider Rings at CERN 1980-2000}.
+\newblock Springer-Verlag Berlin Heiderlberg, 2009.
+\newblock \href{https://doi.org/10.1007/978-3-540-89301-1}{\texttt
+  {doi:10.1007/978-3-540-89301-1}}.
+
+\bibitem{ref:TevatronPhysics}
+V.~Lebedev and V.~Shiltsev, {\em Accelerator Physics at the Tevatron Collider}.
+\newblock Springer-Verlag New York, 2014.
+\newblock \href{https://doi.org/10.1007/978-1-4939-0885-1}{\texttt
+  {doi:10.1007/978-1-4939-0885-1}}.
+
+\bibitem{ref:PartPhysLHCEra}
+G.~Barr, R.~Devenish, R.~Walczak, and T.~Weidberg, {\em Particle Physics in the
+  LHC Era}.
+\newblock Oxford University Press, 2016.
+
+\bibitem{ref:PAC.2003.1289077}
+W.~Wittmer, A.~Verdier, and F.~Zimmermann, ``Correcting the LHC
+  $\beta^\mathrm{*}$ at collision,'' {\em Proceedings of the 2003 Particle
+  Accelerator Conference} {\bf 4} (2003) 2237,
+  \href{https://doi.org/10.1109/PAC.2003.1289077}{\texttt
+  {doi:10.1109/PAC.2003.1289077}}.
+
+\bibitem{ref:PhysRevSTAB.18.061001}
+R.~Bruce, R.~Assmann, and S.~Redaelli, ``Calculations of safe collimator
+  settings and $\beta^\mathrm{*}$ at the CERN Large Hadron Collider,'' {\em
+  Phys. Rev. Accel. Beams} {\bf 18} (2015) 061001,
+  \href{https://doi.org/10.1103/PhysRevSTAB.18.061001}{\texttt
+  {doi:10.1103/PhysRevSTAB.18.061001}}.
+
+\bibitem{ref:1748-0221/10/11/P11011}
+S.~Orfanelli {\em et al.}, ``A novel Beam Halo Monitor for the CMS experiment
+  at the LHC,'' {\em JINST} {\bf 10} (2015) P11011,
+  \href{https://doi.org/10.1088/1748-0221/10/11/P11011}{\texttt
+  {doi:10.1088/1748-0221/10/11/P11011}}.
+
+\bibitem{ref:lhcrun1harvest_ch3}
+T.~Schörner-Sadneius, ed., {\em The Large Hadron Collider: Harvest of Run 1},
+  ch.~The LHC Detectors.
+\newblock Springer International Publishing, 2015.
+\newblock \href{https://doi.org/10.1007/978-3-319-15001-7\_3}{\texttt
+  {doi:10.1007/978-3-319-15001-7\_3}}.
+
+\bibitem{ref:1748-0221/5/03/T03021}
+S.~Chatrchyan {\em et al.}, ``Precise Mapping of the Magnetic Field in the CMS
+  Barrel Yoke using Cosmic Rays,'' {\em JINST} {\bf 5} (2010) T03021,
+  \href{http://arXiv.org/abs/0910.5530}{{\texttt {arXiv:0910.5530}}},
+  \href{https://doi.org/10.1088/1748-0221/5/03/T03021}{\texttt
+  {doi:10.1088/1748-0221/5/03/T03021}}.
+
+\bibitem{ref:1742-6596/404/1/012043}
+D.~Petyt, ``Mitigation of Anomalous APD signals in the CMS Electromagnetic
+  Calorimeter,'' {\em J. Phys. Conf. Series} {\bf 404} (2012) 012043,
+  \href{https://doi.org/10.1088/1742-6596/404/1/012043}{\texttt
+  {doi:10.1088/1742-6596/404/1/012043}}.
+
+\bibitem{ref:spikes_farzanehfar}
+A.~Farzanehfar, ``Mitigating high energy anomalous signals in the CMS barrel
+  Electromagnetic Calorimeter.'' Presentation at 30 June ECAL upgrade meeting,
+  2015.
+
+\bibitem{ref:DN-2015/014}
+M.~Dejardin, ``Discussion on the limit of the performances of possible ECAL
+  barrel electronics due to the increase of APD leakage current at HL-LHC.''
+  CMS DN-2015/014, 2015.
+
+\bibitem{ref:CERN-ISR-PO-68-31}
+S.~van~der Meer, ``Calibration of the effective beam height in the ISR.''
+  CERN-ISR-PO-68-31, 1968.
+
+\bibitem{ref:CMS-PAS-LUM-17-001}
+{CMS Collaboration}, ``CMS luminosity measurements for the 2016 data-taking
+  period.'' CMS-PAS-LUM-17-001, 2017.
+
+\bibitem{ref:0370-2693(71)90576-4}
+V.~Gribov and L.~Lipatov, ``Deep inelastic electron scattering in perturbation
+  theory,'' {\em Phys. Lett. B} {\bf 37} (1971) 78,
+  \href{https://doi.org/10.1016/0370-2693(71)90576-4}{\texttt
+  {doi:10.1016/0370-2693(71)90576-4}}.
+
+\bibitem{ref:dokshitzer}
+Y.~Dokshitzer, ``Calculation of the Structure Functions for Deep Inelastic
+  Scattering and e+ e- Annihilation by Perturbation Theory in Quantum
+  Chromodynamics,'' {\em Sov.Phys.JETP} {\bf 46} (1977) 641.
+
+\bibitem{ref:0550-3213(77)90384-4}
+G.~Altarelli and G.~Parisi, ``Asymptotic freedom in parton language,'' {\em
+  Nucl. Phys. B.} {\bf 126} (1977) 298,
+  \href{https://doi.org/10.1016/0550-3213(77)90384-4}{\texttt
+  {doi:10.1016/0550-3213(77)90384-4}}.
+
+\bibitem{ref:0034-4885/70/1/R02}
+J.~Campbell, J.~Huston, and W.~Stirling, ``Hard Interactions of Quarks and
+  Gluons: a Primer for LHC Physics,'' {\em Rept. Prog. Phys.} {\bf 70} (2007)
+  89, \href{http://arXiv.org/abs/hep-ph/0611148}{{\texttt
+  {arXiv:hep-ph/0611148}}},
+  \href{https://doi.org/10.1088/0034-4885/70/1/R02}{\texttt
+  {doi:10.1088/0034-4885/70/1/R02}}.
+
+\bibitem{ref:NNPDF30}
+R.~Ball {\em et al.}, ``Parton distributions for the LHC run II,'' {\em JHEP}
+  {\bf 2015} (2015) 40, \href{http://arXiv.org/abs/1410.8849}{{\texttt
+  {arXiv:1410.8849}}}, \href{https://doi.org/10.1007/JHEP04(2015)040}{\texttt
+  {doi:10.1007/JHEP04(2015)040}}.
+
+\bibitem{ref:NNPDF31}
+R.~Ball {\em et al.}, ``Parton distributions from high-precision collider
+  data,'' {\em EPJ C} {\bf 77} (2017) 663,
+  \href{http://arXiv.org/abs/1706.00428}{{\texttt {arXiv:1706.00428}}},
+  \href{https://doi.org/10.1140/epjc/s10052-017-5199-5}{\texttt
+  {doi:10.1140/epjc/s10052-017-5199-5}}.
+
+\bibitem{ref:scalepdf_bendavid}
+J.~Bendavid, ``New MC Features for Analysis in 74x Plus more details on
+  scale/PDF uncertainties.'' Presentation at 4 November PPD general meeting,
+  2015.
+
+\bibitem{ref:JHEP07(2014)079}
+J.~Alwall {\em et al.}, ``The automated computation of tree-level and
+  next-to-leading order differential cross sections, and their matching to
+  parton shower simulations,'' {\em JHEP} {\bf 2014} (2014) 79,
+  \href{http://arXiv.org/abs/1405.0301}{{\texttt {arXiv:1405.0301}}},
+  \href{https://doi.org/10.1007/JHEP07(2014)079}{\texttt
+  {doi:10.1007/JHEP07(2014)079}}.
+
+\bibitem{ref:0954-3899/43/2/023001}
+J.~Butterworth {\em et al.}, ``PDF4LHC recommendations for LHC Run II,'' {\em
+  J. Phys. G: Nucl. Part. Phys.} {\bf 43} (2016) 023001,
+  \href{http://arXiv.org/abs/1510.03865}{{\texttt {arXiv:1510.03865}}},
+  \href{https://doi.org/10.1088/0954-3899/43/2/023001}{\texttt
+  {doi:10.1088/0954-3899/43/2/023001}}.
+
+\bibitem{ref:JHEP12(2015)047}
+S.~Catani, D.~de~Florian, G.~Ferrera, and M.~Grazzini, ``Vector boson
+  production at hadron colliders: transverse-momentum resummation and leptonic
+  decay,'' {\em JHEP} {\bf 2015} (2015)
+  \href{http://arXiv.org/abs/1507.06937}{{\texttt {arXiv:1507.06937}}},
+  \href{https://doi.org/10.1007/JHEP12(2015)047}{\texttt
+  {doi:10.1007/JHEP12(2015)047}}.
+
+\bibitem{ref:j.cpc.2015.01.024}
+T.~Sjöstrand {\em et al.}, ``An introduction to PYTHIA 8.2,'' {\em Comp. Phys.
+  Comm.} {\bf 191} (2015) 159, \href{http://arXiv.org/abs/1410.3012}{{\texttt
+  {arXiv:1410.3012}}}, \href{https://doi.org/10.1016/j.cpc.2015.01.024}{\texttt
+  {doi:10.1016/j.cpc.2015.01.024}}.
+
+\bibitem{ref:epjc/s10052-016-3988-x}
+V.~Khachatryan {\em et al.}, ``Event generator tunes obtained from underlying
+  event and multiparton scattering measurements,'' {\em Eur. Phys. J. C} {\bf
+  76} (2016) 155, \href{http://arXiv.org/abs/1512.00815}{{\texttt
+  {arXiv:1512.00815}}},
+  \href{https://doi.org/10.1140/epjc/s10052-016-3988-x}{\texttt
+  {doi:10.1140/epjc/s10052-016-3988-x}}.
+
+\bibitem{ref:S0168-9002(03)01368-8}
+S.~Agostinelli {\em et al.}, ``GEANT4---a simulation toolkit,'' {\em Nucl.
+  Inst. Meth. A} {\bf 506} (2003) 250,
+  \href{https://doi.org/10.1016/S0168-9002(03)01368-8}{\texttt
+  {doi:10.1016/S0168-9002(03)01368-8}}.
+
+\bibitem{ref:1748-0221/12/10/P10003}
+A.~Sirunyan {\em et al.}, ``Particle-flow reconstruction and global event
+  description with the CMS detector,'' {\em JINST} {\bf 12} (2017) P10003,
+  \href{http://arXiv.org/abs/1706.04965}{{\texttt {arXiv:1706.04965}}},
+  \href{https://doi.org/10.1088/1748-0221/12/10/P10003}{\texttt
+  {doi:10.1088/1748-0221/12/10/P10003}}.
+
+\bibitem{ref:cms_tdr_vol1}
+G.~Bayatian {\em et al.}, ``CMS Physics: Technical Design Report Volume 1:
+  Detector Performance and Software.'' CMS-TDR-8-1, 2006.
+
+\bibitem{ref:1748-0221/7/10/P10002}
+S.~Chatrchyan {\em et al.}, ``Performance of CMS muon reconstruction in pp
+  collision events at $\sqrt{s} = 7$ TeV,'' {\em JINST} {\bf 7} (2012) P10002,
+  \href{http://arXiv.org/abs/1206.4071}{{\texttt {arXiv:1206.4071}}},
+  \href{https://doi.org/10.1088/1748-0221/7/10/P10002}{\texttt
+  {doi:10.1088/1748-0221/7/10/P10002}}.
+
+\bibitem{ref:1748-0221/2/04/P04004}
+P.~Adzic {\em et al.}, ``Energy Resolution of the Barrel of the CMS
+  Electromagnetic Calorimeter,'' {\em JINST} {\bf 2} (2007) P04004,
+  \href{https://doi.org/10.1088/1748-0221/2/04/P04004}{\texttt
+  {doi:10.1088/1748-0221/2/04/P04004}}.
+
+\bibitem{ref:1748-0221/10/06/P06005}
+V.~Khachatryan {\em et al.}, ``Performance of electron reconstruction and
+  selection with the CMS detector in proton-proton collisions as $\sqrt{s} = 8$
+  TeV,'' {\em JINST} {\bf 10} (2015)
+  \href{http://arXiv.org/abs/1502.02701}{{\texttt {arXiv:1502.02701}}},
+  \href{https://doi.org/10.1088/1748-0221/10/06/P06005}{\texttt
+  {doi:10.1088/1748-0221/10/06/P06005}}.
+
+\bibitem{ref:1748-0221/10/08/P08010}
+V.~Khachatryan {\em et al.}, ``Performance of photon reconstruction and
+  identification with the CMS detector in proton-proton collisions at $\sqrt{s}
+  = 8$ TeV,'' {\em JINST} {\bf 10} (2015) P08010,
+  \href{http://arXiv.org/abs/1502.02702}{{\texttt {arXiv:1502.02702}}},
+  \href{https://doi.org/10.1088/1748-0221/10/08/P08010}{\texttt
+  {doi:10.1088/1748-0221/10/08/P08010}}.
+
+\bibitem{ref:1748-0221/9/10/P10009}
+S.~Chatrchyan {\em et al.}, ``Description and performance of track and
+  primary-vertex reconstruction with the CMS tracker,'' {\em JINST} {\bf 9}
+  (2014) P10009, \href{http://arXiv.org/abs/1405.6569}{{\texttt
+  {arXiv:1405.6569}}},
+  \href{https://doi.org/10.1088/1748-0221/9/10/P10009}{\texttt
+  {doi:10.1088/1748-0221/9/10/P10009}}.
+
+\bibitem{ref:rspa.1934.0140}
+H.~Bethe and W.~Heitler, ``On the Stopping of Fast Particles and on the
+  Creation of Positive Electrons,'' {\em Proc. R. Soc. London A} {\bf 146}
+  (1934) 83, \href{https://doi.org/10.1098/rspa.1934.0140}{\texttt
+  {doi:10.1098/rspa.1934.0140}}.
+
+\bibitem{ref:0954-3899/31/9/N01}
+W.~Adam, R.~Frühwirth, A.~Strandlie, and T.~Todorov, ``Reconstruction of
+  electrons with the Gaussian-sum filter in the CMS tracker at the LHC,'' {\em
+  J. Phys. G} {\bf 31} (2005) N9,
+  \href{https://doi.org/10.1088/0954-3899/31/9/N01}{\texttt
+  {doi:10.1088/0954-3899/31/9/N01}}.
+
+\bibitem{ref:egammaclusterregression_2018}
+{Jain, S. on behalf of the EGM group}, ``PF cluster regression in Egamma.''
+  Presentation at 20 November Particle flow study group meeting, 2018.
+
+\bibitem{ref:1126-6708/2008/04/063}
+M.~Cacciari, G.~Salam, and G.~Soyez, ``The anti-$k_{t}$ jet clustering
+  algorithm,'' {\em JHEP} {\bf 2008} (2008) 063,
+  \href{http://arXiv.org/abs/0802.1189}{{\texttt {arXiv:0802.1189}}},
+  \href{https://doi.org/10.1088/1126-6708/2008/04/063}{\texttt
+  {doi:10.1088/1126-6708/2008/04/063}}.
+
+\bibitem{ref:epjc/s10052-010-1314-6}
+G.~Salam, ``Towards Jetography,'' {\em Eur. Phys. J. C} {\bf 67} (2010) 637,
+  \href{http://arXiv.org/abs/0906.1833}{{\texttt {arXiv:0906.1833}}},
+  \href{https://doi.org/10.1140/epjc/s10052-010-1314-6}{\texttt
+  {doi:10.1140/epjc/s10052-010-1314-6}}.
+
+\bibitem{ref:CMS-PAS-JME-14-001}
+{The CMS Collaboration}, ``Pileup Removal Algorithms.'' CMS-PAS-JME-14-001,
+  2014.
+
+\bibitem{ref:1748-0221/12/02/P02014}
+V.~Khachatryan {\em et al.}, ``Jet energy scale and resolution in the CMS
+  experiment in pp collisions at 8 TeV,'' {\em JINST} {\bf 12} (2017) P02014,
+  \href{http://arXiv.org/abs/1607.03663}{{\texttt {arXiv:1607.03663}}},
+  \href{https://doi.org/10.1088/1748-0221/12/02/P02014}{\texttt
+  {doi:10.1088/1748-0221/12/02/P02014}}.
+
+\bibitem{ref:CMS-DP-2018-028}
+{The CMS Collaboration}, ``Jet energy scale and resolution performance with 13
+  TeV data collected by CMS in 2016.'' CMS-DP-2018-028, 2018.
+
+\bibitem{ref:CMS-PAS-EGM-07-001}
+{The CMS Collaboration}, ``Measuring Electron Efficiencies at CMS with Early
+  Data.'' CMS-PAS-EGM-07-001, 2008.
+
+\bibitem{ref:j.physletb.2010.12.024}
+G.~Bozzi, S.~Catani, G.~Ferrera, D.~de~Florian, and M.~Grazzini, ``Production
+  of Drell--Yan lepton pairs in hadron collisions: Transverse-momentum
+  resummation at next-to-next-to-leading logarithmic accuracy,'' {\em Phys.
+  Lett. B} {\bf 696} (2011) 207, \href{http://arXiv.org/abs/1007.2351}{{\texttt
+  {arXiv:1007.2351}}},
+  \href{https://doi.org/10.1016/j.physletb.2010.12.024}{\texttt
+  {doi:10.1016/j.physletb.2010.12.024}}.
+
+\bibitem{ref:epjc/s10052-017-5389-1}
+J.~Lindert {\em et al.}, ``Precise predictions for V+jets dark matter
+  backgrounds,'' {\em Eur. Phys. J. C} {\bf 77} (2017) 829,
+  \href{http://arXiv.org/abs/1705.04664}{{\texttt {arXiv:1705.04664}}},
+  \href{https://doi.org/10.1140/epjc/s10052-017-5389-1}{\texttt
+  {doi:10.1140/epjc/s10052-017-5389-1}}.
+
+\end{thebibliography}\endgroup

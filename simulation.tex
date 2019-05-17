@@ -1,0 +1,134 @@
+\chapter{Simulation} \label{chap:simulation}
+\section{Parton distribution functions} \label{sec:simulation_pdf}
+A hard collision involving a proton can cause individual partons within it to be clearly resolved.
+For collisions with characteristic energy $Q$, the probability that the parton will be of type $i$
+and carry a fraction $x$ of the proton's total momentum is given by a function $f_{i}(x, Q^{2})$
+known as a parton distribution function (PDF).
+
+The dependence of these functions on $Q$ is described by the DGLAP equations~\cite{ref:0370-2693(71)90576-4, ref:dokshitzer, ref:0550-3213(77)90384-4},
+which are derived from the theory of QCD.
+These allow the specific values of $f_{i}(x, Q^{2})$ to be calculated at arbitrary $Q$ as long as they
+are first measured at some particular $Q$.
+Like cross sections, the DGLAP equations, and hence PDFs derived in this way, admit perturbative expansions out to specific orders in
+$\alpha_\mathrm{S}$~\cite{ref:0034-4885/70/1/R02}.
+
+Simulated samples used in this thesis use PDFs computed to different orders as appropriate for the order
+of the cross section used. Samples with cross sections computed to LO in $\alpha_\mathrm{S}$ use the NNPDF3.0 LO PDF
+set~\cite{ref:NNPDF30}. Samples with NLO cross sections, as well as theoretical \zinvg, \wlng, and \zllg\ cross sections
+computed to NNLO in MATRIX, use the NNPDF3.1 NNLO PDF set~\cite{ref:NNPDF31}.
+These PDF sets are based on fits of the theoretical DGLAP functional form to the experimentally-measured values
+of the PDFs from multiple experiments, examining a variety of processes at a range of different energy scales.
+
+\section{Hard process generation} \label{sec:simulation_hard_process}
+A generic hard proton scattering process proceeds as
+\begin{equation}
+\Pp + \Pp \to X + rest
+\label{eq:proton_interaction}
+\end{equation}
+where $X$ is a high-energy final product (such as a \Pgamma) of a hard parton--parton collision, and $rest$ is a collection of
+lower-energy final-state hadrons emerging from softer parton interactions.
+
+According to the QCD factorization theorem, the dominant contribution to the cross section $\sigma_{X}$ of such a process is given by (see e.g.~\cite{ref:BargerPhillips})
+\begin{equation}
+\sigma_{X} = \sum_{i,j}\int \! dx_{1}dx_{2} \, f_{i}(x_{1}, \mu_{F}^{2})f_{j}(x_{2}, \mu_{F}^{2})\sigma_{i,j \to X}
+\label{eq:qcd_factorization}
+\end{equation}
+where $i,j$ specify the types of the hard scattering partons, and $\sigma_{i,j \to X}$ is the cross section for the partonic process
+\begin{equation}
+i + j \to X + rest
+\label{eq:parton_interaction}
+\end{equation}
+which can be computed to a desired order using Feynman diagrams\footnote{Here $rest$ is a collection of quarks and gluons
+that eventually fragment into final-state hadrons.}. The energy scale $\mu_{F}$ is called the factorization scale.
+The value of $\alpha_\mathrm{S}$, which appears in perturbative expansions of $\sigma_{i,j \to X}$, is governed by another energy scale $\mu_{R}$ called
+the renormalization scale\footnote{As the characteristic
+energy scale increases, the effective value of $\alpha_\mathrm{S}$ decreases. This is in contrast to the fine structure ``constant'' $\alpha$,
+whose value increases with increasing energy.}.
+The coefficients of $\alpha_\mathrm{S}$ in such perturbative expansions also depend on $\mu_{F}$ and $\mu_{R}$,
+in such a way as to completely cancel any $\mu_{F}, \mu_{R}$ dependence in the exact formula for the total cross section $\sigma_{X}$~\cite{ref:0034-4885/70/1/R02}.
+
+The values of $\mu_{F}$ and $\mu_{R}$ do, however, affect the approximate cross section derived at a finite order in $\alpha_\mathrm{S}$.
+Typically these scales are chosen to be on the order of the parton--parton collision energy.
+The simulated samples used in this thesis were made by fixing both $\mu_{F}$ and $\mu_{R}$ to the mass of the \PZ-boson, about 91.2\unit{GeV}.
+This choice is a source of theoretical uncertainty, whose magnitude is estimated in this thesis by
+examing the variation of the final results when $\mu_{F}$ and $\mu_{R}$ are separately shifted up and down\footnote{Following common practice, correlated shifts up and down
+are also considered, but ``unphysical'' anticorrelated shifts (e.g. $2{*}\mu_{F}, 0.5{*}\mu_{R}$) are not~\cite{ref:scalepdf_bendavid}.} by a factor of 2.
+
+Differentiating $\sigma_{X}$ with respect to a kinematic variable such as \pTgamma\ yields $d\sigma_{X}/d\pTgamma$, the differential
+cross section for the process $\Pp + \Pp \to X + rest$ to occur with some specific final-state \pTgamma.
+For an elementary process like $i + j \to X + rest$, this may be analytically solved or numerically approximated out to a given order.
+
+However, the full dynamics of a \Pp\Pp\ interaction and subsequent interactions of the products with the CMS detector do not admit simple solutions.
+These and other integrals over probability distributions may be estimated
+via the Monte Carlo (MC) method. Many random events\footnote{``Monte Carlo'' alludes to an eponymous casino in Monaco.}
+are generated according to known probability distributions,
+and the integrand (e.g. some reconstructed kinematic quantity) is evaluated for each event.
+The sum of the integrand values for each event within a given kinematic region,
+divided by the total number of events generated, gives an estimate of the integral within that region (e.g. the
+content of a bin in a histogram).
+
+Matrix element (ME) generators allow for MC estimates of $d\sigma_{X}/d\pTgamma$ by generating
+partons with species and initial-state kinematics sampled according to the PDFs, and with final-state kinematics sampled
+according to the differential partonic cross sections $d\sigma_{i,j \to X}/d\pTgamma$.
+The ME generator for all simulated samples used in this thesis is MadGraph5\_aMC@NLO~\cite{ref:JHEP07(2014)079},
+which also constructs the matrix elements for the elementary partonic processes.
+All\footnote{Aside from a small subset of DM simplified model samples generated to NLO.} samples are generated to LO in $\alpha_\mathrm{S}$.
+Since \zinvg, \wlng, and \zllg\ are all generated to LO, their simulation does
+not incorporate Feynman diagrams with extra radiated quarks and gluons. These extra particles are known
+to appear at higher orders, and since they can substantially affect the kinematic balance and reconstruction
+efficiency of events, up to 2 of these are added by the generator to simulate their impact.
+
+If it is decided that the probability of an event's occurrence should be changed by some multiplicative factor $w$, this can be simulated
+by multiplying a generated event's weight by $w$ in any final sums. By this principle, uncertainties associated with the PDFs are
+represented in the NNPDF sets by 100 different weights on each event~\cite{ref:NNPDF30,ref:NNPDF31}. The PDF uncertainty of a histogram
+estimated via MC is obtained by taking the sample standard deviation of each bin in the histogram with respect to these 100 weight variations~\cite{ref:0954-3899/43/2/023001}.
+
+The NNLO cross sections for \zinvg, \wlng, and \zllg\ are estimated using the MATRIX generator~\cite{ref:epjc/s10052-018-5771-7},
+which incorporates NNLO ME results for \PZ\Pgamma\ and \PW\Pgamma\ processes derived in~\cite{ref:j.physletb.2014.02.037, ref:JHEP07(2015)085, ref:JHEP12(2015)047}.
+An LO-to-NNLO event weight is then applied to each event simulated in MadGraph, by taking the NNLO-over-LO ratio of the differential cross section $d\sigma/d\pTgamma$
+integrated within a \pTgamma\ bin corresponding to the generated \Pgamma.
+An additional \pTgamma-dependent weight that accounts for NLO EWK corrections, computed in~\cite{ref:JHEP04(2015)018, ref:JHEP02(2016)057}, is also applied.
+The impact of these corrections is illustrated in Fig.~\ref{fig:NLO_EWK_weights}.
+
+\begin{figure}[hbtp]
+  \begin{center}
+    \includegraphics[width=0.49\textwidth]{Figures/Zg_NLO_weights.png}
+    \includegraphics[width=0.49\textwidth]{Figures/Wg_NLO_weights.png}
+    \caption{
+    Fractional shifts on event weights introduced by NLO EWK corrections, as a function of \pTgamma. Left: \zinvg. Right: \wlng. From~\cite{ref:JHEP04(2015)018, ref:JHEP02(2016)057}.
+    }
+    \label{fig:NLO_EWK_weights}
+  \end{center}
+\end{figure}
+
+To avoid numerical divergences that can arise in perturbative calculations, and also to avoid wasting computational cycles simulating events outside the analysis scope of this
+thesis, kinematic cuts are applied on the events that may be generated. Most significantly, BSM and $\PW,\PZ + \Pgamma$ events are only simulated if they have a leading
+\Pgamma\ with $\pT > 130\unit{GeV}$ emitted within the ECAL acceptance. For consistency, the same generator-level cuts (as well as PDF sets) are applied in both MATRIX and MadGraph.
+
+\section{Parton showering and hadronization} \label{sec:simulation_parton_shower_hadronization}
+The output of the hard collision, $X + rest$, continues to evolve as it exits the interaction point.
+For example, high-energy quarks and gluons will tend to radiate other high-energy quarks and gluons in a cascading process
+known as a parton shower, dispersing their energy as they do so. The energies of the showering partons begin at the hard interaction energy scale
+and go down to the hadronization scale (${\lesssim}10\unit{GeV}$). Above this energy scale, $\alpha_\mathrm{S}$ is less than $O(1)$, and so the parton
+shower process admits a perturbative analysis in the theory of QCD.
+The statistical behavior of parton showering is governed by Sudakov form factors derived from the DGLAP equations~\cite{ref:0034-4885/70/1/R02}.
+
+Below the hadronization scale, the remnant partons will no longer have enough energy to freely split and will finally bind into hadrons
+in a process called hadronization. This occurs as the value of $\alpha_\mathrm{S}$ associated with a typical parton energy rises above $O(1)$, rendering estimates
+based on perturbative expansions invalid. The bulk of the partons in the colliding protons are not directly involved in the hard parton--parton scatter and are also subject
+to a nonperturbative energy scale; these contribute softer showers of particles\footnote{The $rest$ terms in the equations of sec.~\ref{sec:simulation_hard_process}.}
+known as the underlying event.
+These nonperturbative processes are simulated with generator-dependent phenomenological models, tuned to match the hadronic distributions observed in the experiment.
+For all the simulated samples used in this thesis, both parton showering and hadronization are handled by PYTHIA 8.218~\cite{ref:j.cpc.2015.01.024},
+with underlying-event tune CUETP8M1~\cite{ref:epjc/s10052-016-3988-x}.
+
+\section{Pileup and detector simulation} \label{sec:simulation_detector}
+The simulated contribution from pileup is estimated by overlaying additional ``minimum-bias'' events, with simulated particle distributions
+corresponding to the typical \Pp\Pp\ scattering events most likely to occur in the LHC. These are estimated by taking LHC collision data with no
+special trigger selections applied. This step of the simulation is also handled by PYTHIA.
+
+The output of the preceding steps is a collection of several thousand stable or semistable particles that continue to propagate outward and interact
+with the detector. This stage is handled by GEANT4~\cite{ref:S0168-9002(03)01368-8}, which simulates the decay of long-lived
+($0.01\unit{m}/c \lesssim \mathrm{lifetime} \lesssim 10\unit{m}/c$) particles within the detector volume, miscellaneous physical processes including those
+discussed in the previous chapter (magnetic bending, electromagnetic showers, hadronic showers, scintillation, etc.), and the response of detector electronics,
+leading to the final digitized detector output.
