@@ -363,12 +363,11 @@ purely in MC.
 \section{Higher-order corrections}
 The largest expected SM contributions to the various signal and control regions are from three $\mathrm{V}\gamma$
 processes: \zinvg, \wlng, and \zllg.
-The \zinvg\ response matrix (for the cross section measurement), the SM \zinvg\ yield (for aTGC limits),
+The \zinvg\ response matrix (for the cross section measurement), the SM \zinvg\ prefit yield,
 and \wlng\ and \zllg\ transfer factors (described in the next section) are modeled using MC simulations.
 As with other signal and background processes estimated in MC, these samples are generated to LO in QCD by MadGraph.
 These $\mathrm{V}\gamma$ processes are generated with up to two extra gluons radiated from the incoming quarks,
 which form jets in the final detected event.
-For the aTGC analysis, redundant \zinvg\ samples are generated to LO in QCD by Sherpa, with no additional jets.
 
 To approximate higher-order QCD effects, \zinvg\ and \wlng\ events are reweighted based on \pTgamma\ by the factors
 given in Tab.~\ref{tab:zg_kfactors}. These factors are the ratios of NNLO differential cross sections calculated by
@@ -455,7 +454,7 @@ specific choice of crossover point.
   \label{fig:ewk_correction_cartoon}
 \end{figure}
 
-\section{Signal estimation: SM and aTGC} \label{sec:signal_extraction_SM_aTGC}
+\section{Signal estimation: SM} \label{sec:signal_extraction_SM}
 Beam halo is the only process examined in this analysis with an anisotropic $\phi$ distribution.
 Figure~\ref{fig:halophi} shows the distribution of beam halo photons as a function of $\phi'$.
 To constrain the beam halo normalization, the signal region is split into two parts according to $|\phi'|$.
@@ -488,7 +487,7 @@ Each gen \pTgamma\ bin makes contributions to multiple reco \ETgamma\ bins.
 The prefit contributions from each gen bin $i$ to each reco bin $j$ (in both signal regions combined) are estimated in MC, and denoted by \nZg[j,i].
 
 Using the above definitions for $C_{S}$, $r_{i}$, $\nZg[j,i]$, $h$, and $\nhalo[,j]$,
-the total reconstructed event yield \nS\ in each signal region (excluding aTGC contributions) is estimated according to
+the total reconstructed event yield \nS\ in each signal region is estimated according to
 \begin{equation}
   \nS[,j] = C_{S} (\Sigma_{i}r_{i}\nZg[j,i] + \nWg[j] + b_{j}) + h\nhalo[,j],
 \end{equation}
@@ -585,14 +584,6 @@ The parameters that are allowed to vary in the fit are the nuisance parameters $
 Due to the $\mathcal{N}(\theta_t)$ terms, the nuisance parameters are considered ``constrained'' in the fit.
 In contrast, the \wlng\ normalizations $\nWg[j]$ and the halo normalization $h$ are unconstrained, or ``freely floating.''
 For \zinvg\ cross section unfolding, the cross section scale parameters $r_{i}$ are also freely floating.
-
-For aTGC limit setting, the values of $r_{i}$ are all fixed to their initial value of 1.0.
-In this case, an additional term $C_{S} \mu s_{j}$ is added to $\nS[,j]$,
-in which $s_{j}$ is the contribution from the aTGC signal to reco bin $j$ (of both signal regions combined),
-and $\mu$ is a constant that represents the overall aTGC signal strength:
-\begin{equation}
-  \nS[,j] = C_{S} (\mu s_{j} + \Sigma_{i}r_{i}\nZg[j,i] + \nWg[j] + b_{j}) + h\nhalo[,j].
-\end{equation}
 
 \section{Signal estimation: DM and ADD} \label{sec:signal_extraction_DM_ADD}
 The fitting procedure for the DM and ADD searches is substantially similar to that used in the SM cross section measurement, with the following differences.
