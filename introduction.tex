@@ -12,9 +12,9 @@ There are nevertheless many physical phenomena that the SM does not account for,
 including the gravitational phenomenon known as \textit{dark matter} (DM; sec.~\ref{sec:introduction_dm}). Many theories of physics beyond the SM (BSM)
 have been developed in an attempt to describe these phenomena.
 
-Specifically, this thesis presents several analyses of event yields in \textit{monophoton} final states, characterized by a single \Pgamma
-with high transverse momentum, along with an overall transverse momentum imbalance typically of equal magnitude and opposite direction to
-that of the \Pgamma. These analyses correspond to 35.9\,\fbinv\ of 13\unit{TeV} proton--proton (\Pp\Pp) collision data collected in 2016 by the CMS
+Specifically, this thesis presents several analyses of event yields in \textit{monophoton} final states, characterized by a single \Pgamma\ with
+high transverse momentum, along with an overall transverse momentum imbalance typically of equal magnitude and opposite direction to
+that of the \Pgamma. These analyses correspond to 35.9\fbinv\ of 13\unit{TeV} proton--proton (\Pp\Pp) collision data collected in 2016 by the CMS
 detector at the LHC.
 
 \section{Standard model of particle physics} \label{sec:introduction_standard_model}
@@ -25,7 +25,7 @@ Spin can be an integer or half-integer, according to which the particle is class
 The fundamental fermions comprise six ``flavors'' of quarks---up (\Pu), down (\Pd), charm (\Pc), strange (\Ps), top (\Pt), and bottom (\Pb)---and six flavors of
 leptons: electron (\Pe), muon (\Pmu), and tau (\Ptau), with three corresponding neutrinos (\Pne, \Pnmu, \Pntau).
 Each of these has both a particle and an anti-particle variety; the quarks additionally come in three ``colors''.
-We typically denote a particle by a letter, e.g. $q$ for a generic quark; its antiparticle partner has an overbar, e.g. $\bar{q}$.
+We typically denote a particle by a letter, e.g. \Pq\ for a generic quark; its antiparticle partner has an overbar, e.g. \Paq.
 The fundamental bosons comprise the \PH\ as well as the gauge bosons, in turn comprising the \PZ, photon (\Pgamma),
 two \PW s distinguished by their electric charge, and eight gluons (\Pg) distinguished by a color-anticolor doublet.
 
@@ -54,11 +54,10 @@ aforementioned charges.
 These interactions lead to the relationships illustrated in Fig.~\ref{fig:sm_interactions}, in which every linkage represents
 a direct \textit{coupling}, which allows a particle at one end of the link to evolve directly into a particle at the other end.
 Particles with a nonzero electric charge are all coupled directly to the photon. The photon is coupled to the weak bosons
-(\PZ\ and $W^\pm$), which in turn couple to all of the fundamental fermions.
-The gluons couple directly with each other and with the quarks.
+(\PZ\ and $W^\pm$), which in turn couple to all of the fundamental fermions. The gluons couple directly with each other and with the quarks.
 Particles that couple directly to the \PH\ have an intrinsic mass (specified by the top number in each square of Fig.~\ref{fig:sm_particles}\footnote{The
-proper units of mass are $\mathrm{GeV}\,c^{2}$, but the factor of $c^{2}$ is usually omitted for brevity. This is done even when units of distance and
-time (such as cm and ns) are used in which $c$ does not equal 1. Similarly, the factor of $1/c$ is usually omitted from the proper units of momentum,
+proper units of mass are $\mathrm{GeV}\,c^{2}$, but the factor of $c^{2}$ is often omitted for brevity. This is done even when units of distance and
+time (such as cm and ns) are used in which $c$ does not equal 1. Similarly, the factor of $1/c$ is often omitted from the proper units of momentum,
 $\mathrm{GeV}/c$. This is the convention followed in this thesis.}) tied to the strength of their coupling.
 In the SM, any particle that does not couple directly to the \PH\ is massless.
 
@@ -124,8 +123,8 @@ Cross sections may be calculated using \textit{Feynman diagrams}. These are
 assembled by combining fundamental interaction vertices: the SM vertices relating the fermions and gauge bosons are listed in Fig.~\ref{fig:sm_vertices}.
 Mathematical terms are assigned to Feynman diagrams according to a prescription known as the Feynman rules, which can be derived from the Lagrangian.
 This process results in a \textit{matrix element} $\mathcal{M}_{i}$ for each diagram $i$ one wishes to consider. The cross section is proportional to the sum of $|\sum_{i}{\mathcal{M}_{i}}|^{2}\rho$
-over all kinematically consistent initial and final states of the given process\footnote{$\rho$ is a function of the allowed kinematic parameters and is called the phase space
-factor.}. This method for calculating cross sections using Feynman diagrams is more fully described in refs.~\cite{ref:HalzenMartin, ref:BargerPhillips};
+over all kinematically consistent initial and final states of the given process\footnote{$\rho$ is a function of the allowed kinematic parameters and is called the \textit{phase space
+factor}.}. This method for calculating cross sections using Feynman diagrams is more fully described in refs.~\cite{ref:HalzenMartin, ref:BargerPhillips};
 a development in the context of quantum field theory is given in e.g. refs.~\cite{ref:PeskinSchroeder, ref:Srednicki, ref:Schwartz}.
 
 \begin{figure}[hbtp]
@@ -176,7 +175,7 @@ expected that \zinvg\ processes are the main contributors of high-\pT\ monophoto
 
 The theoretical SM value for the \zinvg\ cross section has been calculated to NLO in $\alpha$ and $\alpha_\mathrm{S}$~\cite{ref:JHEP04(2015)018, ref:JHEP02(2016)057}.
 The \zinvg\ process receives NLO contributions from 1-loop QCD and EWK diagrams, as well as tree-level diagrams with up to one additional radiated \Pgamma, \Pq, or \Pg.
-These contributions include diagrams with initial-state $q\bar{q}$, $qg$, and $\bar{q}g$ (with QCD and EWK corrections at NLO), as well as $q\gamma$, $\bar{q}\gamma$ (with EWK corrections
+These contributions include diagrams with initial-state \Pq\Paq, \Pq\Pg, and \Paq\Pg\ (with QCD and EWK corrections at NLO), as well as \Pq\Pgamma, \Paq\Pgamma\ (with EWK corrections
 at NLO)~\cite{ref:JHEP02(2016)057}.
 
 The calculation has also been done to NNLO in $\alpha_\mathrm{S}$ alone,
@@ -201,11 +200,11 @@ of $c^{2}$ is usually omitted.},
 compared to an SM prediction of $39 \pm 4\mathrm{(theory)}$ $fb$ computed to NLO in $\alpha_\mathrm{S}$~\cite{ref:PhysRevLett.102.201802}.
 
 Measurements of the cross section at higher values of \pTgamma\ have been performed by experiments examining \Pp\Pp\ collision data at the LHC.
-An analysis by the CMS experiment examining 19.6\,\fbinv\ of data collected at $\sqrt{s} = 8\unit{TeV}$ found the observed \zinvg\ cross section for $\pTgamma > 145\unit{GeV}$ to be
+An analysis by the CMS experiment examining 19.6\fbinv\ of data collected at $\sqrt{s} = 8\unit{TeV}$ found the observed \zinvg\ cross section for $\pTgamma > 145\unit{GeV}$ to be
 $52.7 \pm 2.1\mathrm{(stat)} \pm 6.4\mathrm{(syst)} \pm 1.4\mathrm{(lumi)}$ $fb$, compared to an SM prediction of $40.7 \pm 4.9\mathrm{(theory)}$ $fb$ calculated to NLO in $\alpha_\mathrm{S}$, and
 a prediction of $50.0^{+2.4}_{-2.2}\mathrm{(theory)}$ calculated to NNLO in $\alpha_\mathrm{S}$~\cite{ref:j.physletb.2016.06.080}. This comparison illustrates the need for NNLO precision at high \pTgamma.
 
-The most precise measurement of the \zinvg\ cross section for \pTgamma\ and \MET\ above 150\unit{GeV} currently comes from an analysis of 36.1\,\fbinv\ of \Pp\Pp\ collision data
+The most precise measurement of the \zinvg\ cross section for \pTgamma\ and \MET\ above 150\unit{GeV} currently comes from an analysis of 36.1\fbinv\ of \Pp\Pp\ collision data
 collected by the ATLAS experiment at $\sqrt{s} = 13\unit{TeV}$, with an observed cross section of $83.7^{+3.6}_{-3.5}\mathrm{(stat)}^{+6.9}_{-6.2}\mathrm{(syst)}^{+1.7}_{-2.0}\mathrm{(lumi)}$ $fb$.
 The corresponding SM prediction, computed to NNLO in $\alpha_\mathrm{S}$ using the MATRIX generator~\cite{ref:epjc/s10052-018-5771-7}, is $78.6 \pm 0.4\mathrm{(stat)} \pm 4.1\mathrm{(syst)}$ $fb$~\cite{ref:CERN-EP-2018-220}.
 The cross section is shown in discrete ranges (bins) of leading photon \pT\ in Fig.~\ref{fig:znng_xsec_phoET_ATLAS}.
@@ -251,13 +250,13 @@ Furthermore, the probability of reconstructing a \zinvg\ event in a detector is 
 higher than that of a charged lepton event. As a consequence, aTGC limits derived from neutral \PZ\ decays can be several times
 stronger than limits derived from charged \PZ\ decays when analyzing the same \Pp\Pp\ collision data sets (compare e.g.~\cite{ref:PhysRevD.89.092005} and~\cite{ref:JHEP10(2013)164},
 based on 7\unit{TeV} LHC data; also Fig.~\ref{fig:lhc_8tev_atgc_1dlimits}, based on 8\unit{TeV} data).
-The decays of \PZ\ into $q\bar{q}$ (and thence to hadrons) are difficult to distinguish in practice from hadronic \PW\ decays~\cite{ref:RevModPhys.89.035008}.
+The decays of \PZ\ into \Pq\Paq\ (and thence to hadrons) are difficult to distinguish in practice from hadronic \PW\ decays~\cite{ref:RevModPhys.89.035008}.
 
 \subsection{Previous searches} \label{sec:introduction_aTGC_previous_searches}
 The LEP collider established constraints on each of the eight the parameters $h_{i}^{V}$ in the context of the process $e^{\mathrm{+}}e^{\mathrm{-}} \to \PZ\Pgamma$.
-In a statistical combination of searches perfomed by the DELPHI, L3, and OPAL experiments, examining 3\,\fbinv\ of $e^{\mathrm{+}}e^{\mathrm{-}}$ collision data
+In a statistical combination of searches perfomed by the DELPHI, L3, and OPAL experiments, examining 3\fbinv\ of $e^{\mathrm{+}}e^{\mathrm{-}}$ collision data
 for $\sqrt{s}$ ranging from 130 GeV to 209 GeV, the 95\% CL intervals of seven of the parameters contain 0, with total ranges between 0.05 and 0.10 for $h_{i}^{\Pgamma}$
-and between 0.14 and 0.25 for $h_{i}^{\PZ}$; the 95\% CL interval for the remaining factor $h_{4}^{\gamma}$ spans 0.01 to 0.05~\cite{ref:j.physrep.2013.07.004}.
+and between 0.14 and 0.25 for $h_{i}^{\PZ}$; the 95\% CL interval for the remaining factor $h_{4}^{\Pgamma}$ spans 0.01 to 0.05~\cite{ref:j.physrep.2013.07.004}.
 
 The LEP combined analysis assumed that all but one of the eight parameters were fixed to the SM expectation of 0 (i.e.\ these are 1D limits).
 It was also the last major effort to obtain limits on $h_{1,2}^{V}$ independently of $h_{3,4}^{V}$,
@@ -274,18 +273,18 @@ Uniquely among the LEP experiments, the L3 Collaboration also placed limits on c
   \end{center}
 \end{figure}
 
-Experiments at the Tevatron collider improved these limits in analyses of $p\bar{p}$ collision data at $\sqrt{s} = 1.96\unit{TeV}$.
+Experiments at the Tevatron collider improved these limits in analyses of \Pp\Pap\ collision data at $\sqrt{s} = 1.96\unit{TeV}$.
 The Tevatron analyses incorporated a form factor $1 / (1 + \hat{s}/\Lambda^{2})^{n}$, by which a constant term $h_{0i}^{V}$ is
 multiplied to obtain $h_{i}^{V}$.
 The form factor is essentially arbitrary; $n$ is set equal to $i$ and $\Lambda$ (not to be confused with the EFT suppression scale, below)
 is set to 1.5\unit{TeV} by convention. This form factor was introduced in the common reference~\cite{ref:PhysRevD.47.4889} but was not used in LEP~\cite{ref:j.physrep.2013.07.004}
 or most subsequent LHC analyses, which treat the $h_{i}^{V}$ parameters as constants independent of $\hat{s}$.
 
-The CDF experiment combined analyses of \zinvg\ processes, using 4.9\,\fbinv\ of data, and processes where the \PZ\ decays to
-$l^\mathrm{+}l^\mathrm{-}$ ($e^\mathrm{+}e^\mathrm{-}$ or $\mu^\mathrm{+}\mu^\mathrm{-}$), using 5.1\,\fbinv\ of data.
+The CDF experiment combined analyses of \zinvg\ processes, using 4.9\fbinv\ of data, and processes where the \PZ\ decays to
+$l^\mathrm{+}l^\mathrm{-}$ ($e^\mathrm{+}e^\mathrm{-}$ or $\mu^\mathrm{+}\mu^\mathrm{-}$), using 5.1\fbinv\ of data.
 They set 95\%\ Bayesian credibility intervals constraining $|h_{3}^{V}| < 0.022$ and $|h_{4}^{V}| < 0.0009$ (1D limits)~\cite{ref:PhysRevLett.107.051802}.
-The D0 experiment similarly combined a 3.6\,\fbinv\ \zinvg\ analysis with a 7.2
-\fbinv\ $Z(l^\mathrm{+}l^\mathrm{-})\gamma$ analysis to set 95\%\ CL limits constraining
+The D0 experiment similarly combined a 3.6\fbinv\ \zinvg\ analysis with a 7.2\fbinv\ $Z(l^\mathrm{+}l^\mathrm{-})\gamma$
+analysis to set 95\%\ CL limits constraining
 $|h_{03}^{V}| < 0.027$ and $|h_{04}^{V}| < 0.0014$ (1D limits)~\cite{ref:PhysRevD.85.052001}. Correlated 2D limits were also
 computed and are shown in Fig.~\ref{fig:d0_aTGC}.
 
@@ -301,7 +300,7 @@ computed and are shown in Fig.~\ref{fig:d0_aTGC}.
 \end{figure}
 
 Experiments at the LHC made further improvements via the analysis of \Pp\Pp\ collision data at progressively higher $\sqrt{s}$.
-A summary of 1D limits on $h_{i}^{V}$ from both the ATLAS and CMS experiments obtained from analyses of \textasciitilde20\,\fbinv\ of $\sqrt{s} = 8\unit{TeV}$ data
+A summary of 1D limits on $h_{i}^{V}$ from both the ATLAS and CMS experiments obtained from analyses of \textasciitilde20\fbinv\ of $\sqrt{s} = 8\unit{TeV}$ data
 is shown in Fig.~\ref{fig:lhc_8tev_atgc_1dlimits}. ATLAS limits show the results of combined \zinvg\ and $Z(l^\mathrm{+}l^\mathrm{-})\gamma$
 analyses, both with and without a form factor on $h_{i}^{V}$. CMS limits show separate \zinvg\ results, along with $Z(l^\mathrm{+}l^\mathrm{-})\gamma$
 results, both without a form factor~\cite{ref:RevModPhys.89.035008}. These comparisons make clear that \zinvg\ is by far
@@ -311,7 +310,7 @@ the more sensitive channel for setting aTGC limits.
   \begin{center}
     \includegraphics[width=\textwidth]{Figures/lhc_8tev_atgc_1dlimits.png}
     \caption{
-      1D $h_{i}^{V}$ exclusion limits from the ATLAS and CMS experiments at the LHC based on 20\,\fbinv\ of $\sqrt{s} = 8\unit{TeV}$
+      1D $h_{i}^{V}$ exclusion limits from the ATLAS and CMS experiments at the LHC based on 20\fbinv\ of $\sqrt{s} = 8\unit{TeV}$
       \Pp\Pp\ collision data, from~\cite{ref:RevModPhys.89.035008}.
       $Z\gamma(ll\gamma)$ indicates a combination of $Z(e^\mathrm{+}e^\mathrm{-})\gamma$ and $Z(\mu^\mathrm{+}\mu^\mathrm{-})\gamma$
       analyses; $Z\gamma(ll\gamma,\nu\nu\gamma)$ indicates a combination of these with \zinvg. The mass $\Lambda_{FF}$
@@ -321,7 +320,7 @@ the more sensitive channel for setting aTGC limits.
   \end{center}
 \end{figure}
 
-The most sensitive published limits on $h_{3,4}^{Z,\gamma}$ are currently derived from 36.1\,\fbinv\ of 13\unit{TeV} \Pp\Pp\ collision
+The most sensitive published limits on $h_{3,4}^{Z,\gamma}$ are currently derived from 36.1\fbinv\ of 13\unit{TeV} \Pp\Pp\ collision
 data collected by the ATLAS detector at the LHC, analyzed exclusively in the monophoton channel, with no form factor~\cite{ref:CERN-EP-2018-220}.
 These are summarized in Figs.~\ref{fig:atlas_atgc_13tev_1dlimits},~\ref{fig:atlas_atgc_13tev_2dlimits}.
 
@@ -329,7 +328,7 @@ These are summarized in Figs.~\ref{fig:atlas_atgc_13tev_1dlimits},~\ref{fig:atla
   \begin{center}
     \includegraphics[width=0.8\textwidth]{Figures/atlas_atgc_13tev_1dlimits.png}
     \caption{
-      1D $h_{i}^{V}$ exclusion limits from the ATLAS experiment at the LHC based on 36.1\,\fbinv\ of $\sqrt{s} = 13\unit{TeV}$
+      1D $h_{i}^{V}$ exclusion limits from the ATLAS experiment at the LHC based on 36.1\fbinv\ of $\sqrt{s} = 13\unit{TeV}$
       \Pp\Pp\ collision data, analyzed in the monophoton channel, as shown in~\cite{ref:CERN-EP-2018-220}.
     }
     \label{fig:atlas_atgc_13tev_1dlimits}
@@ -340,7 +339,7 @@ These are summarized in Figs.~\ref{fig:atlas_atgc_13tev_1dlimits},~\ref{fig:atla
   \begin{center}
     \includegraphics[width=\textwidth]{Figures/atlas_atgc_13tev_2dlimits.png}
     \caption{
-      2D $h_{i}^{V}$ exclusion contours from the ATLAS experiment at the LHC based on 36.1\,\fbinv\ of $\sqrt{s} = 13\unit{TeV}$
+      2D $h_{i}^{V}$ exclusion contours from the ATLAS experiment at the LHC based on 36.1\fbinv\ of $\sqrt{s} = 13\unit{TeV}$
       \Pp\Pp\ collision data, analyzed in the monophoton channel, as shown in~\cite{ref:CERN-EP-2018-220}.
     }
     \label{fig:atlas_atgc_13tev_2dlimits}
@@ -392,7 +391,7 @@ lose predictive validity as the interaction energy approaches $\Lambda$~\cite{re
 with predictive validity only up to energies below $\Lambda$, is called an \textit{effective field theory} (EFT).
 
 The DM-EWK EFT described in~\cite{ref:PhysRevD.89.056011} adds four dimension-7 interaction terms to the SM Lagrangian, which therefore carry factors of $\frac{1}{\Lambda}$
-raised to the third power. The mass $m_\mathrm{DM}$ of the new DM particle is a free parameter of the model, along with two constants $k_1$ and $k_2$ controlling
+raised to the third power. The mass \mdm\ of the new DM particle is a free parameter of the model, along with two constants $k_1$ and $k_2$ controlling
 the relative strengths of the DM-\PZ\ and DM-\Pgamma\ couplings.
 Fig.~\ref{fig:dm_diagrams} illustrates the dominant contribution of this interaction to monophoton yields. Since the DM
 particle only interacts with the \PZ\ and \Pgamma, and this interaction is suppressed by $(\frac{1}{\Lambda})^{3}$, the outgoing DM is not expected to interact
@@ -419,19 +418,19 @@ and of many new physics models, and limits on the strength of such an interactio
 
 We examine models in which the mediator has either exclusively vector or exclusively axial-vector couplings to DM and also to SM quarks, independently
 of quark flavor. The free parameters of this model include
-the DM mass $m_\mathrm{DM}$, the mediator mass $M_\mathrm{med}$, the DM-mediator coupling $g_\mathrm{DM}$ and the DM-quark coupling $g_\mathrm{q}$.
+the DM mass \mdm, the mediator mass \mmed, the DM-mediator coupling \gdm\ and the DM-quark coupling \gq.
 The leading Feynman diagrams for monophoton production are shown in Fig.~\ref{fig:dm_diagrams}. The mediators are typically chosen to be quite massive,
 which suppresses the likelihood of DM--quark interactions, and the mediator does not have any direct couplings to leptons or bosons,
 so the DM is not expected to interact with detector elements as it escapes.
 
 \subsection{Previous searches} \label{sec:introduction_dm_previous_searches}
-In the limit that $M_\mathrm{med}$ is much larger than the $q\bar{q}$ interaction energy, DM simplified models converge to an EFT describing a direct contact
-interaction between DM and quarks, with a suppression scale $M_\mathrm{*} = M_\mathrm{med}/\sqrt{g_\mathrm{q}g_\mathrm{DM}}$~\cite{ref:1603.04156}.
+In the limit that \mmed\ is much larger than the \Pq\Paq\ interaction energy, DM simplified models converge to an EFT describing a direct contact
+interaction between DM and quarks, with a suppression scale $M_\mathrm{*} = \mmed/\sqrt{\gq\gdm}$~\cite{ref:1603.04156}.
 Such DM-quark EFT models were the subject of monophoton searches~\cite{ref:j.physletb.2016.01.057, ref:PhysRevD.91.012008} prior to the adoption of
 DM simplified models by the ATLAS-CMS Dark Matter Forum in 2015~\cite{ref:1507.00966}.
 As the interaction energy increases, the EFT description breaks down for the reasons described above, and DM simplified models
 offer a replacement that retains predictive validity (at the cost of some degree of generality).
-In contrast, the dimension-7 DM-EWK EFT considered here is not the large-$M_\mathrm{med}$ limit of a DM simplified model~\cite{ref:1507.00966} and represents a truly distinct
+In contrast, the dimension-7 DM-EWK EFT considered here is not the large-\mmed\ limit of a DM simplified model~\cite{ref:1507.00966} and represents a truly distinct
 process topology.
 
 Both the DM simplified models and the DM-EWK EFT were developed after LHC data taking began, with comparisons to LHC data in mind~\cite{ref:1507.00966, ref:PhysRevD.89.056011}.
@@ -460,14 +459,14 @@ signature in other channels.
   \end{center}
 \end{figure}
 
-Prior to the analysis presented in this thesis, the last published results from CMS in the monophoton final state examined 12.9\,\fbinv\ of data collected in the first half
-of 2016~\cite{ref:JHEP10(2017)073}. Simplified models were excluded at 95\% CL for $M_\mathrm{med}$ up to 700 GeV at small values of $m_\mathrm{DM}$, in both the vector
+Prior to the analysis presented in this thesis, the last published results from CMS in the monophoton final state examined 12.9\fbinv\ of data collected in the first half
+of 2016~\cite{ref:JHEP10(2017)073}. Simplified models were excluded at 95\% CL for \mmed\ up to 700 GeV at small values of \mdm, in both the vector
 and axial-vector cases. Values of $\Lambda$ for the DM-EWK EFT up to 600 GeV were also excluded at 95\% CL, assuming $k_{1} = k_{2} = 1$\footnote{Defining $k = \sqrt{k_{1}^{2} + k_{2}^{2}}$
 and $\theta_{k} = \arctan{\frac{k_{2}}{k_{1}}}$, the choice $k_{1} = k_{2} = 1$ corresponds to the choice $k = \sqrt{2}$ and $\theta_{k} = \pi/4$. Fixing $\theta_{k} = \pi/4$,
 the limits on $\Lambda / k^{1/3}$ for arbitrary $k$ are equal to the $k = \sqrt{2}$ limits on $\Lambda$ multiplied by $2^{-1/6}$.}.
 
-The most stringent monophoton results to date are set by an analysis of 36.1\,\fbinv\ of data collected by the ATLAS detector~\cite{ref:epjc/s10052-017-4965-8}.
-Simplified models were excluded at 95\% CL for $M_\mathrm{med}$ up to 1200 GeV at small values of $m_\mathrm{DM}$, in both the vector and axial-vector cases, as shown in Fig.~\ref{fig:dmsimp_atlas}.
+The most stringent monophoton results to date are set by an analysis of 36.1\fbinv\ of data collected by the ATLAS detector~\cite{ref:epjc/s10052-017-4965-8}.
+Simplified models were excluded at 95\% CL for \mmed\ up to 1200 GeV at small values of \mdm, in both the vector and axial-vector cases, as shown in Fig.~\ref{fig:dmsimp_atlas}.
 Values of $\Lambda$ for the DM-EWK EFT up to 790 GeV, assuming $k_{1} = k_{2} = 1$, were also excluded at 95\% CL, as shown in Fig.~\ref{fig:dmeft_atlas}.
 
 Assuming DM simplified models describe the dominant mode of interaction between DM and SM particles, the scattering cross section of low-energy (nonrelativistic) DM off nucleons (protons and neutrons)
@@ -509,7 +508,7 @@ that does/does not depend on the spin of the nucleus, respectively known as the 
   \end{center}
 \end{figure}
 
-All of the preceding limits were derived for $g_\mathrm{DM} = 1$ and $g_\mathrm{q} = 0.25$, which matches the couplings used for the results obtained herein.
+All of the preceding limits were derived for $\gdm = 1$ and $\gq = 0.25$, which matches the couplings used for the results obtained herein.
 By convention, this is the most commonly investigated set of values for these couplings, but studies have been done using alternative values, some of which
 include a small nonzero coupling between the new mediator and charged leptons (e.g.~\cite{ref:epjc/s10052-017-4965-8}).
 
@@ -518,32 +517,32 @@ None of these analyses report any significant evidence of BSM physics.
 \section{ADD gravitons} \label{sec:introduction_ADD}
 We finally examine a model of gravitation in extra dimensions originally proposed by Arkani-Hamed, Dimoupolos, and Dvali (ADD)~\cite{ref:S0370-2693(98)00466-3}.
 Gravity typically affects SM particles much, much less than the other fundamental interactions. The weakness of gravity
-is often expressed in terms of a fundmental mass scale $M_\mathrm{Pl}$ (\textasciitilde$10^{19}$ GeV), which is
+is often expressed in terms of a fundmental mass scale \mPl\ (\textasciitilde$10^{19}$ GeV), which is
 many orders of magnitude larger than the masses of the EWK bosons (\textasciitilde$10^{2}$ GeV). Particle-level gravitational interactions
 are correspondingly sharply suppressed. The proposed boson of gravitation, the graviton, has yet to be detected and is not part of the SM.
-The mystery of why $M_\mathrm{Pl}$ is so much larger than the EWK mass scale has been called the ``Hierarchy problem,'' and the desire for a
+The mystery of why \mPl\ is so much larger than the EWK mass scale has been called the ``Hierarchy problem,'' and the desire for a
 more elegant formulation has been a productive stimulus for BSM theories~\cite{ref:S0370-2693(98)00466-3, ref:0264-9381/32/3/033001}.
 
 Everyday experience indicates that there are 3 dimensions of space and 1 dimension of time, and the SM assumes this to be true.
 The ADD model begins with the observation that, if there are $n$ extra spatial dimensions beyond the usual 3,
 we might not be able to directly perceive them if all the SM particles are confined by some as-yet-unspecified
 mechanism to a 3+1-dimensional subspace (the ``brane'') of the full $n$+3+1-dimensional spacetime (the ``bulk'')\footnote{The case $n=0$ corresponds
-to ordinary GR.}. In contrast, gravitons in this model are able to propagate freely throughout the bulk.
+to ordinary GR in 3+1 spacetime dimensions.}. In contrast, gravitons in this model are able to propagate freely throughout all dimensions of the bulk.
 
-Gravitation in the bulk is characterized by a mass scale $M_\mathrm{D}$ distinct from the mass scale $M_\mathrm{Pl}$ that
+Gravitation in the bulk is characterized by a mass scale \mD\ distinct from the mass scale \mPl\ that
 characterizes gravitation as perceived by particles confined to the brane. If the extra dimensions are not extended infinitely like the
 dimensions of common experience, but rather ``compactified'' into a finite volume of characteristic radius $R$, then for a sufficiently mild
-energy density in the vicinity of the brane, $M_\mathrm{Pl}^{2} \approx M_\mathrm{D}^{n+2} R^{n}$~\cite{ref:S0370-2693(98)00466-3, ref:S0550-3213(99)00044-9}.
-For a modest number of extra dimensions (e.g. $3 \leq n \leq 6$), the observed large value of $M_\mathrm{Pl}$ could then really
-be a consequence of a large value for $R$, while the fundamental gravitational scale $M_\mathrm{D}$ could be closer to or even
-the same as the EWK scale. In light of this possibility, ADD model predictions are typically examined for values of $M_\mathrm{D}$ in the vicinity of 1\unit{TeV}.
+energy density in the vicinity of the brane, $\mPl^{2} \approx \mD^{n+2} R^{n}$~\cite{ref:S0370-2693(98)00466-3, ref:S0550-3213(99)00044-9}.
+For a modest number of extra dimensions (e.g. $3 \leq n \leq 6$), the observed large value of \mPl\ could then really
+be a consequence of a large value for $R$, while the fundamental gravitational scale \mD\ could be closer to or even
+the same as the EWK scale. In light of this possibility, ADD model predictions are typically examined for values of \mD\ in the vicinity of 1\unit{TeV}.
 
 The cross sections for a variety of graviton production scenarios are calculated in ref.~\cite{ref:S0550-3213(99)00044-9}, using a low-energy EFT
-approximation of GR in which $M_\mathrm{D}$ serves as the suppression scale. At higher energies the specific details of the geometry of the extra dimensions,
+approximation of GR in which \mD\ serves as the suppression scale. At higher energies the specific details of the geometry of the extra dimensions,
 and phenomena uniquely predicted by a full quantum theory of gravitation, would start to become apparent. These are both unknown, and the EFT correspondingly
-does not make predictions on the outcome of scattering events with energies above $M_\mathrm{D}$.
+does not make predictions on the outcome of scattering events with energies above \mD.
 
-The ratio $M_\mathrm{Pl} / M_\mathrm{D}$ essentially expresses the wide range of kinematic possibilities that open up for gravitons with the addition
+The ratio $\mPl / \mD$ essentially expresses the wide range of kinematic possibilities that open up for gravitons with the addition
 of extra dimensions. After summing over all of these possibilities, the resulting cross section is high enough for graviton production to be probed with existing collider experiments.
 Gravitons couple to every SM particle, although the coupling is still sufficiently weak that an emitted graviton will generally not interact with a detector element.
 This results in a monophoton signature if it is emitted opposite a photon, as illustrated in Fig.~\ref{fig:add_diagram}.
@@ -561,16 +560,16 @@ This results in a monophoton signature if it is emitted opposite a photon, as il
 \subsection{Previous searches} \label{sec:introduction_ADD_previous_searches}
 For distances $r$ much larger than $R$, the effective gravitational potential in the ADD model has the $1/r$ form proposed by Isaac Newton (in the weak-field limit).
 However, for $r \ll R$, the Newton's law potential is multiplied by $(R/r)^{n}$, leading to significant deviations from Newtonian gravitational behavior.
-If $M_\mathrm{D} \approx 1\unit{TeV}$ and $n = 1$, then to reproduce the observed value of $M_\mathrm{Pl}$, $R$ must be \textasciitilde$10^{13}\unit{cm}$, which
+If $\mD \approx 1\unit{TeV}$ and $n = 1$, then to reproduce the observed value of \mPl, $R$ must be \textasciitilde$10^{13}\unit{cm}$, which
 would result in noticeable differences in the orbits of the planets~\cite{ref:S0370-2693(98)00466-3}. The case $n = 2$ is disfavored by precision
 measurements of Newton's law over distances on the order of 0.1\unit{mm}~\cite{ref:0264-9381/32/3/033001}.
 
 As in the case of the aTGC model, collider limits
 become strictly more stringent with increases in collider energy, starting from the LEP and moving up through the Tevatron to the LHC.
 Representative curves from each of these are shown in Fig.~\ref{fig:add_noncollider_comparison}, which also shows that collider limits
-on $M_\mathrm{D}$ dominate noncollider limits for $n \geq 3$. As with the DM simplified models, the strongest mono-X limits on the ADD model come from
+on \mD\ dominate noncollider limits for $n \geq 3$. As with the DM simplified models, the strongest mono-X limits on the ADD model come from
 the mono-$j/V$ channel, while the monophoton channel is the second most sensitive. The most stringent mono-$j/V$ limits from CMS exclude the ADD model
-at 95\% CL for $M_\mathrm{D}$ up to 9.9\unit{TeV} when $n = 2$, and for $M_\mathrm{D}$ up to 5.3\unit{TeV} when $n = 6$~\cite{ref:PhysRevD.97.092005}.
+at 95\% CL for \mD\ up to 9.9\unit{TeV} when $n = 2$, and for \mD\ up to 5.3\unit{TeV} when $n = 6$~\cite{ref:PhysRevD.97.092005}.
 
 \begin{figure}[hbtp]
   \begin{center}
@@ -588,7 +587,7 @@ at 95\% CL for $M_\mathrm{D}$ up to 9.9\unit{TeV} when $n = 2$, and for $M_\math
 \end{figure}
 
 Prior to the analysis presented in this thesis, the most stringent ADD limits in the monophoton final state were set in the last published results from CMS,
-based on 12.9\,\fbinv\ of data collected in the first half of 2016~\cite{ref:JHEP10(2017)073}. The ADD model was excluded at 95\% CL for $M_\mathrm{D}$ up to 2.31\unit{TeV}
+based on 12.9\fbinv\ of data collected in the first half of 2016~\cite{ref:JHEP10(2017)073}. The ADD model was excluded at 95\% CL for \mD\ up to 2.31\unit{TeV}
 for $n = 3$, climbing to 2.49\unit{TeV} at $n = 6$, as shown in Fig.~\ref{fig:add_cms_earlylimits_MD}.
 
 \begin{figure}[hbtp]
@@ -597,7 +596,7 @@ for $n = 3$, climbing to 2.49\unit{TeV} at $n = 6$, as shown in Fig.~\ref{fig:ad
     \caption{
     ADD limits based on CMS data from the first half of 2016 analyzed in the monophoton channel, as shown in~\cite{ref:JHEP10(2017)073}.
     Limits from the previous CMS monophoton analysis of 8\unit{TeV} data~\cite{ref:j.physletb.2016.01.057} are also shown.
-    The ADD model for a given $n$ (specified by the left edge of each bin) is excluded at 95\% CL or more for $M_\mathrm{D}$ below the curves.
+    The ADD model for a given $n$ (specified by the left edge of each bin) is excluded at 95\% CL or more for \mD\ below the curves.
     }
     \label{fig:add_cms_earlylimits_MD}
   \end{center}

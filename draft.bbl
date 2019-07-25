@@ -94,8 +94,10 @@ M.~Grazzini, S.~Kallweit, and M.~Wiesemann, ``Fully differential NNLO
 \bibitem{ref:CERN-EP-2018-220}
 M.~Aaboud {\em et al.}, ``Measurement of the $Z\gamma \to \nu\bar{\nu}\gamma$
   production cross section in $pp$ Collisions at $\sqrt{s} = 13$ TeV with the
-  ATLAS detector and limits on anomalous triple gauge-boson couplings,''
-  \href{http://arXiv.org/abs/1810.04995}{{\texttt {arXiv:1810.04995}}}.
+  ATLAS detector and limits on anomalous triple gauge-boson couplings,'' {\em
+  JHEP} {\bf 2018} (2018) 10, \href{http://arXiv.org/abs/1810.04995}{{\texttt
+  {arXiv:1810.04995}}}, \href{https://doi.org/10.1007/JHEP12(2018)010}{\texttt
+  {doi:10.1007/JHEP12(2018)010}}.
 
 \bibitem{ref:1126-6708/2009/02/007}
 T.~Gleisberg {\em et al.}, ``Event generation with SHERPA 1.1,'' {\em JHEP}
@@ -799,11 +801,31 @@ G.~Bozzi, S.~Catani, G.~Ferrera, D.~de~Florian, and M.~Grazzini, ``Production
   \href{https://doi.org/10.1016/j.physletb.2010.12.024}{\texttt
   {doi:10.1016/j.physletb.2010.12.024}}.
 
+\bibitem{ref:JHEP02(2019)074}
+A.~Sirunyan {\em et al.}, ``Search for new physics in final states with a
+  single photon and missing transverse momentum in proton-proton collisions at
+  $\sqrt{s} = 13$ TeV,'' {\em JHEP} {\bf 2019} (2019) 74,
+  \href{http://arXiv.org/abs/1810.00196}{{\texttt {arXiv:1810.00196}}},
+  \href{https://doi.org/10.1007/JHEP02(2019)074}{\texttt
+  {doi:10.1007/JHEP02(2019)074}}.
+
 \bibitem{ref:epjc/s10052-017-5389-1}
 J.~Lindert {\em et al.}, ``Precise predictions for V+jets dark matter
   backgrounds,'' {\em Eur. Phys. J. C} {\bf 77} (2017) 829,
   \href{http://arXiv.org/abs/1705.04664}{{\texttt {arXiv:1705.04664}}},
   \href{https://doi.org/10.1140/epjc/s10052-017-5389-1}{\texttt
   {doi:10.1140/epjc/s10052-017-5389-1}}.
+
+\bibitem{ref:08-AOAS163}
+L.~Lyons, ``Open Statistical Issues in Particle Physics,'' {\em Ann. Appl.
+  Stat.} {\bf 2} (2008) 887, \href{http://arXiv.org/abs/0811.1663}{{\texttt
+  {arXiv:0811.1663}}}, \href{https://doi.org/10.1214/08-AOAS163}{\texttt
+  {doi:10.1214/08-AOAS163}}.
+
+\bibitem{ref:HLLHC}
+I.~Béjar~Alonso {\em et al.}, ``High-Luminosity Large Hadron Collider
+  (HL-LHC). Technical Design Report V. 0.1,'' {\em CERN} (2017)
+  \href{https://doi.org/10.23731/CYRM-2017-004}{\texttt
+  {doi:10.23731/CYRM-2017-004}}.
 
 \end{thebibliography}\endgroup
