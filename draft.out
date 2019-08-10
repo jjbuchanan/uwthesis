@@ -8,7 +8,7 @@
 \BOOKMARK [2][-]{subsection.1.4.1}{Previous\040searches}{section.1.4}% 8
 \BOOKMARK [1][-]{section.1.5}{ADD\040gravitons}{chapter.1}% 9
 \BOOKMARK [2][-]{subsection.1.5.1}{Previous\040searches}{section.1.5}% 10
-\BOOKMARK [0][-]{chapter.2}{The\040CMS\040experiment\040and\040the\040LHC}{}% 11
+\BOOKMARK [0][-]{chapter.2}{The\040LHC\040and\040the\040CMS\040experiment}{}% 11
 \BOOKMARK [1][-]{section.2.1}{The\040LHC}{chapter.2}% 12
 \BOOKMARK [2][-]{subsection.2.1.1}{Proton\040acceleration\040and\040collision}{section.2.1}% 13
 \BOOKMARK [2][-]{subsection.2.1.2}{Collimation,\040magnets,\040and\040beam\040halo}{section.2.1}% 14
@@ -43,9 +43,9 @@
 \BOOKMARK [1][-]{section.5.9}{Dimuon\040control\040region}{chapter.5}% 43
 \BOOKMARK [0][-]{chapter.6}{Signal\040and\040background\040estimation}{}% 44
 \BOOKMARK [1][-]{section.6.1}{Yields\040from\040simulation}{chapter.6}% 45
-\BOOKMARK [1][-]{section.6.2}{Electron\040faking\040photon}{chapter.6}% 46
-\BOOKMARK [1][-]{section.6.3}{Jet\040faking\040photon}{chapter.6}% 47
-\BOOKMARK [1][-]{section.6.4}{Spikes}{chapter.6}% 48
+\BOOKMARK [1][-]{section.6.2}{Electron\040background}{chapter.6}% 46
+\BOOKMARK [1][-]{section.6.3}{Jet\040background}{chapter.6}% 47
+\BOOKMARK [1][-]{section.6.4}{Spike\040background}{chapter.6}% 48
 \BOOKMARK [1][-]{section.6.5}{Z\040plus\040gamma\040unfolding}{chapter.6}% 49
 \BOOKMARK [1][-]{section.6.6}{Higher-order\040corrections}{chapter.6}% 50
 \BOOKMARK [1][-]{section.6.7}{Signal\040estimation:\040SM}{chapter.6}% 51

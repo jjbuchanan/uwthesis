@@ -5,8 +5,8 @@ of elementary particles. The domain of applicability of the SM is quite substant
 every well-measured fundamental interaction of every verified fundamental particle. All SM particles have been conclusively observed,
 and no fundamental particles outside the SM have ever been conclusively observed. After decades of effort by thousands of researchers,
 no significant deviation from SM predictions has ever been confirmed in high-energy scattering experiments~\cite{ref:CahnGoldhaber, ref:PDG}.
-These efforts are extended here with studies of the relationship between two particles, \PZ\ and \Pgamma, at state-of-the-art precision
-(sec.~\ref{sec:introduction_znng} and~\ref{sec:introduction_aTGC}).
+These efforts are extended here with a study of the relationship between two particles, \PZ\ and \Pgamma, at state-of-the-art precision
+(sec.~\ref{sec:introduction_znng}).
 
 There are nevertheless many physical phenomena that the SM does not account for, such as the nature of gravitation (sec.~\ref{sec:introduction_ADD}),
 including the gravitational phenomenon known as \textit{dark matter} (DM; sec.~\ref{sec:introduction_dm}). Many theories of physics beyond the SM (BSM)
@@ -14,19 +14,21 @@ have been developed in an attempt to describe these phenomena.
 
 Specifically, this thesis presents several analyses of event yields in \textit{monophoton} final states, characterized by a single \Pgamma\ with
 high transverse momentum, along with an overall transverse momentum imbalance typically of equal magnitude and opposite direction to
-that of the \Pgamma. These analyses correspond to 35.9\fbinv\ of 13\unit{TeV} proton--proton (\Pp\Pp) collision data collected in 2016 by the CMS
-detector at the LHC.
+that of the \Pgamma.
+
+% These analyses correspond to 35.9\fbinv\ of 13\unit{TeV} proton--proton (\Pp\Pp) collision data collected in 2016 by the CMS
+% detector at the LHC.
 
 \section{Standard model of particle physics} \label{sec:introduction_standard_model}
 The set of particles described by the SM is illustrated in Fig.~\ref{fig:sm_particles}, which
 groups them according to certain fundamental characteristics.
-Each particle has an intrinsic angular momentum known as \text{spin}, specified by the lower number in each square of Fig.~\ref{fig:sm_particles}.
+Each particle has an intrinsic property known as \text{spin}, specified by the lower number in each square of Fig.~\ref{fig:sm_particles}.
 Spin can be an integer or half-integer, according to which the particle is classified as a \textit{boson} or \textit{fermion}, respectively.
 The fundamental fermions comprise six ``flavors'' of quarks---up (\Pu), down (\Pd), charm (\Pc), strange (\Ps), top (\Pt), and bottom (\Pb)---and six flavors of
 leptons: electron (\Pe), muon (\Pmu), and tau (\Ptau), with three corresponding neutrinos (\Pne, \Pnmu, \Pntau).
 Each of these has both a particle and an anti-particle variety; the quarks additionally come in three ``colors''.
 We typically denote a particle by a letter, e.g. \Pq\ for a generic quark; its antiparticle partner has an overbar, e.g. \Paq.
-The fundamental bosons comprise the \PH\ as well as the gauge bosons, in turn comprising the \PZ, photon (\Pgamma),
+The fundamental bosons comprise the spin-0 Higgs boson (\PH) as well as the spin-1 vector bosons, in turn comprising the \PZ, photon (\Pgamma),
 two \PW s distinguished by their electric charge, and eight gluons (\Pg) distinguished by a color-anticolor doublet.
 
 \begin{figure}[hbtp]
@@ -39,13 +41,15 @@ two \PW s distinguished by their electric charge, and eight gluons (\Pg) disting
   \end{center}
 \end{figure}
 
-The particles are related to one another through various
-classes of interactions, each of which has a corresponding charge whose sum must be conserved in any physical process.
+Each particle carries an energy $E$ and a momentum vector $\vec{p}$ with three components (one for every orthogonal direction in space).
+In any physical process, the sum of energy as well as the vector sum of momentum over every particle must be conserved.
+Particles are related into each other through various
+classes of interactions, each of which has a corresponding ``charge'' whose sum must also be conserved in any physical process.
 The electromagnetic and weak interactions correspond to electric charge and weak isospin, respectively.
 In Fig.~\ref{fig:sm_particles}, the value $Q$ of the electric charge is specified by the middle number in each square.
-For quarks and leptons, weak isospin determines whether the particle is ``up-type''
+For quarks and leptons, the weak isospin component $T_{3}$ determines whether the particle is ``up-type''
 (\Pu, \Pd, \Pt, \Pne, \Pnmu, \Pntau) or ``down-type'' (\Pd, \Ps, \Pb, \Pe, \Pmu, \Ptau).
-Weak isospin has a corresponding value $T_{3}$: up-type fermions have $T_{3} = \mathrm{+}1/2$, down-type fermions and the \PH\ have
+Up-type fermions have $T_{3} = \mathrm{+}1/2$, down-type fermions and the \PH\ have
 $T_{3} = \mathrm{-}1/2$, $W^\pm$ have $T_{3} = \pm1$, and the other bosons have $T_{3} = 0$.
 The three colors carried by quarks and gluons are associated with the strong interaction, described by the theory of \textit{quantum
 chromodynamics} (QCD). The preceding discussion applies to normal (i.e.\ not anti-) particles; antiparticles carry opposite values of all the
@@ -93,7 +97,19 @@ most easily accessed by these operators, corresponding to four distinct linear c
 \PB\ and $W^{i}$. These combinations, which are themselves operators, are labeled \PZ, \Pgamma, \PWplus, and \PWminus,
 and these are the operators describing the physical particles detected in experiments.
 In this manner, the electromagnetic and weak interactions are intertwined into the \textit{electroweak} (EWK) interaction.
-The conserved electric charge $Q$ emerges as the sum of $T_{3}$ with $\frac{1}{2}Y$.
+The operators of the SM Lagrangian act on mathematical objects that represent incoming and outgoing states of particle systems.
+The \PH, uniquely among SM particle operators, yields a nonzero \textit{vacuum expectation value} $v$ when the incoming and outgoing states are both the zero-particle ``vacuum state''.
+
+The charged fermions have couplings directly to the \PH\ that are directly proportional to their masses and inversely proportional to $v$. These particles are endowed
+with nonzero mass by additional \textit{mass terms}, directly proportional to the fermion mass.
+Without the \PH\ coupling terms, the fermion mass terms would cause the SM Lagrangian to not be invariant under general $SU(2)$ and $U(1)_{Y}$ gauge transformations.
+The photon is the only one of the EWK vector bosons with no direct \PH\ coupling. The other three also have additional terms proportional to $v$
+that act as mass terms; since $v$ is nonzero, these masses are nonzero. Additional mass terms for the EWK vector bosons other than the $v$ terms would break gauge invariance.
+Thus, it is their coupling to the \PH\ in conjunction with the nonzero value of $v$ that gives the charged fermions and EWK vector bosons (other than the photon) their nonzero masses
+while maintaining gauge invariance. Gauge invariance guarantees that the SM makes valid predictions at all energy scales, in contrast to effective theories
+(e.g. sec.~\ref{sec:introduction_dm}) that only make valid predictions in some circumscribed kinematic regime. The mass terms are only readily apparent in the SM Lagrangian
+under a specific choice of $SU(2)$ and $U(1)_{Y}$ gauge transformations: after fixing this choice, only a residual $U(1)$ gauge symmetry remains, corresponding to the
+\Pgamma. The conserved charge $Q$ of this residual gauge symmetry---the electric charge---is the sum of $T_{3}$ with $\frac{1}{2}Y$.
 
 Finally, the SM Lagrangian has an additional $SU(3)$ gauge symmetry associated with the eight gluons and color charge, described by QCD.
 Particles with color charge do not exist stably on their own, but rather are always observed in bound states called \textit{hadrons}, in which the overall color
@@ -165,11 +181,11 @@ of \PZ\ and \PW\ bosons, and these interactions are strongly suppressed by the h
   \end{center}
 \end{figure}
 
-Their existence is instead inferred by their absence.
-In a collider experiment, the vectorial momentum transverse to the beam direction, \vecpT, must sum to approximately zero in the reference frame of the
-detector. The negative vector sum of \vecpT\ for all detected particles in an event is denoted \vecMET, and its magnitude \MET\ must therefore be close
-to zero if all the particles in an event are reliably detected and their momenta are accurately measured. The only high-momentum SM particles that can't
-be reliably detected are neutrinos, so a large value of \MET\ can be a sign of neutrino production. An event with a high-\pT\ detected photon, in which
+Neutrino production in collision events is instead inferred by the conspicuous absence of a detector signal.
+In a head-on collision of LHC particle beams, the vectorial momentum transverse to the beam direction, \vecpT, must sum to approximately zero in the reference frame of the
+LHC and its detectors. The negative vector sum of \vecpT\ for all detected particles in an event is denoted \vecMET, and its magnitude \MET\ must therefore also be close
+to zero, if all the particles in an event are reliably detected and their momenta are accurately measured. The only high-momentum SM particles that can't
+be reliably detected by the CMS experiment (Chap.~\ref{chap:LHCCMS}) are neutrinos, so a large value of \MET\ can be a sign of neutrino production. An event with a high-\pT\ detected photon, in which
 the \vecMET\ has a large magnitude and points in a direction significantly different from that of the photon, is called a monophoton event, and it is
 expected that \zinvg\ processes are the main contributors of high-\pT\ monophoton events.
 
@@ -191,7 +207,7 @@ Experiments at the LEP detector measured the cross section of \zinvg\ arising fr
 The L3 experiment measured the cross section to be $5.1 \pm 0.3\mathrm{(stat)} \pm 0.1\mathrm{(syst)}$ $pb$ based on 175.6 $pb^{-1}$ of collision data with an average $\sqrt{s} = 188.6$ GeV, compared to an SM
 prediction of $4.99 \pm 0.05\mathrm{(stat)}$~\cite{ref:j.physletb.2004.07.002}. Looking at collision data at the same $\sqrt{s}$, but with different cuts,
 the OPAL experiment measured the cross section to be $2.52 \pm 0.13\mathrm{(stat)} \pm 0.05\mathrm{(syst)}$ $pb$ based on 177.3 $pb^{-1}$ of data, compared to an SM
-prediction of $2.81 \pm 0.02\mathrm{(stat)}$ $pb$~\cite{}. This set of SM predictions were made up to $O(\alpha^2)$, but LO in $\alpha_\mathrm{S}$.
+prediction of $2.81 \pm 0.02\mathrm{(stat)}$ $pb$~\cite{ref:s100520000490}. This set of SM predictions were made up to $O(\alpha^2)$, but LO in $\alpha_\mathrm{S}$.
 
 The D0 experiment at the Tevatron made the first observation of \zinvg\ arising from $p\bar{p}$ collisions in 2009. This yielded a cross section measurement of
 $32 \pm 9\mathrm{(stat+syst)} \pm 2\mathrm{(lumi)}$ $fb$ for a leading photon \pT\ above 90\unit{GeV}\footnote{The proper units for momentum are $\mathrm{GeV}/c$, but the
@@ -228,11 +244,12 @@ general theory of relativity (GR), has passed experimental tests over scales ran
 matching observations more closely than Newton's theory of gravitation, to which it converges in the weak-field limit~\cite{ref:WaldGR}.
 It predicts the existence of gravitional waves, directly detected for the first time in 2015~\cite{ref:PhysRevLett.116.061102}, and these have been used to test the theory in the strong-field regime~\cite{ref:PhysRevLett.116.221101}.
 
-Despite its many triumphs, GR fails---under the assumption that SM particles and their known interactions are the only sort that exist---to describe the orbits of stars in nearly every galaxy~\cite{ref:nature25767},
+Despite these many triumphs, our knowledge of fundamental physics fails---under the assumptions that GR is true, that the universe is broadly similar in every region and every
+direction of space, and that SM particles and their known interactions are the only sort that exist---to describe the orbits of stars in nearly every galaxy~\cite{ref:nature25767},
 the average weak distortion of light by galaxies~\cite{ref:weaklensing}, the strong distortion of light by galaxy clusters~\cite{ref:mnras/stw3385}, the orbits of galaxies in galaxy clusters~\cite{ref:annurev-astro-081710-102514},
 the formation of large-scale filamentary structures~\cite{ref:nature03597}, or the distribution of ripples in the cosmic microwave background (CMB) arising from big bang nucleosynthesis~\cite{ref:planck2018_cosparams}.
 Each of these phenomena could be explained by the existence of an abundance of massive matter with no discernible interactions of any sort, other than gravitation.
-This extends to interactions with visible light, giving rise to the name ``dark matter.''
+This includes interactions with visible light, giving rise to the name ``dark matter.''
 
 These difficulties could also indicate the need to modify the theory of gravity.
 However, the nature of the Bullet cluster, a galaxy cluster with a total mass distribution (as inferred from gravitational lensing) significantly displaced from its visible mass,
@@ -245,7 +262,9 @@ DM component (as with the Bullet cluster), but the fundamental laws of gravitati
 No SM particle is predicted to exhibit the behavior of DM, and this has spurred the development
 of BSM theories describing new particles that could account for it~\cite{ref:s41550-017-0059, ref:j.physrep.2004.08.031, ref:annurev.nucl.54.070103.181244, ref:S1062798717000783}.
 The great diversity of theories motivates general models that can potentially constrain a wide variety of specific theories simultaneously.
-If DM is particulate in nature, it apparently has a substantial mass, interacts very weakly with SM particles, and is stable on cosmological timescales~\cite{}.
+If DM is particulate in nature, it seemingly has a substantial mass, interacts very weakly with SM particles, and is stable on cosmological timescales\footnote{These assumptions
+are characteristic of the WIMP---Weakly Interacting Massive Particle---paradigm; other possibilities (such as axions, which are relatively light) have been proposed
+that violate one or more of these assumptions~\cite{ref:S1062798717000783}.}.
 The models we consider here include a BSM particle satisfying each of these criteria.
 All the massive, stable particles in the SM are fermionic, and these models similarly describe a fermionic DM candidate. Otherwise, the new physics
 content of these models is kept to a minimum, as sufficiently large deviations from SM predictions would presumably have been detected by now.

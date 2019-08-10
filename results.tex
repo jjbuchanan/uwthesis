@@ -10,7 +10,7 @@ made by each true \pTgamma\ bin to the various reconstructed \ETgamma\ bins.
     \includegraphics[width=0.45\textwidth]{figures/xsec_results/Postfit/postfit_weng_phoPt.pdf}
     \includegraphics[width=0.45\textwidth]{figures/xsec_results/Postfit/postfit_wmng_phoPt.pdf}
     \caption{
-      Postfit reconstructed \ETgamma\ distribution in the two control regions used in the cross section likelihood function:
+      Control region postfit \ETgamma\ distributions corresponding to the cross section likelihood function:
       \Pe\Pgamma\ (left) and \Pmu\Pgamma\ (right). The last bin includes all events with $\ETgamma > 1000\unit{GeV}$.
     }
     \label{fig:postfitXS_CR}
@@ -22,8 +22,9 @@ made by each true \pTgamma\ bin to the various reconstructed \ETgamma\ bins.
     \includegraphics[width=0.45\textwidth]{figures/xsec_results/Postfit/postfit_znng_SA_phoPt.pdf}
     \includegraphics[width=0.45\textwidth]{figures/xsec_results/Postfit/postfit_znng_SB_phoPt.pdf}
     \caption{
-      Postfit reconstructed \ETgamma\ distribution in the two signal regions used in the cross section likelihood function:
-      vertical (left) and horizontal (right). The last bin includes all events with $\ETgamma > 1000\unit{GeV}$.
+      Signal region postfit \ETgamma\ distributions corresponding to the cross section likelihood function:
+      vertical region (left) and horizontal region (right).
+      The last bin includes all events with $\ETgamma > 1000\unit{GeV}$.
     }
     \label{fig:postfitXS_SR}
   \end{center}
@@ -34,7 +35,7 @@ made by each true \pTgamma\ bin to the various reconstructed \ETgamma\ bins.
     \includegraphics[width=0.45\textwidth]{figures/xsec_results/Postfit/postfit_unfolding_b_phoPt.pdf}
     \includegraphics[width=0.45\textwidth]{figures/xsec_results/Postfit/postfit_unfolding_b_genPtAllocation_phoPt.pdf}
     \caption{
-      Sum of the postfit reconstructed \ETgamma\ distributions of the two signal regions used in the cross section likelihood function.
+      Sum of the postfit reconstructed \ETgamma\ distributions of the two signal regions corresponding to the cross section likelihood function.
       On the left, the separate background contributions are assigned different colors, while \zinvg\ contributions from every bin of true
       \pTgamma\ are assigned the same green color. On the right, all background contributions are assigned the same gray color, while
       contributions from separate \pTgamma\ bins are assigned different colors. The last \ETgamma\ bin includes all events
@@ -78,8 +79,9 @@ uncertainty corresponding to the limited size of the observed data set is denote
 % bins, so to a first approximation the independence assumption of Table~\ref{tab:measured_xsec} is not grossly invalid.
 
 The theoretical SM prediction, as computed in MATRIX to NNLO in $\alpha_\mathrm{S}$, is listed for each true \pTgamma\ bin in Table~\ref{tab:matrix_xsec}, which
-also lists the uncertainties on the prediction due to the choice of renormalization and factorization scales (scale uncertainty). The MATRIX predictions
-and the measurement reported above generally agree to within the statistical errors of the measurement, except in the highest \pTgamma\ bins: the difference
+also lists the uncertainties on the prediction due to the choice of renormalization and factorization scales (scale uncertainty). Figure~\ref{fig:measvsmat}
+compares the measured cross section to the MATRIX predictions.
+The two generally agree to within the statistical errors of the measurement, except in the highest \pTgamma\ bins: the difference
 between the measured and predicted cross section in the 400-600\unit{GeV} bin is 1.6 times the statistical error on the measurement, and the difference
 for the 600-Inf bin is 1.8 times the statistical error. The \zinvg\ process contributes an estimated 14.12 events to the observed 16 events in the 600-Inf bin.
 Under the hypothesis that the MATRIX prediction is true, the probability of observing at least 14 \zinvg\ events
@@ -109,6 +111,18 @@ The number of generated events was sufficient to render the MC statistical uncer
 \label{tab:matrix_xsec}
 \end{table}
 
+\begin{figure}[htbp]
+  \begin{center}
+    \includegraphics[width=0.75\textwidth]{figures/ZNuNuG_measured_vs_MATRIX.pdf}
+    \caption{
+      The measured \zinvg\ cross section (blue) compared to the MATRIX NNLO prediction (red). The vertical bars and hatched bands
+      on the measured cross section correspond to the statistical and systematic uncertainties, respectively. The scale uncertainty
+      on the MATRIX cross section is too small to be seen on this plot. The last bin includes all events with $\pTgamma > 1000\unit{GeV}$.
+    }
+    \label{fig:measvsmat}
+  \end{center}
+\end{figure}
+
 \section{DM simplified model limits} \label{sec:results_DM}
 Figure~\ref{fig:postfitDM_CR} shows the postfit plots in the control regions corresponding to the DM and ADD likelihood function (with
 BSM signal strength fixed to zero\footnote{For nonzero values of the BSM signal strength, the plots depend on a specific choice of BSM model
@@ -134,7 +148,7 @@ for small \mdm\ values.
     \includegraphics[width=0.45\textwidth]{figures/exo16053/Figure_005-c.pdf}
     \includegraphics[width=0.45\textwidth]{figures/exo16053/Figure_005-d.pdf}
     \caption{
-      Postfit \ETgamma\ distribution in each of the four control regions used in the DM and ADD likelihood function:
+      Control region postfit \ETgamma\ distribution corresponding to the DM and ADD likelihood function:
       \Pe\Pe\Pgamma\ (top left), \Pmu\Pmu\Pgamma\ (top right), \Pe\Pgamma\ (bottom left), and
       \Pmu\Pgamma\ (bottom right). The last bin includes all events with $\ETgamma > 1000\unit{GeV}$.
       Published in~\cite{ref:JHEP02(2019)074}.
@@ -148,9 +162,8 @@ for small \mdm\ values.
     \includegraphics[width=0.45\textwidth]{figures/exo16053/Figure_006-b.pdf}
     \includegraphics[width=0.45\textwidth]{figures/exo16053/Figure_006-a.pdf}
     \caption{
-      Postfit \ETgamma\ distributions in the vertical (left) and horizontal (right) signal regions, corresponding
-      to the DM and ADD likelihood function with BSM signal strength set to zero.
-      The last bin includes all events with $\ETgamma > 1000\unit{GeV}$.
+      Signal region postfit \ETgamma\ distributions corresponding to the DM and ADD likelihood function, with
+      BSM signal strength set to zero: vertical region (left) and horizontal region (right). The last bin includes all events with $\ETgamma > 1000\unit{GeV}$.
       Published in~\cite{ref:JHEP02(2019)074}.
     }
     \label{fig:postfitDM_SR}
@@ -231,9 +244,7 @@ Relative to DD experiments, this search establishes stronger constraints for $\m
       The 90\% CL exclusion limits on the DM--nucleon spin-independent (left)
       and spin-dependent (right) scattering cross sections involving vector and axial-vector mediators, respectively,
       as a function of \mdm. Simplified model parameters of $\gq=0.25$ and $\gdm=1$ are assumed.
-      The region to the upper left of the contour is excluded at 95\% CL or above. At the scale of these plots, the median
-      expected 90\% CL curves largely overlap the observed 90\% CL curves.
-      Published in~\cite{ref:JHEP02(2019)074}.
+      The region to the upper left of the contour is excluded at 95\% CL or above. Published in~\cite{ref:JHEP02(2019)074}.
     }
     \label{fig:2d_mx}
   \end{center}
@@ -270,7 +281,6 @@ Lower limits on \mD\ for various different values of $n$ are listed in Table~\re
 
 \begin{table}[htbp]
   \begin{center}
-    \caption{The 95\% CL observed and expected lower limits on the ADD mass scale \mD\ as a function of $n$, the number of extra dimensions.}
     \label{tab:MDLimits}
     \begin{tabular}{|c|c|c|}
       \hline
@@ -282,6 +292,7 @@ Lower limits on \mD\ for various different values of $n$ are listed in Table~\re
       6 & 2.90 & 3.28 \\
       \hline
     \end{tabular}
+    \caption{The 95\% CL observed and expected lower limits on the ADD mass scale \mD\ as a function of $n$, the number of extra dimensions.}
   \end{center}
 \end{table}
 

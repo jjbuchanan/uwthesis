@@ -67,6 +67,14 @@ M.~Grazzini, S.~Kallweit, and D.~Rathlev, ``$W\gamma$ and $Z\gamma$ production
   \href{https://doi.org/10.1016/j.physletb.2004.07.002}{\texttt
   {doi:10.1016/j.physletb.2004.07.002}}.
 
+\bibitem{ref:s100520000490}
+G.~Abbiendi {\em et al.}, ``Search for trilinear neutral gauge boson couplings
+  in \PZ\Pgamma production at $\sqrt{s} = 189\unit{GeV}$ at LEP,'' {\em Eur.
+  Phys. J. C} {\bf 17} (2000) 553,
+  \href{http://arXiv.org/abs/hep-ex/0007016}{{\texttt {arXiv:hep-ex/0007016}}},
+  \href{https://doi.org/10.1007/s100520000490}{\texttt
+  {doi:10.1007/s100520000490}}.
+
 \bibitem{ref:PhysRevLett.102.201802}
 V.~Abazov {\em et al.}, ``Measurement of the $Z\gamma \to \nu\bar{\nu}\gamma$
   Production Cross Section and Limits on Anomalous $ZZ\gamma$ and
@@ -112,76 +120,6 @@ J.~Campbell, R.~Ellis, and C.~Williams, ``Vector boson pair production at the
   \href{http://arXiv.org/abs/1105.0020}{{\texttt {arXiv:1105.0020}}},
   \href{https://doi.org/10.1007/JHEP07(2011)018}{\texttt
   {doi:10.1007/JHEP07(2011)018}}.
-
-\bibitem{ref:Nucl.Phys.0550-3213_87_90685-7}
-K.~Hagiwara, R.~Peccei, D.~Zeppenfeld, and K.~Hikasa, ``Probing the weak boson
-  sector in $e^{\mathrm{+}}e^{\mathrm{-}} \to W^{\mathrm{+}}W^{\mathrm{-}}$,''
-  {\em Nucl. Phys.} {\bf 282} (1987) 253,
-  \href{https://doi.org/10.1016/0550-3213(87)90685-7}{\texttt
-  {doi:10.1016/0550-3213(87)90685-7}}.
-
-\bibitem{ref:PhysRevD.47.4889}
-U.~Baur and E.~Berger, ``Probing the weak boson sector in \PZ\Pgamma\
-  production at hadron colliders,'' {\em Phys. Rev. D} {\bf 47} (1993) 4889,
-  \href{https://doi.org/10.1103/PhysRevD.47.4889}{\texttt
-  {doi:10.1103/PhysRevD.47.4889}}.
-
-\bibitem{ref:PhysRevD.62.113011}
-U.~Baur and D.~Rainwater, ``Probing neutral gauge boson self-interactions in
-  \PZ\PZ\ production at hadron colliders,'' {\em Phys. Rev. D} {\bf 62} (2000)
-  113011, \href{http://arXiv.org/abs/hep-ph/0008063}{{\texttt
-  {arXiv:hep-ph/0008063}}},
-  \href{https://doi.org/10.1103/PhysRevD.62.113011}{\texttt
-  {doi:10.1103/PhysRevD.62.113011}}.
-
-\bibitem{ref:PhysRevD.89.092005}
-S.~Chatrchyan {\em et al.}, ``Measurement of the $W\gamma$ and $Z\gamma$
-  inclusive cross sections in $pp$ collisions at $\sqrt{s} = 7$ TeV and limits
-  on anomalous triple gauge boson couplings,'' {\em Phys. Rev. D} {\bf 89}
-  (2014) 092005, \href{http://arXiv.org/abs/1308.6832}{{\texttt
-  {arXiv:1308.6832}}},
-  \href{https://doi.org/10.1103/PhysRevD.89.092005}{\texttt
-  {doi:10.1103/PhysRevD.89.092005}}.
-
-\bibitem{ref:JHEP10(2013)164}
-S.~Chatrchyan {\em et al.}, ``Measurement of the production cross section for
-  $Z\gamma \to \nu\bar{\nu}\gamma$ in $pp$ collisions at $\sqrt{s} = 7$ TeV and
-  limits on $ZZ\gamma$ and $Z\gamma\gamma$ triple gauge boson couplings,'' {\em
-  JHEP} {\bf 10} (2013) 164, \href{http://arXiv.org/abs/1309.1117}{{\texttt
-  {arXiv:1309.1117}}}, \href{https://doi.org/10.1007/JHEP10(2013)164}{\texttt
-  {doi:10.1007/JHEP10(2013)164}}.
-
-\bibitem{ref:RevModPhys.89.035008}
-D.~Green, P.~Meade, and M.~Pleier, ``Multiboson interactions at the LHC,'' {\em
-  Rev. Mod. Phys.} {\bf 89} (2017) 035008,
-  \href{http://arXiv.org/abs/1610.07572}{{\texttt {arXiv:1610.07572}}},
-  \href{https://doi.org/10.1103/RevModPhys.89.035008}{\texttt
-  {doi:10.1103/RevModPhys.89.035008}}.
-
-\bibitem{ref:j.physrep.2013.07.004}
-{The ALEPH Collaboration}, {The DELPHI collaboration}, {The L3 Collaboration},
-  {The OPAL Collaboration}, and {The LEP Electroweak Working Group},
-  ``Electroweak measurements in electron-positron collisions at W-boson-pair
-  energies at LEP,'' {\em Phys. Rep.} {\bf 532} (2013) 119,
-  \href{http://arXiv.org/abs/1302.3415}{{\texttt {arXiv:1302.3415}}},
-  \href{https://doi.org/10.1016/j.physrep.2013.07.004}{\texttt
-  {doi:10.1016/j.physrep.2013.07.004}}.
-
-\bibitem{ref:PhysRevLett.107.051802}
-T.~Aaltonen {\em et al.}, ``Limits on Anomalous Trilinear Gauge Couplings in
-  $Z\gamma$ Events from $p\bar{p}$ Collisions at $\sqrt{s} = 1.96$ TeV,'' {\em
-  Phys. Rev. Lett.} {\bf 107} (2011) 051802,
-  \href{http://arXiv.org/abs/1103.2990}{{\texttt {arXiv:1103.2990}}},
-  \href{https://doi.org/10.1103/PhysRevLett.107.051802}{\texttt
-  {doi:10.1103/PhysRevLett.107.051802}}.
-
-\bibitem{ref:PhysRevD.85.052001}
-V.~Abazov {\em et al.}, ``$Z\gamma$ production and limits on anomalous
-  $ZZ\gamma$ and $Z\gamma\gamma$ couplings in $p\bar{p}$ collisions at
-  $\sqrt{s} = 1.96$ TeV,'' {\em Phys. Rev. D} {\bf 85} (2012) 052001,
-  \href{http://arXiv.org/abs/1111.3684}{{\texttt {arXiv:1111.3684}}},
-  \href{https://doi.org/10.1103/PhysRevD.85.052001}{\texttt
-  {doi:10.1103/PhysRevD.85.052001}}.
 
 \bibitem{ref:lrr-2003-1}
 N.~Ashby, ``Relativity in the Global Positioning System,'' {\em Living Rev.

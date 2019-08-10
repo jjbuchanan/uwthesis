@@ -1,6 +1,6 @@
 \chapter{Signal and background estimation} \label{chap:background_estimation}
 \section{Yields from simulation} \label{sec:background_estimation_simulated}
-If a well-validated MC sample exists for a given process (Ch.~\ref{chap:simulation}), and if appropriate data--MC correction factors are applied (Ch.~\ref{chap:event_selection}),
+If a well-validated MC sample exists for a given process (Chap.~\ref{chap:simulation}), and if appropriate data--MC correction factors are applied (Chap.~\ref{chap:event_selection}),
 the expected event yield contributed by that process to a given signal or control region may be estimated entirely within simulation.
 After generating some large number of events (sufficient to render statistical uncertainties negligible with respect to other sources of uncertainty),
 running them through the detector simulation, and reconstructing the results, the appropriate signal or control region cuts are finally applied to the simulated events.
@@ -14,7 +14,7 @@ called the \textit{acceptance} ($A$) and \textit{efficiency} ($\epsilon$), respe
 where $\sigma$ is the total cross section of a given process (having kinematic properties within the range modeled by the MC sample) and $L$ is the integrated
 luminosity of the observed dataset (35.9\fbinv).
 
-\section{Electron faking photon} \label{sec:background_estimation_elefake}
+\section{Electron background} \label{sec:background_estimation_elefake}
 An inclusive estimate of the electron faking photon yield, summed over all processes with an isolated final-state electron, is obtained using a \textit{fake ratio} method.
 The ratio of the numbers of successful vs. unsuccessful fakes is evaluated in a dedicated control region, designed in such a way that this ratio is expected to be equally
 valid in the signal regions. Multiplying this ratio by the observed number of unsuccessful fake events in the signal regions gives an estimate of the number of successful
@@ -99,7 +99,7 @@ by $R_{\Pe}$.
   \end{center}
 \end{table}
 
-\section{Jet faking photon} \label{sec:background_estimation_jetfake}
+\section{Jet background} \label{sec:background_estimation_jetfake}
 Like the electron faking photon background, the expected jet faking photon background is estimated via a data-driven method employing a fake ratio.
 The numerator of the fake ratio should be the number of fake photon events originating from jets (passing any given signal or control region definition), and so
 is defined by selecting events with a leading photon passing our standard photon ID.
@@ -182,11 +182,11 @@ on the fake ratio is taken to be the size of the envelope of all of the separate
   \end{center}
 \end{figure}
 
-\section{Spikes} \label{sec:background_estimation_spikes}
-Due to their idiosyncratic means of production, spikes do not currently have simulated samples that could be expected to accurately reproduce their expected yield,
+\section{Spike background} \label{sec:background_estimation_spikes}
+Due to their idiosyncratic means of production, spikes (sec.~\ref{sec:LHCCMS_CMS_ECAL}) do not currently have simulated samples that could be expected to accurately reproduce their expected yield,
 particularly in the case of events somehow passing all the spike cleaning cuts in the monophoton signal regions. Instead, the time distribution of clearly-identified
 spikes in observed events can be used to extrapolate the preponderance of spikes within the in-time window ($|t|<3\unit{ns}$) defined by our signal region cuts.
-This time distribution is examined by performing a custom reconstruction of the data in which ``spike-killer'' cuts that are part of standard event reconstruction
+This time distribution is examined by performing a custom reconstruction of the data in which ``spike-killer'' cuts that are part of standard event reconstruction (sec.~\ref{sec:reconstruction_egamma})
 are omitted. Spike candidates are selected from reconstructed photons that pass a loosened set of ID criteria with no isolation cuts (to account for the different
 characteristics of events outside the in-time window) but have $\ETgamma > 175\unit{GeV}$, $\sieie < 0.0104$, and either \sieie\ or $\sipip < 0.1$.
 As illustrated in Fig.~\ref{fig:fulltime_templates}, this distribution exhibits a peak around $t = -15\unit{ns}$ and falls off to near zero by the in-time window.
@@ -293,12 +293,6 @@ Its values are listed in Table~\ref{tab:response_matrix_values}.
 
 \begin{table}[tbp]
   \begin{center}
-    \caption{
-      The values of the response matrix $K$, estimated in \zinvg\ MadGraph MC with higher order corrections applied.
-      With rows ordered from top to bottom and columns ordered from left to right, the value in row $i$, column $j$
-      is equal to the conditional probability of a \zinvg\ event to pass all signal region cuts and land in reconstructed
-      \ETgamma\ bin $j$, if its true \pTgamma\ value is in bin $i$.
-    }
     \label{tab:response_matrix_values}
     \begin{tabular}{c c c c c c}
       \hline
@@ -310,6 +304,12 @@ Its values are listed in Table~\ref{tab:response_matrix_values}.
        0 & 0 & 0 & 0 & 0.00326465 & 0.316482 \\
       \hline
     \end{tabular}
+    \caption{
+      The values of the response matrix $K$, estimated in \zinvg\ MadGraph MC with higher order corrections applied.
+      With rows ordered from top to bottom and columns ordered from left to right, the value in row $i$, column $j$
+      is equal to the conditional probability of a \zinvg\ event to pass all signal region cuts and land in reconstructed
+      \ETgamma\ bin $j$, if its true \pTgamma\ value is in bin $i$.
+    }
   \end{center}
 \end{table}
 
@@ -318,12 +318,12 @@ dividing by the integrated luminosity of our dataset. We denote the total number
 \ETgamma\ bins by a vector $N$, and the expected background (anything other than \zinvg) by a vector $b$. The numbers
 of produced \zinvg\ events, represented by $\lambda$, are related to $N$ and $b$ by the expected response matrix $K$ according to
 \begin{equation}
-  N = K \lambda + b.
+  N = K \lambda + b
 \end{equation}
 The problem of extracting the differential \zinvg\ cross section from the observed \ETgamma\ distribution---unfolding---is then essentially a problem
 of matrix inversion, in which we want to find
 \begin{equation}
-  \lambda = K^{-1} (N - b).
+  \lambda = K^{-1} (N - b)
 \end{equation}
 
 To perform the unfolding, we start by assuming that $K$ is equal to the
@@ -349,10 +349,10 @@ of the number of produced events $\lambda_{i}$ is equal to its prefit value time
 Since the number of produced events is equal, on average, to cross section times luminosity, we conclude that the postfit \zinvg\ cross
 section in bin $i$ is equal to the prefit cross section from MC multiplied by the postfit value of $r_{i}$.
 
-Because $K$ is strongly diagonal and has similar values all along its diagonal, its inversion is not expected to result in any mathematical pathologies.
-The condition number of the matrix, defined to be the ratio of its largest to its smallest singular value, is 1.5363. It is invertible, and
-its inversion produces positive estimates of the cross section in every \ETgamma\ bin. There is no clear motivation to employ any sort of regularization
-strategy in the ML fit, and we do not employ any such strategy.
+% Because $K$ is strongly diagonal and has similar values all along its diagonal, its inversion is not expected to result in any mathematical pathologies.
+% The condition number of the matrix, defined to be the ratio of its largest to its smallest singular value, is 1.5363. It is invertible, and
+% its inversion produces positive estimates of the cross section in every \ETgamma\ bin. There is no clear motivation to employ any sort of regularization
+% strategy in the ML fit, and we do not employ any such strategy.
 
 For the purposes of this section, a \zinvg\ event is only considered to
 have been produced in a given true \pTgamma\ bin if the photon additionally falls within the barrel acceptance ($|\eta| < 1.4442$) and
@@ -381,7 +381,6 @@ the cross section computation.
 
 \begin{table}
   \begin{center}
-    \caption{NNLO / LO correction factors for \zinvg\ and \wlng\ samples.}
     \label{tab:zg_kfactors}
     \begin{tabular}{| l | r | r |}
       \hline
@@ -399,6 +398,7 @@ the cross section computation.
       $[700, \inf]$ & 1.15 & 1.15 \\
       \hline
     \end{tabular}
+    \caption{NNLO / LO correction factors for \zinvg\ and \wlng\ samples.}
   \end{center}
 \end{table}
 
@@ -424,7 +424,7 @@ samples on top of the NNLO QCD correction factors, as a function of \pTgamma.
 
 The differential cross section after all higher-order corrections are applied may be written as
 \begin{equation}
-  d\sigma^{\mathrm{NNLO\ QCD}+\mathrm{NLO\ EWK}} = d\sigma^{\mathrm{LO}} k^{\mathrm{NNLO\ QCD}} (1 + \kappa^{\mathrm{EWK\ Sudakov}} + \kappa^{\mathrm{EWK\ \Pq\Pgamma}}),
+  d\sigma^{\mathrm{NNLO\ QCD}+\mathrm{NLO\ EWK}} = d\sigma^{\mathrm{LO}} k^{\mathrm{NNLO\ QCD}} (1 + \kappa^{\mathrm{EWK\ Sudakov}} + \kappa^{\mathrm{EWK\ \Pq\Pgamma}})
 \end{equation}
 where $k^{\mathrm{NNLO\ QCD}} = d\sigma^{\mathrm{NNLO\ QCD}} / d\sigma^{\mathrm{LO}}$, and the two $\kappa$
 terms are the Sudakov suppression and photon-induced enhancement components of the EWK
@@ -456,7 +456,7 @@ specific choice of crossover point.
 
 \section{Signal estimation: SM} \label{sec:signal_extraction_SM}
 Beam halo is the only process examined in this analysis with an anisotropic $\phi$ distribution.
-Figure~\ref{fig:halophi} shows the distribution of beam halo photons as a function of $\phi'$.
+Figure~\ref{fig:halophi} shows the distribution of beam halo photons as a function of $\phi'$ (defined in eq.~\ref{eq:phiprime}).
 To constrain the beam halo normalization, the signal region is split into two parts according to $|\phi'|$.
 The parts defined by $|\phi'| < 0.5$ and $|\phi'| > 0.5$ are respectively called the horizontal ($H$) and vertical ($V$) signal
 regions. All other sources of events have expected yields that are isotropic in $\phi$, and therefore
@@ -489,7 +489,7 @@ The prefit contributions from each gen bin $i$ to each reco bin $j$ (in both sig
 Using the above definitions for $C_{S}$, $r_{i}$, $\nZg[j,i]$, $h$, and $\nhalo[,j]$,
 the total reconstructed event yield \nS\ in each signal region is estimated according to
 \begin{equation}
-  \nS[,j] = C_{S} (\Sigma_{i}r_{i}\nZg[j,i] + \nWg[j] + b_{j}) + h\nhalo[,j],
+  \nS[,j] = C_{S} (\Sigma_{i}r_{i}\nZg[j,i] + \nWg[j] + b_{j}) + h\nhalo[,j]
 \end{equation}
 where $\nWg[j]$ is the total contribution of \wlng\ events to reco bin $j$, and $b_{j}$ is the total contribution to reco bin $j$ from
 electron and hadron misidentification, ECAL spikes, and other minor SM background processes, in both signal regions combined.
@@ -498,7 +498,7 @@ The ratios (\textit{transfer factors}) of the bin-by-bin yields of \wlng\ in the
 of \wlng\ in the single-lepton control regions are denoted by \RWl[,j]. These are estimated in MC.
 The total reconstructed event yield \nl\ in each single-$\ell$ control region ($\ell \in \{e,\mu\}$) is estimated according to
 \begin{equation}
-  \nl[,j] = \frac{\nWg[j]}{\RWl[,j]} + b_{\ell\Pgamma,j},
+  \nl[,j] = \frac{\nWg[j]}{\RWl[,j]} + b_{\ell\Pgamma,j}
 \end{equation}
 where \nWg\ is the number of \wlng\ events in the combined signal regions, and
 $b_{\ell\Pgamma}$ is the predicted contribution from other background sources in the single-$l$ control region.
@@ -519,6 +519,7 @@ vertical signal region.
 
 The complete likelihood function that is maximized in the SM cross section fit is
 \begin{align}
+\begin{split}
   \mathcal{L} & = \left\{ \mathcal{L_{\text{Signal}}} \mathcal{L_{\text{Control}}} \right\} \times \mathcal{L_{\text{Nuisances}}} \\
   & = \prod_{j} \left\{
     \prod_{S=H,V} \mathcal{P}\left( N_{S, j} \left| \nS[,j] (\vec{\theta} \right.) \right) \prod_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \nl[,j] (\vec{\theta}) \right. \right) 
@@ -528,7 +529,8 @@ The complete likelihood function that is maximized in the SM cross section fit i
     \prod\limits_{S=H,V} \mathcal{P}\left( N_{S, j} \left| C_{S} \left(\Sigma_{i}r_{i}\nZg[j,i](\vec{\theta}) + \nWg[j] + b_{j}(\vec{\theta})\right) + h \nhalo[,j](\vec{\theta}) \right. \right) \\[1.3pt]
     \times \prod\limits_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \frac{\nWg[j]}{\RWl[,j](\vec{\theta})} + b_{\ell\Pgamma, j}(\vec{\theta}) \right. \right) \\[1.3pt]
   \end{array} \right\}
-  \times \prod_{t} \mathcal{N}(\theta_t),
+  \times \prod_{t} \mathcal{N}(\theta_t)
+\end{split}
 \end{align}
 following the notation introduced above, and where $\mathcal{P}(N\vert\lambda)$ is the Poisson probability of $N$ for mean $\lambda$,
 $\mathcal{N}$ denotes the unit normal distribution centered at zero, and $N_{X,i}$ is the observed number of events in reco bin i of region X.
@@ -632,22 +634,23 @@ in Fig.~\ref{fig:tf_unc_wz}.
 
 The total reconstructed event yield \nS\ in each signal region is estimated according to
 \begin{equation}
-  \nS[,j] = C_{S} (\mu s_{j} + (1 + \fZW[,j])\nZg[j,all] + b_{j}) + h\nhalo[,j],
+  \nS[,j] = C_{S} (\mu s_{j} + (1 + \fZW[,j])\nZg[j,all] + b_{j}) + h\nhalo[,j]
 \end{equation}
 where $\nZg[j,all]$ refers to the total contribution from all \zinvg\ events to reco \ETgamma\ bin $j$, $s_{j}$ is the contribution from the BSM
 signal to reco bin $j$ (of both signal regions combined), and $\mu$ is a constant that represents the overall BSM signal strength.
 Instead of being estimated in MC, \nZg[j,all] is a freely floating fit parameter (one for each reco \ETgamma\ bin $j$).
 The total reconstructed event yield \nl\ in each single-$\ell$ control region ($\ell \in \{e,\mu\}$) is estimated according to
 \begin{equation}
-  \nl[,j] = \frac{\fZW[,j]\nZg[j,all]}{\RWl[,j]} + b_{\ell\Pgamma,j}.
+  \nl[,j] = \frac{\fZW[,j]\nZg[j,all]}{\RWl[,j]} + b_{\ell\Pgamma,j}
 \end{equation}
 The total reconstructed event yield \nll\ in each double-$\ell$ control region is similarly estimated according to
 \begin{equation}
-  \nll[,j] = \frac{\nZg[j,all]}{\RZll[,j]} + b_{\ell\ell\Pgamma,j}.
+  \nll[,j] = \frac{\nZg[j,all]}{\RZll[,j]} + b_{\ell\ell\Pgamma,j}
 \end{equation}
 where $b_{\ell\ell\Pgamma,j}$ is the estimated contribution from processes other than \zllg\ in the double-$\ell$ control region.
 The complete likelihood function is
 \begin{align}
+\begin{split}
   \mathcal{L} & = \left\{ \mathcal{L_{\text{Signal}}} \mathcal{L_{\text{Control}}} \right\} \times \mathcal{L_{\text{Nuisances}}} \\
   & = \prod_{j} \left\{
     \prod_{S=H,V} \mathcal{P}\left( N_{S, j} \left| \nS[,j] (\vec{\theta} \right.) \right)
@@ -660,7 +663,8 @@ The complete likelihood function is
     \times \prod\limits_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \frac{\fZW[,j]\nZg[j,all]}{\RWl[,j](\vec{\theta})} + b_{\ell\Pgamma, j}(\vec{\theta}) \right. \right) \\[1.3pt]
     \times \prod\limits_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\ell\Pgamma, j} \left| \frac{\nZg[j,all]}{\RZll[,j](\vec{\theta})} + b_{\ell\ell\Pgamma, j}(\vec{\theta}) \right. \right) \\[1.3pt]
   \end{array} \right\}
-  \times \prod_{t} \mathcal{N}(\theta_t).
+  \times \prod_{t} \mathcal{N}(\theta_t)
+\end{split}
 \end{align}
 
 \subsubsection{Prefit distributions}

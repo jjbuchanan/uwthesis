@@ -1,4 +1,4 @@
-\chapter{The CMS experiment and the LHC} \label{chap:LHCCMS}
+\chapter{The LHC and the CMS experiment} \label{chap:LHCCMS}
 \section{The LHC} \label{sec:LHCCMS_LHC}
 The Large Hadron Collider (LHC)~\cite{ref:1748-0221/3/08/S08001} at CERN is, as the name suggests, the world's largest
 and most powerful particle accelerator. It is used to collide protons as well as heavy ions, which are both examples of hadrons, hence the ``HC'' in LHC.
@@ -152,7 +152,9 @@ In contrast to protons in the beam, secondary muons are neither narrowly nor eve
 They enter the CMS cavern traveling parallel to the beam pipe with a wide radial profile, often having a high enough
 radius to hit the exterior muon chambers and calorimeters~\cite{ref:1748-0221/10/11/P11011}.
 Furthermore, the transverse distribution of MIB (Fig.~\ref{fig:beamhalo_sim}) is highly anisotropic, concentrating near the
-horizontal plane.
+horizontal plane. Every other process examined in this thesis produces a distribution of events with constant density as a function
+of angle around the beamline, and so the unique angular distribution of MIB is used to estimate its likely preponderance in a set of collision
+events.
 
 \begin{figure}[hbtp]
   \begin{center}
@@ -228,7 +230,7 @@ to different observers depending on their relative longitudinal velocity. In oth
 
 Differences in a related quantity called the \textit{rapidity}, defined as
 \begin{equation}
-\mathrm{rapidity} = \frac{1}{2}\ln{\frac{E+p_\mathrm{L}}{E-p_{L}}},
+\mathrm{rapidity} = \frac{1}{2}\ln{\frac{E+p_\mathrm{L}}{E-p_{L}}}
 \label{eq:rapidity}
 \end{equation}
 are Lorentz invariant. Particle production in LHC collisions is roughly constant as a function of rapidity~\cite{ref:lhcrun1harvest_ch3}, and because
@@ -236,7 +238,7 @@ differences in rapidity do not depend on the longitudinal speed at which one is 
 of whether the collisions are observed in their own rest frame or in that of the CMS. At very high
 energies, rapidity becomes approximatey equal to the \textit{pseudorapidity} $\eta$ defined by
 \begin{equation}
-\eta = -\ln{\tan{(\theta/2)}}.
+\eta = -\ln{\tan{(\theta/2)}}
 \label{eq:pseudorapidity}
 \end{equation}
 
@@ -545,12 +547,26 @@ the final L1A decision. The organization of L1 pipelines is illustrated in Fig.~
 
 The \textit{trigger primitives} (TPs) sent by HCAL and ECAL are transverse energy sums recorded in calorimeter towers.
 These along with some quality information are sent to Layer 1 of the calorimeter trigger,
-which performs preprocessing, energy calibration, and the computation of some simple values. Layer 2 uses this information to construct
+which performs preprocessing, energy calibration, and the computation of some simple values. I derived energy calibrations for this trigger layer
+by comparing the TP energy distributions of simulated particle samples to the true, generated energy of the particles, and finding the
+multiplicative factors that would make the peaks of the TP distributions align with the true values. These multiplicative factors, shown in Fig.~\ref{fig:layer1_calibs},
+were used to scale the TP energies in online data taking in 2018. Layer 2 uses the information from Layer 1 to construct
 various physics objects---L1 Jets, Taus, and EGamma\footnote{With only calorimeter information, it is difficult to distinguish $e$ from $\gamma$.
 In full offline event reconstruction, this classification is refined by incorporating inner tracker information.}---using simple and fast reconstruction algorithms.
 Layer 2 comprises 9 parallel cards which analyze sequential events in a round-robin, ``time-multiplexed'' fashion, so as to give
 each card adequate memory and processing time for each event. The demultiplexer (DeMux) organizes the resulting output and sorts the L1 objects by $p_\mathrm{T}$,
 sending this information along to the GT.
+
+\begin{figure}[hbtb]
+  \begin{center}
+    \includegraphics[width=0.49\textwidth]{Figures/photon_SF_3x3.pdf}
+    \includegraphics[width=0.49\textwidth]{Figures/picharged_SF_5x5.pdf}
+    \caption{Calibration factors derived for Layer 1 of the calorimeter trigger, used in 2018 data taking. The energy of a trigger tower is multiplied
+    by the scale factor corresponding to the tower's uncalibrated $E_{T}$ (color) and to the minimum number of other towers between it and $|\eta| = 0$ (x-axis).
+    Calibrations were derived separately for the ECAL (left) and HCAL (right), using simulated photons and charged pions, respectively.}
+    \label{fig:layer1_calibs}
+  \end{center}
+\end{figure}
 
 The TPs from CSCs and DTs are track segments. Along with hits recorded in the RPCs, muon system TPs are routed through a lattice of preprocessor
 layers and then sent to dedicated Barrel, Endcap, and Overlap Track Finders covering different $\eta$ regions.

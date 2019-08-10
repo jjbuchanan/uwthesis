@@ -6,7 +6,7 @@ of the photon and the neutrino pair must exactly cancel if there are no other pa
 their parent \PZ) have a very low probability of radiating or converting into other particles that would not be correctly associated together by PF.
 However, other particles are routinely emitted from the underlying event or from the incoming partons, and while they are typically much softer than the \Pgamma\ and
 \Pn's, they can significantly shift the overall \pT\ balance of the \Pgamma--\Pn\Pn\ system.}.
-The same is true of the BSM models described in Ch.~\ref{chap:introduction}, with a pair of DM particles or an ADD graviton replacing the neutrino pair.
+The same is true of the BSM models described in Chap.~\ref{chap:introduction}, with a pair of DM particles or an ADD graviton replacing the neutrino pair.
 These BSM particles as well as neutrinos have a very low probability of undergoing any direct, detectable interaction with the CMS experiment, and are instead reconstructed as \MET.
 Thus each of these processes gives rise to events with a high-\pT\ photon emerging against a comparable amount of \MET, with no other significant particle emissions.
 Events with this signature are said to be in the \textit{monophoton channel}.
@@ -32,8 +32,8 @@ If a \PW\ is produced opposite a \Pgamma, the \PW\ will give rise to substantial
 to tag the event as having a probable \wlng\ origin, but if the lepton is lost, the event is likely to have a similar kinematic profile to
 a \zinvg\ event. Summed over all \ETgamma\ bins, this is the largest single source of background to the \zinvg\ cross section measurement (and second largest source of background
 to BSM searches), particularly at low \ETgamma, contributing just under 20\% of the total expected SM event yield.
-The need for precise \wlng\ background estimation motivates the use of transfer factors (sec.~\ref{sec:signal_extraction_SM_aTGC}) linking the signal
-regions to various control regions defined in this chapter.
+The need for precise \wlng\ background estimation, and for precise \zinvg\ background estimation in the context of BSM searches, motivates the use of transfer
+factors (sec.~\ref{sec:signal_extraction_SM}, \ref{sec:signal_extraction_DM_ADD}) linking the signal regions to various control regions defined in this chapter.
 
 An electron that leaves deposits
 in the ECAL but with no matching track identified in the inner tracker is likely to be reconstructed as a photon. These electron faking photon events are a significant
@@ -43,7 +43,7 @@ pion decays can be reconstructed as an isolated photon if PF fails to find match
 signature if the jet emerges opposite a \PZ\ which then decays into neutrinos. Electron fakes and jet fakes contribute about 15\% and about 4\%, respectively, of the total
 expected SM event yield in the signal regions.
 
-Jets are complex composite objects with highly stochastic profiles, and the accurate reconstruction of their transverse momentum depends on the accurate \pT\ reconstruction
+Jets are composite objects with highly stochastic profiles, and the accurate reconstruction of their transverse momentum depends on the accurate \pT\ or energy reconstruction
 of all of their constituent particles. Even after jet energy corrections are applied (and \vecMET\ is correspondingly
 rebalanced), the uncertainty on a jet's \pT\ can be 2\% or more. If the jet is aligned with the \vecMET, this uncertainty is translated entirely into \MET\ uncertainty,
 and a badly-measured jet \pT\ will result in a correspondingly inaccurate \MET\ value. An event in which a single photon is balanced by one or more jets (\gjets), which ordinarily has
@@ -64,7 +64,7 @@ otherwise stated.
 \section{Trigger and \texorpdfstring{\MET}{pTmiss} filters} \label{sec:event_selection_trigger_METfilters}
 Every observed event must first pass a specific HLT path in order to be examined in this analysis. This path rejects the millions of collision events that have no observable
 monophoton characteristics, by requiring there to be at least one reconstructed photon passing minimal quality criteria.
-The low-\pTgamma\ phase space has been explored by other experiments (Ch.~\ref{chap:introduction}), and the high collision energy of the LHC introduces a significant
+The low-\pTgamma\ phase space has been explored by other experiments (Chap.~\ref{chap:introduction}), and the high collision energy of the LHC introduces a significant
 level of relatively high-\pT\ background activity that diminishes the statistical value of low-\pTgamma\ events.
 Thus, a minimum \ETgamma\ cut of 165\unit{GeV} was chosen for the monophoton HLT path.
 Furthermore, candidate photons must have an $H/E$ ratio (sec.~\ref{sec:reconstruction_egamma}) less than 0.10.
@@ -105,19 +105,19 @@ The leading photon must therefore lie within the barrel acceptance. To avoid ene
 covering the outermost EB crystals, the leading photon must lie within $|\eta| < 1.4442$.
 
 A photon originating from a neutral pion in a jet will tend to be accompanied by various other particles in a jet-sized $\Delta R$ cone. For a given type of PF particle
-(photons, charged hadrons, or neutral hadrons), the corresponding \textit{isolation} (iso.) is defined to be the sum of particle energies for all particles of that type
-within a $\Delta R < 0.3$ cone around the photon. A large iso.\ value indicates that the photon is likely to be fake.
-In most CMS analyses, charged hadron iso.\ only considers charged hadrons with tracks linked to the leading PV. However,
+(photons, charged hadrons, or neutral hadrons), the corresponding \textit{isolation} is defined to be the sum of particle energies for all particles of that type
+within a $\Delta R < 0.3$ cone around the photon. A large isolation value indicates that the photon is likely to be fake.
+In most CMS analyses, charged hadron isolation only considers charged hadrons with tracks linked to the leading PV. However,
 the leading PV is chosen based on the sum of track $\pT^{2}$ of all tracks (and track \MET) linked to the PV, and monophoton vertices do not necessarily have charged tracks
-with any substantial amount of \pT. The \textit{worst charged hadron iso.}, defined to be the maximum value of charged hadron iso.\ with respect to any vertex in the event,
+with any substantial amount of \pT. The \textit{max charged hadron isolation}, defined to be the maximum value of charged hadron isolation with respect to any vertex in the event,
 gives a more robust estimate of charged hadron activity that is more suitable for monophoton events.
 
-Calculation of a given type of iso.\ begins by summing the energies of all PF particles of that type near the photon. As pileup increases, an increasing number of PF particles
-will be reconstructed out of pileup events, and so an increasing amount of iso.\ energy will reflect pileup energy. The energy carried by particles of a given type is observed to vary
+Calculation of a given type of isolation sum begins by summing the energies of all PF particles of that type near the photon. As pileup increases, an increasing number of PF particles
+will be reconstructed out of pileup events, and an increasing amount of isolation energy will correspond to pileup energy. The energy carried by particles of a given type is observed to vary
 linearly as a function of the estimated pileup energy density $\rho$. The slope of this linear dependence has dimensions of area and is called the \textit{effective area} ($A_{eff}$)
-corresponding to particles of a given type. Subtracting $\rho{*}A_{eff}$ removes the pileup energy dependence from an iso.\ sum, leaving the \textit{corrected iso}.
+corresponding to particles of a given type. Subtracting $\rho{*}A_{eff}$ removes the pileup energy dependence from an isolation sum, leaving the \textit{corrected isolation}.
 
-The CMS monophoton group developed a custom monophoton ID for 2016 analyses, based on five variables: $H/E$, photon iso., worst charged iso., neutral iso., and the photon shower shape
+The CMS monophoton group developed a custom monophoton ID for 2016 analyses, based on five variables: $H/E$, photon isolation, max charged isolation, neutral isolation, and the photon shower shape
 variable \sieie\ defined by
 \begin{equation}
 \begin{gathered}
@@ -133,7 +133,7 @@ in the $5{\times}5$ array, and (in the barrel) $i\eta_{i} - {\bar{i\eta}}_{5{\ti
 of 4.7 is essentially arbitrary. It scales \sieie\ so that a typical real photon in the barrel has $0.005 < \sieie < 0.011$.}. This variable
 describes the energy spread of a photon's ECAL cluster---the more spread out a cluster is, the larger the value of \sieie.
 The cuts defining the monophoton ID are listed in Table~\ref{tab:photonID}. The numerical values in these cuts were tuned to retain minimal jet fake events while retaining 80\% of
-real \zinvg\ events in any $\ETgamma$ range above 175\unit{GeV}. Table~\ref{tab:effective_areas} lists the $A_{eff}$ values used to compute the corrected iso.
+real \zinvg\ events in any $\ETgamma$ range above 175\unit{GeV}. Table~\ref{tab:effective_areas} lists the $A_{eff}$ values used to compute the corrected isolation.
 
 \begin{table}
 \centering
@@ -143,14 +143,14 @@ Variable & Cut value \\
 \hline
 $H/E$ & 0.0260 \\
 \sieie & 0.01040 \\
-corr.\ worst charged hadron iso.  & 1.146 \\
+corr.\ max charged hadron iso.  & 1.146 \\
 corr.\ neutral hadron iso. & $2.792 + 0.0112{*}\ETgamma + 0.000028{*}{\ETgamma}^{2}$ \\
 corr.\ photon iso.  & $2.176 + 0.0043{*}\ETgamma$ \\
 \hline
 \end{tabular}
 \caption{Cuts defining the 2016 monophoton ID, applicable to photons in the barrel.
 A cut is passed if the expression in the left column is less than the value in the right column.
-The effective areas used to compute the corrected iso.\ values are listed in Table~\ref{tab:effective_areas}.}
+The effective areas used to compute the corrected isolation values are listed in Table~\ref{tab:effective_areas}.}
 \label{tab:photonID}
 \end{table}
 
@@ -160,7 +160,7 @@ The effective areas used to compute the corrected iso.\ values are listed in Tab
 \hline
 Type of isolation & $|\eta| < 1.0$ & $1.0 < |\eta| < 1.479$ \\
 \hline
-worst charged hadron & 0.01064 & 0.1026 \\
+max charged hadron & 0.01064 & 0.1026 \\
 neutral hadron & 0.0597 & 0.0807 \\
 photon & 0.1210 & 0.1107 \\
 \hline
@@ -237,7 +237,7 @@ as an event weight to all simulated data, and the corresponding uncertainty is p
 \end{figure}
 
 The variable $R_{9}$ is defined as the energy of the $3{\times}3$ crystal array centered on the most energetic crystal in the supercluster divided by the total supercluster energy.
-A real, unconverted photon, very well-centered on one crystal, will tend to leave around 95\% of its energy in the $3{\times}3$ array; if the photon is converted, this fraction will
+A real, unconverted photon, well-centered on one crystal, will tend to leave around 95\% of its energy in the $3{\times}3$ array; if the photon is converted, this fraction will
 be smaller~\cite{ref:1748-0221/10/08/P08010}. The odds that a genuine high-\pT\ photon from a hard collision vertex will leave all of its energy in the $3{\times}3$ array
 are close to zero. An $R_{9}$ value of 1.0 is more consistent with a spike, and so we only retain an event if the leading photon $R_{9}$ is strictly less than 1.0.
 
@@ -248,7 +248,17 @@ instrumental malfunction, and we therefore reject any event in which the leading
 
 As illustrated in Fig.~\ref{fig:beamhalo_sim}, beam halo muons are concentrated along the x-axis, which corresponds to values of $\phi$ close to either 0 or $\pi$ radians.
 For the purpose of beam halo background estimation, the signal region is split into two parts based on $|\sin{\phi}|$ of the leading photon: $|\sin{\phi}| < \sin{0.5}$ defines
-the horizontal signal region, and $|\sin{\phi}| > \sin{0.5}$ defines the vertical signal region. Much more beam halo is expected to fall in the horizontal than the vertical
+the horizontal signal region, and $|\sin{\phi}| > \sin{0.5}$ defines the vertical signal region. For convenience we also define a $\phi$-like coordinate, $\phi'$, that equals $\phi$ near
+$|\phi| = 0$ and equals a ``folded-over'' value near $|\phi| = \pi$:
+\begin{align}
+\begin{split}
+\phi' & = \phi,\ |\phi| < \pi/2 \\
+      & = -\phi + \pi,\ \phi > \pi/2 \\
+      & = -\phi - \pi,\ \phi < -\pi/2
+\end{split}
+\label{eq:phiprime}
+\end{align}
+Using this coordinate, the horizontal signal region is defined by $|\phi'| < 0.5$, and the vertical signal region by $|\phi'| > 0.5$. Much more beam halo is expected to fall in the horizontal than the vertical
 signal region, in contrast to every other source of background, which is expected to be isotropic in $\phi$ and therefore fall into the two regions according to their
 relative amount of angular coverage.
 
@@ -281,15 +291,15 @@ A loose muon is a PF muon that is also either a tracker or global muon (or both)
 \hline
 Variable & $|\eta| < 1.479$ & $1.479 < |\eta| < 2.5$ \\
 \hline
-\sieie & 0.0103 & 0.0301 \\
-$\Delta\eta(\mathrm{track\ at\ vertex}, \mathrm{supercluster\ seed})$ & 0.0105 & 0.00814 \\
-$\Delta\phi(\mathrm{track\ at\ vertex}, \mathrm{supercluster})$ & 0.115 & 0.182 \\
-$H/E$ & 0.104 & 0.0897 \\
-sum of all iso.'s minus $\rho{*}A_{eff}$ & $0.0893{*}\pT$ & $0.121{*}\pT$ \\
-$|1/E - 1/p|$ & 0.102 & 0.126 \\
-$\Delta r(\mathrm{vertex}, \mathrm{origin})$ & 0.0261 & 0.118 \\
-$\Delta z(\mathrm{vertex}, \mathrm{origin})$ & 0.41 & 0.822 \\
-missing track hits & 3 & 2 \\
+\sieie & 0.011 & 0.0314 \\
+$\Delta\eta(\mathrm{track\ at\ vertex}, \mathrm{supercluster\ seed})$ & 0.00477 & 0.00868 \\
+$\Delta\phi(\mathrm{track\ at\ vertex}, \mathrm{supercluster})$ & 0.222 & 0.213 \\
+$H/E$ & 0.298 & 0.101 \\
+sum of all iso.'s minus $\rho{*}A_{eff}$ & $0.0994{*}\pT$ & $0.107{*}\pT$ \\
+$|1/E - 1/p|$ & 0.241 & 0.14 \\
+$\Delta r(\mathrm{vertex}, \mathrm{origin})$ & 0.05 & 0.10 \\
+$\Delta z(\mathrm{vertex}, \mathrm{origin})$ & 0.10 & 0.20 \\
+missing track hits & 1 & 1 \\
 conversion vertices consistent with track & 1 & 1 \\
 \hline
 \end{tabular}
@@ -327,7 +337,8 @@ The single electron control region is defined in essentially the same way as the
 such that the electron and \vecMET\ are consistent with originating from a $\PW(\Pe\Pn)$ decay.
 Instead of \vecMET, the photon \vecpT\ must be balanced by the recoil \vecrecoil, as discussed in sec.~\ref{sec:event_selection_MET}. The recoil in this
 region is the vector sum of the leading electron \pT\ with \vecMET.
-The leading SM process in the single electron control region is $\PW(\Pe\Pn)\Pgamma$ production; in contrast to the signal regions, \zinvg\ contributes
+The leading SM process in the single electron control region is $\PW(\Pe\Pn)\Pgamma$ production. This allows for an effective measurement of the rate of \wlng\ events
+that is used to inform the preponderance of \wlng\ in the signal regions. In contrast to the signal regions, \zinvg\ contributes
 virtually nothing to this or to any of the other control regions.
 
 Leading lepton ID criteria are relatively tight, in contrast to the loose ID requirements imposed on a veto or subleading lepton. A leading electron must have $\pT > 30\unit{GeV}$,
@@ -345,15 +356,15 @@ This must be less than 160\unit{GeV}, i.e.\ less than about twice the mass of th
 \hline
 Variable & $|\eta| < 1.479$ & $1.479 < |\eta| < 2.5$ \\
 \hline
-\sieie & 0.0101 & 0.0279 \\
-$\Delta\eta(\mathrm{track\ at\ vertex}, \mathrm{supercluster\ seed})$ & 0.00926 & 0.00724 \\
-$\Delta\phi(\mathrm{track\ at\ vertex}, \mathrm{supercluster})$ & 0.0336 & 0.0918 \\
-$H/E$ & 0.0597 & 0.0615 \\
-sum of all iso.'s minus $\rho{*}A_{eff}$ & $0.0354{*}\pT$ & $0.0646{*}\pT$ \\
-$|1/E - 1/p|$ & 0.012 & 0.00999 \\
-$\Delta r(\mathrm{vertex}, \mathrm{origin})$ & 0.0111 & 0.0351 \\
-$\Delta z(\mathrm{vertex}, \mathrm{origin})$ & 0.0466 & 0.417 \\
-missing track hits & 3 & 2 \\
+\sieie & 0.00998 & 0.0292 \\
+$\Delta\eta(\mathrm{track\ at\ vertex}, \mathrm{supercluster\ seed})$ & 0.00308 & 0.00605 \\
+$\Delta\phi(\mathrm{track\ at\ vertex}, \mathrm{supercluster})$ & 0.0816 & 0.0394 \\
+$H/E$ & 0.0414 & 0.0641 \\
+sum of all iso.'s minus $\rho{*}A_{eff}$ & $0.0588{*}\pT$ & $0.0571{*}\pT$ \\
+$|1/E - 1/p|$ & 0.0129 & 0.0129 \\
+$\Delta r(\mathrm{vertex}, \mathrm{origin})$ & 0.05 & 0.10 \\
+$\Delta z(\mathrm{vertex}, \mathrm{origin})$ & 0.10 & 0.20 \\
+missing track hits & 1 & 1 \\
 conversion vertices consistent with track & 1 & 1 \\
 \hline
 \end{tabular}
@@ -364,7 +375,8 @@ on the electron's $|\eta|$. The effective areas used for electron ID's are liste
 
 \section{Single muon control region} \label{sec:event_selection_monomu}
 The single muon control region is, as the name implies, much like the single electron control region, but with a muon instead of an electron.
-The recoil in this region is the vector sum of the leading muon \pT\ with \vecMET, and the leading SM process is $\PW(\Pmu\Pn)\Pgamma$ production.
+The recoil in this region is the vector sum of the leading muon \pT\ with \vecMET, and the leading SM process is $\PW(\Pmu\Pn)\Pgamma$ production, giving
+an additional handle on \wlng\ production in conjunction with the single electron control region.
 A leading muon must have $\pT > 30\unit{GeV}$, be separated from the leading photon by $\Delta R > 0.5$, and pass the set of cuts listed in Table~\ref{tab:tightmuonID}.
 Consistency with $\PW(\Pmu\Pn)$ decay is enforced by requiring that the muon--\MET\ $m_\mathrm{T}$ be no more than 160\unit{GeV}.
 
@@ -394,7 +406,9 @@ tracker layer hits & $> 5$ \\
 In the dielectron control region, a subleading electron must be selected in addition to the leading electron, such that the two electrons
 are consistent with originating from a $\PZ(\Pe\Pe)$ decay.
 The recoil in this region is the vector sum of the leading electron \pT, subleading electron \pT, and \vecMET, and the leading SM process
-is $\PZ(\Pe\Pe)\Pgamma$ production. A leading electron must pass the tight ID criteria listed in Table~\ref{tab:tightelectronID},
+is $\PZ(\Pe\Pe)\Pgamma$ production. This allows for an effective measurement of \zllg\ production, and due to the similarity of the \zinvg\ and \zllg\ processes,
+this measurement informs the expected yield of \zinvg\ events in the signal regions.
+A leading electron must pass the tight ID criteria listed in Table~\ref{tab:tightelectronID},
 and a subleading electron must pass the loose ID criteria in Table~\ref{tab:looseelectronID}.
 Consistency with $\PZ(\Pe\Pe)$ decay is enforced by requiring that the leading and subleading electrons have opposite charges, and that the invariant mass of the
 electron pair lies between 60 and 120\unit{GeV}, i.e.\ within about 30\unit{GeV} of the \PZ\ mass.
@@ -402,6 +416,7 @@ electron pair lies between 60 and 120\unit{GeV}, i.e.\ within about 30\unit{GeV}
 \section{Dimuon control region} \label{sec:event_selection_dimu}
 Finally, the dimuon control region is much like the dielectron control region, but with muons instead of electrons.
 The recoil in this region is the vector sum of the leading muon \pT, subleading muon \pT, and \vecMET, and the leading SM process
-is $\PZ(\Pmu\Pmu)\Pgamma$ production. A subleading muon must pass the loose muon ID criteria listed in sec.~\ref{sec:event_selection_lepveto}.
+is $\PZ(\Pmu\Pmu)\Pgamma$ production. This gives an additional handle on \zinvg\ production, in conjunction with the dielectron control region.
+A subleading muon must pass the loose muon ID criteria listed in sec.~\ref{sec:event_selection_lepveto}.
 Consistency with $\PZ(\Pmu\Pmu)$ decay is enforced by requiring that the leading and subleading muons have opposite charges, and that the invariant mass of the
 muon pair lies between 60 and 120\unit{GeV}.
