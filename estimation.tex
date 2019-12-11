@@ -38,7 +38,7 @@ The mass and width parameters of the Breit-Wigner distribution are fixed to the 
 are allowed to vary freely in the fit.
 
 Separate template fits are performed in four different bins of reconstructed \ETgamma.
-The fits are further separated by whether the probe has a matching pixel seed. These are illustrated in Fig.~\ref{fig:efake_fits}.
+The fits are further separated by whether the probe has a matching pixel seed. These are illustrated in Figs.~\ref{fig:efake_fits_a}, \ref{fig:efake_fits_b}.
 After the fits, the integrals of the signal templates with and without
 pixel seeds in reco bin $j$ are denoted by $N^{\Pe\Pe}[j]$ and $N^{\Pe\gamma}[j]$, respectively.
 The fake ratio $R_{\Pe}[j]$ in reco bin $j$ is estimated to be $N^{\Pe\gamma}[j] / N^{\Pe\Pe}[j]$.
@@ -49,15 +49,25 @@ The fake ratio $R_{\Pe}[j]$ in reco bin $j$ is estimated to be $N^{\Pe\gamma}[j]
     \includegraphics[width=0.40\linewidth]{Figures/efake/EP175190.png}
     \includegraphics[width=0.40\linewidth]{Figures/efake/EE190220.png}
     \includegraphics[width=0.40\linewidth]{Figures/efake/EP190220.png}
+    \caption{
+      Fits to the mass distributions for $\Pe\Pe$ (left) and $\Pe\gamma$ (right) selections, for probe \pT\ between 175 and 190\unit{GeV} (upper) and
+      between 190 and 220\unit{GeV} (lower). The blue dashed curve is the background template, and the red solid curve is the sum of the signal and background templates.
+    }
+    \label{fig:efake_fits_a}
+  \end{center}
+\end{figure}
+
+\begin{figure}[htbp]
+  \begin{center}
     \includegraphics[width=0.40\linewidth]{Figures/efake/EE220270.png}
     \includegraphics[width=0.40\linewidth]{Figures/efake/EP220270.png}
     \includegraphics[width=0.40\linewidth]{Figures/efake/EE270.png}
     \includegraphics[width=0.40\linewidth]{Figures/efake/EP270.png}
     \caption{
-      Fits to the mass distributions for $\Pe\Pe$ (left) and $\Pe\gamma$ (right) selections, in bins of probe \pT: $175 < \pT < 190\unit{GeV}$ , $190 < \pT < 220\unit{GeV}$ , $220 < \pT > 270\unit{GeV}$  and $ \pT > 270\unit{GeV}$.
-      The blue dashed curve is the background template, and the red solid curve is the sum of the signal and background templates.
+      Fits to the mass distributions for $\Pe\Pe$ (left) and $\Pe\gamma$ (right) selections, for probe \pT\ between 220 and 270\unit{GeV} (upper) and
+      above 270\unit{GeV} (lower). The blue dashed curve is the background template, and the red solid curve is the sum of the signal and background templates.
     }
-    \label{fig:efake_fits}
+    \label{fig:efake_fits_b}
   \end{center}
 \end{figure}
 
@@ -114,7 +124,8 @@ photons to the observed numerator yield is estimated (and subtracted out) by fit
 events. The real photon template is estimated using \gjets\ MC. The fake photon template is derived from observed event yields in a \textit{sideband} region in which
 the leading photon has worst charged hadron isolation lying between 8 and 14\unit{GeV}, but otherwise passes numerator cuts.
 This sideband was chosen for the relative absence of real photon contamination. Nevertheless, some residual real photon events are still expected to contribute, and
-the fake template is finally ``cleaned'' by subtracting the expected \sieie\ distribution of real photon events estimated in \gjets\ MC.
+the fake template is finally ``cleaned'' by subtracting the expected \sieie\ distribution of real photon events estimated in \gjets\ MC. The fits of real and fake
+templates to observed data in various bins of \pTgamma\ are shown in Figs.~\ref{fig:qcd_fits_a}, \ref{fig:qcd_fits_b}, \ref{fig:qcd_fits_c}.
 
 \begin{figure}[hbtp]
   \begin{center}
@@ -296,12 +307,12 @@ Its values are listed in Table~\ref{tab:response_matrix_values}.
     \label{tab:response_matrix_values}
     \begin{tabular}{c c c c c c}
       \hline
-       0.297401 & 0.0428149 & 0.000595967 & 5.87982e-05 & 0 & 0 \\
-       0.0399934 & 0.38611 & 0.049973 & 0.000505446 & 0.000133614 & 0 \\
-       0.000202488 & 0.0214437 & 0.37027 & 0.0326231 & 0.000264926 & 0.000183209 \\
-       0 & 0.000196144 & 0.0229108 & 0.367465 & 0.0249473 & 0 \\
-       0 & 0 & 1.50756e-05 & 0.0100609 & 0.343767 & 0.022748 \\
-       0 & 0 & 0 & 0 & 0.00326465 & 0.316482 \\
+       0.350462 & 0.0278914 & 0.00032498 & 7.92826e-05 & 0 & 0 \\
+       0.020877 & 0.42256 & 0.0337793 & 0.000353428 & 0.000181572 & 0 \\
+       0 & 0.0111244 & 0.404499 & 0.0245065 & 0.000262814 & 0.0001816 \\
+       0 & 0 & 0.0130199 & 0.386613 & 0.019395 & 0 \\
+       0 & 0 & 0 & 0.00569542 & 0.352939 & 0.0204245 \\
+       0 & 0 & 0 & 0 & 0.00235023 & 0.31921 \\
       \hline
     \end{tabular}
     \caption{
@@ -518,18 +529,25 @@ vertical signal region.
 \end{figure}
 
 The complete likelihood function that is maximized in the SM cross section fit is
+\begin{equation}
+\mathcal{L} = \mathcal{L_{\text{Signal}}} \times \mathcal{L_{\text{Control}}} \times \mathcal{L_{\text{Nuisances}}}
+\end{equation}
+where
+\begin{equation}
+\mathcal{L_{\text{Nuisances}}} = \prod_{t} \mathcal{N}(\theta_t)
+\end{equation}
+and
 \begin{align}
 \begin{split}
-  \mathcal{L} & = \left\{ \mathcal{L_{\text{Signal}}} \mathcal{L_{\text{Control}}} \right\} \times \mathcal{L_{\text{Nuisances}}} \\
-  & = \prod_{j} \left\{
+  \mathcal{L_{\text{Signal}}} \times \mathcal{L_{\text{Control}}} & = \prod_{j} \left\{
     \prod_{S=H,V} \mathcal{P}\left( N_{S, j} \left| \nS[,j] (\vec{\theta} \right.) \right) \prod_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \nl[,j] (\vec{\theta}) \right. \right) 
-    \right\}  \times \prod_{t} \mathcal{N}(\theta_t) \\
+    \right\} \\
   & = \prod_{j} \left\{
   \begin{array}{cc}
-    \prod\limits_{S=H,V} \mathcal{P}\left( N_{S, j} \left| C_{S} \left(\Sigma_{i}r_{i}\nZg[j,i](\vec{\theta}) + \nWg[j] + b_{j}(\vec{\theta})\right) + h \nhalo[,j](\vec{\theta}) \right. \right) \\[1.3pt]
+    \prod\limits_{S=H,V} \mathcal{P}\bigg( N_{S, j} \left| C_{S} \left(\Sigma_{i}r_{i}\nZg[j,i](\vec{\theta}) + \nWg[j] + b_{j}(\vec{\theta})\right) \\[1.3pt]
+    {} + h \nhalo[,j](\vec{\theta}) \right. \bigg) \\[1.3pt]
     \times \prod\limits_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \frac{\nWg[j]}{\RWl[,j](\vec{\theta})} + b_{\ell\Pgamma, j}(\vec{\theta}) \right. \right) \\[1.3pt]
   \end{array} \right\}
-  \times \prod_{t} \mathcal{N}(\theta_t)
 \end{split}
 \end{align}
 following the notation introduced above, and where $\mathcal{P}(N\vert\lambda)$ is the Poisson probability of $N$ for mean $\lambda$,
@@ -649,21 +667,25 @@ The total reconstructed event yield \nll\ in each double-$\ell$ control region i
 \end{equation}
 where $b_{\ell\ell\Pgamma,j}$ is the estimated contribution from processes other than \zllg\ in the double-$\ell$ control region.
 The complete likelihood function is
+\begin{equation}
+\mathcal{L} = \mathcal{L_{\text{Signal}}} \times \mathcal{L_{\text{Control}}} \times \mathcal{L_{\text{Nuisances}}}
+\end{equation}
+where
 \begin{align}
 \begin{split}
-  \mathcal{L} & = \left\{ \mathcal{L_{\text{Signal}}} \mathcal{L_{\text{Control}}} \right\} \times \mathcal{L_{\text{Nuisances}}} \\
-  & = \prod_{j} \left\{
-    \prod_{S=H,V} \mathcal{P}\left( N_{S, j} \left| \nS[,j] (\vec{\theta} \right.) \right)
-     \prod_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \nl[,j] (\vec{\theta}) \right. \right)
-      \prod_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\ell\Pgamma, j} \left| \nll[,j] (\vec{\theta}) \right. \right) 
-    \right\}  \times \prod_{t} \mathcal{N}(\theta_t) \\
+  \mathcal{L_{\text{Signal}}} \times \mathcal{L_{\text{Control}}} & = \prod_{j} \left\{
+  \begin{array}{cc}
+    \prod_{S=H,V} \mathcal{P}\left( N_{S, j} \left| \nS[,j] (\vec{\theta} \right.) \right) \\[1.3pt]
+     \times \prod_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \nl[,j] (\vec{\theta}) \right. \right) \\[1.3pt]
+      \times \prod_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\ell\Pgamma, j} \left| \nll[,j] (\vec{\theta}) \right. \right)  \\[1.3pt]
+  \end{array} \right\} \\
   & = \prod_{j} \left\{
   \begin{array}{cc}
-    \prod\limits_{S=H,V} \mathcal{P}\left( N_{S, j} \left| C_{S} \left(\mu s_{j}(\vec{\theta}) + (1 + \fZW[,j])\nZg[j,all](\vec{\theta}) + b_{j}(\vec{\theta})\right) + h \nhalo[,j](\vec{\theta}) \right. \right) \\[1.3pt]
+    \prod\limits_{S=H,V} \mathcal{P}\bigg( N_{S, j} \left| C_{S} \left(\mu s_{j}(\vec{\theta}) + (1 + \fZW[,j])\nZg[j,all](\vec{\theta}) + b_{j}(\vec{\theta})\right) \\[1.3pt]
+     {} + h \nhalo[,j](\vec{\theta}) \right. \bigg) \\[1.3pt]
     \times \prod\limits_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\Pgamma, j} \left| \frac{\fZW[,j]\nZg[j,all]}{\RWl[,j](\vec{\theta})} + b_{\ell\Pgamma, j}(\vec{\theta}) \right. \right) \\[1.3pt]
     \times \prod\limits_{\ell=\Pe,\Pmu} \mathcal{P}\left( N_{\ell\ell\Pgamma, j} \left| \frac{\nZg[j,all]}{\RZll[,j](\vec{\theta})} + b_{\ell\ell\Pgamma, j}(\vec{\theta}) \right. \right) \\[1.3pt]
   \end{array} \right\}
-  \times \prod_{t} \mathcal{N}(\theta_t)
 \end{split}
 \end{align}
 

@@ -3,8 +3,8 @@
 The \textit{standard model} (SM; sec.~\ref{sec:introduction_standard_model}) of particle physics is our current best mathematical framework for describing the behavior
 of elementary particles. The domain of applicability of the SM is quite substantial, encompassing
 every well-measured fundamental interaction of every verified fundamental particle. All SM particles have been conclusively observed,
-and no fundamental particles outside the SM have ever been conclusively observed. After decades of effort by thousands of researchers,
-no significant deviation from SM predictions has ever been confirmed in high-energy scattering experiments~\cite{ref:CahnGoldhaber, ref:PDG}.
+and no fundamental particles outside the SM have ever been conclusively observed. The rigorous theoretical development and experimental confirmation of the SM
+has spanned decades of effort by thousands of researchers~\cite{ref:CahnGoldhaber, ref:PDG}.
 These efforts are extended here with a study of the relationship between two particles, \PZ\ and \Pgamma, at state-of-the-art precision
 (sec.~\ref{sec:introduction_znng}).
 
@@ -14,7 +14,8 @@ have been developed in an attempt to describe these phenomena.
 
 Specifically, this thesis presents several analyses of event yields in \textit{monophoton} final states, characterized by a single \Pgamma\ with
 high transverse momentum, along with an overall transverse momentum imbalance typically of equal magnitude and opposite direction to
-that of the \Pgamma.
+that of the \Pgamma. The photon in these events gives a visible indicator of the production of difficult-to-detect particles emerging in the opposite direction,
+such as neutrinos, in the case of SM \zinvg\ events, or potentially BSM particles such as DM or gravitons.
 
 % These analyses correspond to 35.9\fbinv\ of 13\unit{TeV} proton--proton (\Pp\Pp) collision data collected in 2016 by the CMS
 % detector at the LHC.
@@ -60,9 +61,12 @@ a direct \textit{coupling}, which allows a particle at one end of the link to ev
 Particles with a nonzero electric charge are all coupled directly to the photon. The photon is coupled to the weak bosons
 (\PZ\ and $W^\pm$), which in turn couple to all of the fundamental fermions. The gluons couple directly with each other and with the quarks.
 Particles that couple directly to the \PH\ have an intrinsic mass (specified by the top number in each square of Fig.~\ref{fig:sm_particles}\footnote{The
-proper units of mass are $\mathrm{GeV}\,c^{2}$, but the factor of $c^{2}$ is often omitted for brevity. This is done even when units of distance and
-time (such as cm and ns) are used in which $c$ does not equal 1. Similarly, the factor of $1/c$ is often omitted from the proper units of momentum,
-$\mathrm{GeV}/c$. This is the convention followed in this thesis.}) tied to the strength of their coupling.
+proper units of mass are $\mathrm{GeV}\,c^{2}$, but the factor of $c^{2}$ is often omitted. This is done even when, elsewhere, units of distance and
+time (such as cm and ns) are quoted in which $c$ does not equal 1. Similarly, the factor of $1/c$ is often omitted from the proper units of momentum,
+$\mathrm{GeV}/c$. Units are chosen based on their elegance and convenience relating to the quantity being reported; expressions without $c$ factors
+may be more concisely expressed, and they render more transparently the close connection between energy, momentum, and mass.
+In cases where an explicit $c$ factor is omitted, it may be assumed that units are implicitly being chosen in which $c$ is exactly 1.
+This is the convention followed in this thesis.}) tied to the strength of their coupling.
 In the SM, any particle that does not couple directly to the \PH\ is massless.
 
 \begin{figure}[hbtp]
@@ -123,7 +127,7 @@ all types of quark and antiquark, and photons. As a consequence, a high-energy c
 which is the primary catalyst for all the processes studied below. A single parton carries some fraction of the total energy carried by the whole proton,
 so in general, partons collide with a lower interaction energy than that of the protons that carry them.
 The square of the center-of-mass energy of colliding protons is denoted by $s$, while that of a specific
-parton-parton interaction is denoted by $\hat{s}$.
+parton--parton interaction is denoted by $\hat{s}$.
 
 This rapid overview of the SM necessarily elides many essential nuances of the underlying mathematical formalism. These are more fully
 documented in numerous comprehensive texts on the subject, e.g.~\cite{ref:HalzenMartin, ref:BargerPhillips, ref:PeskinSchroeder, ref:Srednicki, ref:Schwartz}.
@@ -204,25 +208,23 @@ informed by the operating conditions of the experiment one wishes to compare res
 
 \subsection{Previous measurements} \label{sec:introduction_znng_previous_measurements}
 Experiments at the LEP detector measured the cross section of \zinvg\ arising from $e^{\mathrm{+}}e^{\mathrm{-}}$ collisions for $\sqrt{s}$ up to \textasciitilde200 GeV.
-The L3 experiment measured the cross section to be $5.1 \pm 0.3\mathrm{(stat)} \pm 0.1\mathrm{(syst)}$ $pb$ based on 175.6 $pb^{-1}$ of collision data with an average $\sqrt{s} = 188.6$ GeV, compared to an SM
-prediction of $4.99 \pm 0.05\mathrm{(stat)}$~\cite{ref:j.physletb.2004.07.002}. Looking at collision data at the same $\sqrt{s}$, but with different cuts,
-the OPAL experiment measured the cross section to be $2.52 \pm 0.13\mathrm{(stat)} \pm 0.05\mathrm{(syst)}$ $pb$ based on 177.3 $pb^{-1}$ of data, compared to an SM
-prediction of $2.81 \pm 0.02\mathrm{(stat)}$ $pb$~\cite{ref:s100520000490}. This set of SM predictions were made up to $O(\alpha^2)$, but LO in $\alpha_\mathrm{S}$.
+The L3 experiment measured the cross section to be $5.1 \pm 0.3\mathrm{(stat)} \pm 0.1\mathrm{(syst)}\unit{pb}$ based on $175.6\unit{pb}^{-1}$ of collision data with an average $\sqrt{s} = 188.6\unit{GeV}$, compared to an SM
+prediction of $4.99 \pm 0.05\mathrm{(stat)}\unit{pb}$~\cite{ref:j.physletb.2004.07.002}. Looking at collision data at the same $\sqrt{s}$, but with different cuts,
+the OPAL experiment measured the cross section to be $2.52 \pm 0.13\mathrm{(stat)} \pm 0.05\mathrm{(syst)}\unit{pb}$ based on $177.3\unit{pb}^{-1}$ of data, compared to an SM
+prediction of $2.81 \pm 0.02\mathrm{(stat)}\unit{pb}$~\cite{ref:s100520000490}. This set of SM predictions were made up to $O(\alpha^2)$, but LO in $\alpha_\mathrm{S}$.
 
 The D0 experiment at the Tevatron made the first observation of \zinvg\ arising from $p\bar{p}$ collisions in 2009. This yielded a cross section measurement of
-$32 \pm 9\mathrm{(stat+syst)} \pm 2\mathrm{(lumi)}$ $fb$ for a leading photon \pT\ above 90\unit{GeV}\footnote{The proper units for momentum are $\mathrm{GeV}/c$, but the
-factor of $c$ is often omitted for brevity, and this is the convention followed in this thesis. Similarly, the proper units for mass are $\mathrm{GeV}\,c^{2}$, but the factor
-of $c^{2}$ is usually omitted.},
-compared to an SM prediction of $39 \pm 4\mathrm{(theory)}$ $fb$ computed to NLO in $\alpha_\mathrm{S}$~\cite{ref:PhysRevLett.102.201802}.
+$32 \pm 9\mathrm{(stat+syst)} \pm 2\mathrm{(lumi)}\unit{fb}$ for a leading photon \pT\ above 90\unit{GeV},
+compared to an SM prediction of $39 \pm 4\mathrm{(theory)}\unit{fb}$ computed to NLO in $\alpha_\mathrm{S}$~\cite{ref:PhysRevLett.102.201802}.
 
 Measurements of the cross section at higher values of \pTgamma\ have been performed by experiments examining \Pp\Pp\ collision data at the LHC.
 An analysis by the CMS experiment examining 19.6\fbinv\ of data collected at $\sqrt{s} = 8\unit{TeV}$ found the observed \zinvg\ cross section for $\pTgamma > 145\unit{GeV}$ to be
-$52.7 \pm 2.1\mathrm{(stat)} \pm 6.4\mathrm{(syst)} \pm 1.4\mathrm{(lumi)}$ $fb$, compared to an SM prediction of $40.7 \pm 4.9\mathrm{(theory)}$ $fb$ calculated to NLO in $\alpha_\mathrm{S}$, and
-a prediction of $50.0^{+2.4}_{-2.2}\mathrm{(theory)}$ calculated to NNLO in $\alpha_\mathrm{S}$~\cite{ref:j.physletb.2016.06.080}. This comparison illustrates the need for NNLO precision at high \pTgamma.
+$52.7 \pm 2.1\mathrm{(stat)} \pm 6.4\mathrm{(syst)} \pm 1.4\mathrm{(lumi)}\unit{fb}$, compared to an SM prediction of $40.7 \pm 4.9\mathrm{(theory)}\unit{fb}$ calculated to NLO in $\alpha_\mathrm{S}$, and
+a prediction of $50.0^{+2.4}_{-2.2}\mathrm{(theory)}\unit{fb}$ calculated to NNLO in $\alpha_\mathrm{S}$~\cite{ref:j.physletb.2016.06.080}. This comparison illustrates the need for NNLO precision at high \pTgamma.
 
 The most precise measurement of the \zinvg\ cross section for \pTgamma\ and \MET\ above 150\unit{GeV} currently comes from an analysis of 36.1\fbinv\ of \Pp\Pp\ collision data
-collected by the ATLAS experiment at $\sqrt{s} = 13\unit{TeV}$, with an observed cross section of $83.7^{+3.6}_{-3.5}\mathrm{(stat)}^{+6.9}_{-6.2}\mathrm{(syst)}^{+1.7}_{-2.0}\mathrm{(lumi)}$ $fb$.
-The corresponding SM prediction, computed to NNLO in $\alpha_\mathrm{S}$ using the MATRIX generator~\cite{ref:epjc/s10052-018-5771-7}, is $78.6 \pm 0.4\mathrm{(stat)} \pm 4.1\mathrm{(syst)}$ $fb$~\cite{ref:CERN-EP-2018-220}.
+collected by the ATLAS experiment at $\sqrt{s} = 13\unit{TeV}$, with an observed cross section of $83.7^{+3.6}_{-3.5}\mathrm{(stat)}^{+6.9}_{-6.2}\mathrm{(syst)}^{+1.7}_{-2.0}\mathrm{(lumi)}\unit{fb}$.
+The corresponding SM prediction, computed to NNLO in $\alpha_\mathrm{S}$ using the MATRIX generator~\cite{ref:epjc/s10052-018-5771-7}, is $78.6 \pm 0.4\mathrm{(stat)} \pm 4.1\mathrm{(syst)}\unit{fb}$~\cite{ref:CERN-EP-2018-220}.
 The cross section is shown in discrete ranges (bins) of leading photon \pT\ in Fig.~\ref{fig:znng_xsec_phoET_ATLAS}.
 
 \begin{figure}[hbtp]
@@ -346,21 +348,21 @@ signature in other channels.
     \includegraphics[width=0.49\textwidth]{Figures/dmsimp_ichep2018_v.png}
     \caption{Summary plots of limits on DM simplified model parameters, shown in~\cite{ref:dmsummaryplots_ichep2018}. Simplified models are excluded at 95\% CL or above
     for parameter values under the contours.
-    Results based on three different final states are shown: mono-$Z(ll)$~\cite{ref:epjc/s10052-018-5740-1} in yellow, mono-$j/V(qq)$~\cite{ref:PhysRevD.97.092005} in red, and monophoton~\cite{ref:1810.00196} in blue,
+    Results based on three different final states are shown: mono-$Z(ll)$~\cite{ref:epjc/s10052-018-5740-1} in yellow, mono-$j/V(qq)$~\cite{ref:PhysRevD.97.092005} in red, and monophoton~\cite{ref:JHEP02(2019)074} in blue,
     the latter corresponding to the new results presented in this thesis. The $\Omega_\mathrm{c}^{2}$ curves correspond to constraints on the cosmological DM abundance set by Planck satellite measurements~\cite{ref:planck2018_cosparams}.}
     \label{fig:dmsimp_ichep2018}
   \end{center}
 \end{figure}
 
 Prior to the analysis presented in this thesis, the last published results from CMS in the monophoton final state examined 12.9\fbinv\ of data collected in the first half
-of 2016~\cite{ref:JHEP10(2017)073}. Simplified models were excluded at 95\% CL for \mmed\ up to 700 GeV at small values of \mdm, in both the vector
-and axial-vector cases. Values of $\Lambda$ for the DM-EWK EFT up to 600 GeV were also excluded at 95\% CL, assuming $k_{1} = k_{2} = 1$\footnote{Defining $k = \sqrt{k_{1}^{2} + k_{2}^{2}}$
+of 2016~\cite{ref:JHEP10(2017)073}. Simplified models were excluded at 95\% CL for \mmed\ up to 700\unit{GeV} at small values of \mdm, in both the vector
+and axial-vector cases. Values of $\Lambda$ for the DM-EWK EFT up to 600\unit{GeV} were also excluded at 95\% CL, assuming $k_{1} = k_{2} = 1$\footnote{Defining $k = \sqrt{k_{1}^{2} + k_{2}^{2}}$
 and $\theta_{k} = \arctan{\frac{k_{2}}{k_{1}}}$, the choice $k_{1} = k_{2} = 1$ corresponds to the choice $k = \sqrt{2}$ and $\theta_{k} = \pi/4$. Fixing $\theta_{k} = \pi/4$,
 the limits on $\Lambda / k^{1/3}$ for arbitrary $k$ are equal to the $k = \sqrt{2}$ limits on $\Lambda$ multiplied by $2^{-1/6}$.}.
 
 The most stringent monophoton results to date are set by an analysis of 36.1\fbinv\ of data collected by the ATLAS detector~\cite{ref:epjc/s10052-017-4965-8}.
-Simplified models were excluded at 95\% CL for \mmed\ up to 1200 GeV at small values of \mdm, in both the vector and axial-vector cases, as shown in Fig.~\ref{fig:dmsimp_atlas}.
-Values of $\Lambda$ for the DM-EWK EFT up to 790 GeV, assuming $k_{1} = k_{2} = 1$, were also excluded at 95\% CL, as shown in Fig.~\ref{fig:dmeft_atlas}.
+Simplified models were excluded at 95\% CL for \mmed\ up to 1200\unit{GeV} at small values of \mdm, in both the vector and axial-vector cases, as shown in Fig.~\ref{fig:dmsimp_atlas}.
+Values of $\Lambda$ for the DM--EWK EFT up to 790\unit{GeV}, assuming $k_{1} = k_{2} = 1$, were also excluded at 95\% CL, as shown in Fig.~\ref{fig:dmeft_atlas}.
 
 Assuming DM simplified models describe the dominant mode of interaction between DM and SM particles, the scattering cross section of low-energy (nonrelativistic) DM off nucleons (protons and neutrons)
 is uniquely determined~\cite{ref:1603.04156}. This allows DM simplified model limits to be compared directly with limits set by \textit{direct detection} (DD) experiments, which search for freely-floating
@@ -382,7 +384,7 @@ that does/does not depend on the spin of the nucleus, respectively known as the 
 \begin{figure}[hbtb]
   \begin{center}
     \includegraphics[width=0.49\textwidth]{Figures/dmeft_atlas.png}
-    \caption{Limits on the DM-EWK EFT set by the ATLAS experiment, as shown in~\cite{ref:epjc/s10052-017-4965-8}. The DM-EWK EFT is excluded at 95\% CL or above for
+    \caption{Limits on the DM--EWK EFT set by the ATLAS experiment, as shown in~\cite{ref:epjc/s10052-017-4965-8}. The DM--EWK EFT is excluded at 95\% CL or above for
     values of $\Lambda$ under the contour.
     }
     \label{fig:dmeft_atlas}
@@ -392,7 +394,7 @@ that does/does not depend on the spin of the nucleus, respectively known as the 
 \begin{figure}[hbtb]
   \begin{center}
     \includegraphics[width=0.98\textwidth]{Figures/dmsimp_dd_atlas.png}
-    \caption{Limits on low-energy DM-nucleon scattering cross sections set by the ATLAS experiment, as shown in~\cite{ref:epjc/s10052-017-4965-8}. The ATLAS
+    \caption{Limits on low-energy DM--nucleon scattering cross sections set by the ATLAS experiment, as shown in~\cite{ref:epjc/s10052-017-4965-8}. The ATLAS
     limits are compared against limits on the SD cross section from PICO-60~\cite{ref:PICO60-ATLAS} and LUX~\cite{ref:LUX-SD-ATLAS} (left)
     and limits on the SI cross section from PandaX-II~\cite{ref:PANDAX-II-ATLAS}, LUX~\cite{ref:LUX-SI-ATLAS}, CRESST-II~\cite{ref:CRESST-II-ATLAS}, and CDMSlite~\cite{ref:SuperCDMS-ATLAS} (right).
     Scattering cross sections are excluded at 90\% CL or more above the contours.
@@ -410,8 +412,8 @@ None of these analyses report any significant evidence of BSM physics.
 \section{ADD gravitons} \label{sec:introduction_ADD}
 We finally examine a model of gravitation in extra dimensions originally proposed by Arkani-Hamed, Dimoupolos, and Dvali (ADD)~\cite{ref:S0370-2693(98)00466-3}.
 Gravity typically affects SM particles much, much less than the other fundamental interactions. The weakness of gravity
-is often expressed in terms of a fundmental mass scale \mPl\ (\textasciitilde$10^{19}$ GeV), which is
-many orders of magnitude larger than the masses of the EWK bosons (\textasciitilde$10^{2}$ GeV). Particle-level gravitational interactions
+is often expressed in terms of a fundmental mass scale \mPl\ (\textasciitilde$10^{19}\unit{GeV}$), which is
+many orders of magnitude larger than the masses of the EWK bosons (\textasciitilde$10^{2}\unit{GeV}$). Particle-level gravitational interactions
 are correspondingly sharply suppressed. The proposed boson of gravitation, the graviton, has yet to be detected and is not part of the SM.
 The mystery of why \mPl\ is so much larger than the EWK mass scale has been called the ``Hierarchy problem,'' and the desire for a
 more elegant formulation has been a productive stimulus for BSM theories~\cite{ref:S0370-2693(98)00466-3, ref:0264-9381/32/3/033001}.
@@ -496,3 +498,7 @@ for $n = 3$, climbing to 2.49\unit{TeV} at $n = 6$, as shown in Fig.~\ref{fig:ad
 \end{figure}
 
 None of these analyses report any significant evidence of BSM physics.
+
+In this thesis, monophoton events are examined in 35.9\fbinv\ of 13\unit{TeV} \Pp\Pp\ collision data collected by the CMS experiment in 2016.
+From these, the differential \zinvg\ cross section at 13\unit{TeV} is measured as a function of \pTgamma. Limits are set on model
+parameters of the DM--EWK EFT, DM simplified models, and the ADD model.

@@ -279,11 +279,13 @@ A.~Sirunyan {\em et al.}, ``Search for new physics in final states with an
   \href{https://doi.org/10.1103/PhysRevD.97.092005}{\texttt
   {doi:10.1103/PhysRevD.97.092005}}.
 
-\bibitem{ref:1810.00196}
+\bibitem{ref:JHEP02(2019)074}
 A.~Sirunyan {\em et al.}, ``Search for new physics in final states with a
   single photon and missing transverse momentum in proton-proton collisions at
-  $\sqrt{s} = 13$ TeV,'' \href{http://arXiv.org/abs/1810.00196}{{\texttt
-  {arXiv:1810.00196}}}.
+  $\sqrt{s} = 13$ TeV,'' {\em JHEP} {\bf 2019} (2019) 74,
+  \href{http://arXiv.org/abs/1810.00196}{{\texttt {arXiv:1810.00196}}},
+  \href{https://doi.org/10.1007/JHEP02(2019)074}{\texttt
+  {doi:10.1007/JHEP02(2019)074}}.
 
 \bibitem{ref:JHEP10(2017)073}
 A.~Sirunyan {\em et al.}, ``Search for new physics in the monophoton final
@@ -738,14 +740,6 @@ G.~Bozzi, S.~Catani, G.~Ferrera, D.~de~Florian, and M.~Grazzini, ``Production
   {arXiv:1007.2351}}},
   \href{https://doi.org/10.1016/j.physletb.2010.12.024}{\texttt
   {doi:10.1016/j.physletb.2010.12.024}}.
-
-\bibitem{ref:JHEP02(2019)074}
-A.~Sirunyan {\em et al.}, ``Search for new physics in final states with a
-  single photon and missing transverse momentum in proton-proton collisions at
-  $\sqrt{s} = 13$ TeV,'' {\em JHEP} {\bf 2019} (2019) 74,
-  \href{http://arXiv.org/abs/1810.00196}{{\texttt {arXiv:1810.00196}}},
-  \href{https://doi.org/10.1007/JHEP02(2019)074}{\texttt
-  {doi:10.1007/JHEP02(2019)074}}.
 
 \bibitem{ref:epjc/s10052-017-5389-1}
 J.~Lindert {\em et al.}, ``Precise predictions for V+jets dark matter

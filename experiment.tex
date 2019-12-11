@@ -23,8 +23,10 @@ Their arrangement is shown in Fig.~\ref{fig:LHC_schematic}.
   \end{center}
 \end{figure}
 
-The eight arc sections are each filled with a series of dipole bending magnets, 1232 in all. These produce a uniform magnetic field in a fixed direction when a current is run through them.
-A magnetic field causes a charged particle's trajectory to bend, and the dipoles are arranged so as to keep the proton beam trajectories aligned with the LHC beam pipes.
+The eight arc sections are each filled with a series of dipole bending magnets, 1232 in all. When a current is run through them, these produce a uniform magnetic
+field inside their segments of the beam pipes, pointing perpendicular to the beam direction.
+A magnetic field causes a charged particle's trajectory to bend, and the dipoles are arranged so as to keep the proton beam trajectories aligned with the beam pipes
+throughout the arcs.
 Since a fixed magnetic field causes protons moving in opposite directions to bend in opposite directions, the two counter-rotating beams must be deflected by oppositely-aligned fields.
 A special two-in-one magnet design was developed for the LHC that produces two side-by-side dipole fields, coupled to the same current, oriented in opposite directions. The use of
 superconducting NbTi cables allows more than 12\unit{kA} to flow when the wire is cooled to 1.9\unit{K}, producing a dipole field of up to 9\unit{T}. Sophisticated cryogenic and power
@@ -228,15 +230,21 @@ can vary appreciably, as can the net longitudinal velocity of the collision even
 to the theory of special relativity, differences in $\theta$ between events will appear different
 to different observers depending on their relative longitudinal velocity. In other words, differences in $\theta$ are not Lorentz invariant.
 
-Differences in a related quantity called the \textit{rapidity}, defined as
+A particle's \textit{rapidity\ y}, defined as
 \begin{equation}
-\mathrm{rapidity} = \frac{1}{2}\ln{\frac{E+p_\mathrm{L}}{E-p_{L}}}
+y = \frac{1}{2}\ln{\frac{E+p_\mathrm{L}}{E-p_{L}}},
 \label{eq:rapidity}
 \end{equation}
-are Lorentz invariant. Particle production in LHC collisions is roughly constant as a function of rapidity~\cite{ref:lhcrun1harvest_ch3}, and because
-differences in rapidity do not depend on the longitudinal speed at which one is moving, that statement is independent
-of whether the collisions are observed in their own rest frame or in that of the CMS. At very high
-energies, rapidity becomes approximatey equal to the \textit{pseudorapidity} $\eta$ defined by
+transforms as
+\begin{equation}
+y \rightarrow y - \tanh^{-1}\beta
+\label{eq:raptransform}
+\end{equation}
+under a boost $\beta$ in the longitudinal velocity of one's reference frame, and so differences in $y$ are Lorentz invariant under such a
+shift \cite[Ch.47]{ref:PDG}. Particle production in LHC collisions is roughly constant as a function of
+rapidity~\cite{ref:lhcrun1harvest_ch3}, and because differences in rapidity do not depend on the longitudinal speed at which one is moving,
+that statement is independent of whether the collisions are observed in their own rest frame or in that of the CMS. At very high
+energies ($E \approx p$), rapidity becomes approximatey equal to the \textit{pseudorapidity} $\eta$ defined by
 \begin{equation}
 \eta = -\ln{\tan{(\theta/2)}}
 \label{eq:pseudorapidity}
@@ -257,7 +265,7 @@ The CMS has approximately hermetic coverage of particles emerging from the IP wi
 up to 5.0, giving a total polar coverage of 178.46 degrees along with complete 360-degree azimuthal coverage. Particles emerging
 within this zone of coverage are detected with high probability by at least one subsystem, although the measurement quality varies
 as a function of $|\eta|$. Since particles are emitted with a roughly constant concentration as a function of $\eta$, and because
-cones of constant $\eta$ become more densely packed at higher values of $|\eta|$, it follows that the intensity of particle radiation
+constant differences in $\eta$ correspond to smaller $\theta$ separations at higher values of $|\eta|$, it follows that the intensity of particle radiation
 impinging on detector elements is stronger at higher $|\eta|$. Tradeoffs must be made between the measurement quality of an apparatus
 and its radiation hardness, and therefore equipment installed at higher $|\eta|$ is typically less precise.
 

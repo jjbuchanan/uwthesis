@@ -57,12 +57,12 @@ in methodology).
 \hline
 \pTgamma\ range [GeV] & Cross section [fb] & Syst Unc. [fb] & Stat Unc. [fb] \\
 \hline
-175-200 & 13.8 & 1.4 (9.9\%) & 2.2 (16\%) \\
-200-250 & 14.4 & 1.0 (7.2\%) & 1.8 (12\%) \\
-250-300 & 7.4 & 1.2 (16\%) & 1.2 (17\%) \\
-300-400 & 5.52 & 0.47 (8.6\%) & 0.98 (18\%) \\
-400-600 & 3.31 & 0.15 (4.6\%) & 0.65 (20\%) \\
-600-Inf & 1.18 & 0.04 (3.4\%) & 0.36 (31\%) \\
+175-200 & 13.0 & 1.1 (8.7\%) & 1.8 (14\%) \\
+200-250 & 14.2 & 0.9 (6.6\%) & 1.6 (11\%) \\
+250-300 & 7.3 & 1.1 (15\%) & 1.1 (15\%) \\
+300-400 & 5.50 & 0.44 (8.0\%) & 0.92 (17\%) \\
+400-600 & 3.31 & 0.15 (4.4\%) & 0.63 (19\%) \\
+600-Inf & 1.18 & 0.03 (2.8\%) & 0.36 (30\%) \\
 \hline
 \end{tabular}
 \caption{Measured \zinvg\ cross section in bins of \pTgamma.
@@ -83,10 +83,11 @@ also lists the uncertainties on the prediction due to the choice of renormalizat
 compares the measured cross section to the MATRIX predictions.
 The two generally agree to within the statistical errors of the measurement, except in the highest \pTgamma\ bins: the difference
 between the measured and predicted cross section in the 400-600\unit{GeV} bin is 1.6 times the statistical error on the measurement, and the difference
-for the 600-Inf bin is 1.8 times the statistical error. The \zinvg\ process contributes an estimated 14.12 events to the observed 16 events in the 600-Inf bin.
-Under the hypothesis that the MATRIX prediction is true, the probability of observing at least 14 \zinvg\ events
-from the 600-Inf bin is about 1\%\footnote{Assuming that these events are produced via a Poisson process with mean
-$\sigma_\mathrm{MATRIX}*L = 19.71$ and that each produced event is observed with probability 0.3508 (estimated in MC).}.
+for the 600-Inf bin is 1.8 times the statistical error. The \zinvg\ process contributes an estimated 13.6 events to the observed 16 events in the 600-Inf bin.
+Under the hypothesis that the MATRIX prediction is true, the probability of detecting at least 14 \zinvg\ events
+in the 600-Inf bin is about 1\%\footnote{Assuming that \zinvg\ events with true $\pTgamma < 600\unit{GeV}$ contribute negligibly many observed events to this bin
+on average (as indicated by the response matrix, Tab.~\ref{tab:response_matrix_values}), and that \zinvg\ events with true $\pTgamma > 600\unit{GeV}$ are produced via a
+Poisson process with mean $\sigma_\mathrm{MATRIX}*L = 19.7$ and each such event is detected with probability 0.35 (estimated in MC).}.
 This falls far short of the standard ``$5\sigma$'' (about 0.00003\%) criterion for rejecting the SM and claiming discovery of new physics, in particular
 since the look-elsewhere effect~\cite{ref:08-AOAS163} is not being accounted for and also since no specific BSM model is being compared here.
 However, it does indicate a notable tension with the MATRIX NNLO predictions that should be kept in mind in future studies.
@@ -250,14 +251,14 @@ Relative to DD experiments, this search establishes stronger constraints for $\m
   \end{center}
 \end{figure}
 
-Upper limits on the cross section for the DM-EWK EFT model are translated into the lower limits on the suppression scale $\Lambda$, shown in
+Upper limits on the cross section for the DM--EWK EFT model are translated into the lower limits on the suppression scale $\Lambda$, shown in
 Fig.~\ref{fig:DMEWKlimits}. The EFT hypothesis is excluded at $95\%$ CL or above for values of $\Lambda$ up to 850\unit{GeV} (observed), 950\unit{GeV}
 (expected), at small \mdm\ values.
 
 \begin{figure}[htbp]
 \begin{center}
 \includegraphics[width=7.5cm,height=7.0cm]{figures/exo16053/Figure_009.pdf}
-\caption{The 95\% CL observed and expected lower limits on $\Lambda$ for the DM-EWK EFT model, shown as a function of \mdm.
+\caption{The 95\% CL observed and expected lower limits on $\Lambda$ for the DM--EWK EFT model, shown as a function of \mdm.
 Published in~\cite{ref:JHEP02(2019)074}.}
 \label{fig:DMEWKlimits}
 \end{center}
@@ -272,7 +273,7 @@ Lower limits on \mD\ for various different values of $n$ are listed in Table~\re
 
 \begin{figure}[htbp]
   \begin{center}
-    \includegraphics[width=0.5\textwidth]{figures/exo16053/Figure_010.pdf}
+    \includegraphics[width=0.5\textwidth]{figures/exo16053/add.png}
     \caption{The 95\% CL upper limits on the ADD graviton production cross section, as a function of \mD\, for $n=3$ extra dimensions.
     Published in~\cite{ref:JHEP02(2019)074}.}
     \label{fig:ADDLimits}
